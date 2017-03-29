@@ -1,0 +1,479 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Circle": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -483.5659484863281,
+        -368.341064453125
+      ],
+      "params": {
+        "rad_": 0.10000002384185791,
+        "vert_": 6
+      },
+      "width": 140.0
+    },
+    "Circle.001": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -466.2955322265625,
+        -86.90000915527344
+      ],
+      "params": {
+        "rad_": 1.2400001287460327,
+        "vert_": 6
+      },
+      "width": 140.0
+    },
+    "Circle.002": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -392.3824462890625,
+        -699.2705078125
+      ],
+      "params": {
+        "rad_": 1.0,
+        "vert_": 6
+      },
+      "width": 140.0
+    },
+    "Cylinder": {
+      "bl_idname": "CylinderNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -304.7012634277344,
+        430.88909912109375
+      ],
+      "params": {
+        "cap_": 0,
+        "height_": 0.0,
+        "radTop_": 0.10000000149011612,
+        "subd_": 6,
+        "vert_": 6
+      },
+      "width": 140.0
+    },
+    "Formula": {
+      "bl_idname": "Formula2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        529.9968872070312,
+        134.08396911621094
+      ],
+      "params": {
+        "formula": "[[\"apple\", \"orange\", \"banana\", \"peach\", \"nanas\", \"pear\" ]]"
+      },
+      "width": 362.15185546875
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -916.4119873046875,
+        -224.10467529296875
+      ],
+      "params": {
+        "int_": 6
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -699.3247680664062,
+        -653.738525390625
+      ],
+      "params": {
+        "clamp": 1,
+        "new_max": 1.0,
+        "old_max": 5.0
+      },
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -60.69139862060547,
+        199.48883056640625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -936.4385986328125,
+        -642.2868041992188
+      ],
+      "params": {
+        "high_f": 5.0,
+        "low_f": 0.0,
+        "seed": 504,
+        "size": 6,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Typography Viewer": {
+      "bl_idname": "SvTypeViewerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        1071.9542236328125,
+        254.83990478515625
+      ],
+      "params": {
+        "align_x": "CENTER",
+        "basemesh_name": "Alpha",
+        "fsize": 0.2200000286102295,
+        "show_options": 1
+      },
+      "width": 264.7821044921875
+    },
+    "Vector Lerp": {
+      "bl_idname": "SvVectorLerp",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -113.36920928955078,
+        -530.645751953125
+      ],
+      "params": {
+        "factor_": 0.26999998092651367
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -215.68756103515625,
+        154.52920532226562
+      ],
+      "params": {
+        "z_": 0.0
+      },
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        166.16018676757812,
+        377.6394958496094
+      ],
+      "params": {
+        "activate": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.002": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        181.7994384765625,
+        -615.9439697265625
+      ],
+      "params": {
+        "display_edges": 1,
+        "edge_colors": [
+          0.8989999890327454,
+          0.0,
+          0.04021243751049042
+        ],
+        "edge_width": 2,
+        "face_colors": [
+          0.8989999890327454,
+          0.5812166333198547,
+          0.6841786503791809
+        ],
+        "vertex_colors": [
+          0.8768613338470459,
+          0.9480000138282776,
+          0.0
+        ],
+        "vertex_size": 10.0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.003": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        187.5556640625,
+        -319.5621337890625
+      ],
+      "params": {
+        "display_edges": 1,
+        "edge_colors": [
+          0.8989999890327454,
+          0.34016430377960205,
+          0.0
+        ],
+        "edge_width": 2,
+        "face_colors": [
+          0.3808358311653137,
+          0.36653876304626465,
+          0.4275737702846527
+        ],
+        "ngon_tessellate": 1,
+        "shading": 0,
+        "transparant": 1,
+        "vertex_colors": [
+          0.9480000138282776,
+          0.0,
+          0.16133184731006622
+        ],
+        "vertex_size": 10.0
+      },
+      "width": 140.0
+    },
+    "Viewer Index": {
+      "bl_idname": "IndexViewerNode",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        138.6214599609375,
+        92.85179138183594
+      ],
+      "params": {
+        "activate": 0,
+        "draw_bg": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Int",
+      "Integer",
+      "Circle",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Circle.002",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Random Num Gen",
+      "Size"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Vector Lerp",
+      "Factor"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Vector Lerp",
+      "Vertices A"
+    ],
+    [
+      "Circle.002",
+      "Vertices",
+      "Vector Lerp",
+      "Vertices B"
+    ],
+    [
+      "Vector Lerp",
+      "EvPoint",
+      "Viewer Draw.002",
+      "vertices"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Circle.001",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector Lerp",
+      "EvPoint",
+      "Viewer Draw.003",
+      "vertices"
+    ],
+    [
+      "Circle",
+      "Polygons",
+      "Viewer Draw.003",
+      "edg_pol"
+    ],
+    [
+      "Formula",
+      "Result",
+      "Typography Viewer",
+      "text"
+    ],
+    [
+      "Circle.001",
+      "Vertices",
+      "Typography Viewer",
+      "matrix"
+    ],
+    [
+      "Circle.001",
+      "Vertices",
+      "Viewer Index",
+      "vertices"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Cylinder",
+      "Vertices"
+    ],
+    [
+      "Cylinder",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Cylinder",
+      "Edges",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw",
+      "matrix"
+    ]
+  ]
+}

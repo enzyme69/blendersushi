@@ -1,0 +1,179 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Dupli instancer": {
+      "bl_idname": "SvDupliInstancesMK3",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        487.4590148925781,
+        97.46743774414062
+      ],
+      "params": {
+        "auto_release": 1,
+        "name_child": "Cube",
+        "name_node_generated_parent": "booom"
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        290.394775390625,
+        130.78555297851562
+      ],
+      "params": {
+        "JoinLevel": 2
+      },
+      "width": 140.0
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        63.04551696777344,
+        116.90652465820312
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -134.7213897705078,
+        -23.487768173217773
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Plane": {
+      "bl_idname": "PlaneNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -256.00457763671875,
+        216.84910583496094
+      ],
+      "params": {
+        "int_X": 8,
+        "int_Y": 8,
+        "step_X": 2.0,
+        "step_Y": 2.0
+      },
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -514.623291015625,
+        -79.45072937011719
+      ],
+      "params": {
+        "count_": 8,
+        "mode": "FRANGE_STEP",
+        "step_": 2.0
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -316.2695007324219,
+        -68.02708435058594
+      ],
+      "params": {},
+      "width": 100.0
+    }
+  },
+  "update_lists": [
+    [
+      "Range Float",
+      "Range",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Matrix Apply",
+      "Vectors"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Matrix Apply",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "List Join",
+      "data"
+    ],
+    [
+      "List Join",
+      "data",
+      "Dupli instancer",
+      "Locations"
+    ]
+  ]
+}

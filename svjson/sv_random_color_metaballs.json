@@ -1,0 +1,317 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "List Length": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        850.0994873046875,
+        185.7766571044922
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        144.2191619873047,
+        189.22409057617188
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Objects in mk2": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -221.08023071289062,
+        100.93840789794922
+      ],
+      "params": {
+        "objects_local": "['Mball']"
+      },
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1097.80126953125,
+        -31.69503402709961
+      ],
+      "params": {
+        "seed": 47,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Random Num Gen.001": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        847.9574584960938,
+        -234.81483459472656
+      ],
+      "params": {
+        "seed": 37,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Random Num Gen.002": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1048.663818359375,
+        -281.5875244140625
+      ],
+      "params": {
+        "seed": 7,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1102.0595703125,
+        186.82443237304688
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1387.328125,
+        -93.57559204101562
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vertex color new": {
+      "bl_idname": "SvVertexColorNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1579.834228515625,
+        58.9019889831543
+      ],
+      "params": {
+        "mode": "vertices",
+        "use_active": 1
+      },
+      "width": 221.0045166015625
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        689.2301025390625,
+        60.6953010559082
+      ],
+      "params": {
+        "basemesh_name": "Gamma",
+        "merge": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        510.5936279296875,
+        236.26373291015625
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Objects in mk2",
+      "Vertices",
+      "Matrix Apply",
+      "Vectors"
+    ],
+    [
+      "Objects in mk2",
+      "Matrixes",
+      "Matrix Apply",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "List Length",
+      "Data"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Random Num Gen",
+      "Size"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Random Num Gen.001",
+      "Size"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Random Num Gen.002",
+      "Size"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Vector in",
+      "X"
+    ],
+    [
+      "Random Num Gen.001",
+      "Value",
+      "Vector in",
+      "Y"
+    ],
+    [
+      "Random Num Gen.002",
+      "Value",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "Objects in mk2",
+      "Polygons",
+      "Viewer BMeshMK2",
+      "faces"
+    ],
+    [
+      "Viewer BMeshMK2",
+      "Objects",
+      "Vertex color new",
+      "Object"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Vertex color new",
+      "Color"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Objects in mk2",
+      "Polygons",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}

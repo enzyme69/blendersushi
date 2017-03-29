@@ -1,0 +1,1230 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -519.9142456054688,
+        -110.75751495361328
+      ],
+      "params": {
+        "float_": 4.0
+      },
+      "width": 140.0
+    },
+    "Float to Int": {
+      "bl_idname": "Float2IntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -605.7080078125,
+        -11.028030395507812
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Float to Int.001": {
+      "bl_idname": "Float2IntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -762.831298828125,
+        142.39291381835938
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1400.11376953125,
+        110.02440643310547
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -743.87060546875,
+        340.6890869140625
+      ],
+      "params": {
+        "int_": 66
+      },
+      "width": 140.0
+    },
+    "Int.001": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -679.931396484375,
+        596.4130249023438
+      ],
+      "params": {
+        "int_": 15
+      },
+      "width": 140.0
+    },
+    "KDT Closest Edges": {
+      "bl_idname": "SvKDTreeEdgesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        968.7305908203125,
+        1092.5377197265625
+      ],
+      "params": {
+        "maxNum": 1,
+        "maxdist": 1.5499999523162842,
+        "mindist": 0.009999990463256836,
+        "skip": 0
+      },
+      "width": 140.0
+    },
+    "Line": {
+      "bl_idname": "LineNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        50.433448791503906,
+        190.25189208984375
+      ],
+      "params": {
+        "int_": 18,
+        "step_": 0.040000081062316895
+      },
+      "width": 140.0
+    },
+    "List Flip": {
+      "bl_idname": "ListFlipNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1448.3953857421875,
+        768.4889526367188
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1051.7518310546875,
+        843.247314453125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        813.5657958984375,
+        333.5467834472656
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -314.0727233886719,
+        708.028076171875
+      ],
+      "params": {
+        "high_i": 5,
+        "low_i": 5,
+        "seed": 80,
+        "size": 4
+      },
+      "width": 140.0
+    },
+    "Random Num Gen.001": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -472.22119140625,
+        457.17779541015625
+      ],
+      "params": {
+        "as_list": 1,
+        "high_f": 1.2699998617172241,
+        "high_i": 11,
+        "low_f": 2.0,
+        "low_i": 10,
+        "seed": 91,
+        "size": 4,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Random Num Gen.002": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -492.02105712890625,
+        225.219482421875
+      ],
+      "params": {
+        "high_f": 0.8799999952316284,
+        "high_i": 11,
+        "low_f": 1.8899998664855957,
+        "low_i": 10,
+        "seed": 113,
+        "size": 4,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Random Num Gen.003": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -263.24212646484375,
+        161.29104614257812
+      ],
+      "params": {
+        "high_f": 0.18999981880187988,
+        "high_i": 11,
+        "low_f": 2.2799999713897705,
+        "low_i": 10,
+        "seed": 108,
+        "size": 4,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Random Num Gen.004": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1005.385498046875,
+        211.49951171875
+      ],
+      "params": {
+        "high_i": 0,
+        "low_i": -1000,
+        "size": 1
+      },
+      "width": 140.0
+    },
+    "Random Num Gen.005": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -818.9933471679688,
+        -30.7440185546875
+      ],
+      "params": {
+        "as_list": 1,
+        "high_i": 1000,
+        "size": 1
+      },
+      "width": 140.0
+    },
+    "Random Num Gen.006": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -916.5075073242188,
+        628.7781982421875
+      ],
+      "params": {
+        "high_i": 16,
+        "low_i": 8,
+        "seed": 47,
+        "size": 1
+      },
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1522.26416015625,
+        575.5960083007812
+      ],
+      "params": {
+        "count_": 41,
+        "mode": "FRANGE_COUNT",
+        "stop_": 1.0
+      },
+      "width": 140.0
+    },
+    "Range Float.001": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        428.21697998046875,
+        27.339445114135742
+      ],
+      "params": {
+        "count_": 50,
+        "mode": "FRANGE_COUNT",
+        "start_": 1.0
+      },
+      "width": 140.0
+    },
+    "Scripted Node Lite": {
+      "bl_idname": "SvScriptNodeLite",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        428.27044677734375,
+        409.7594299316406
+      ],
+      "params": {
+        "inject_params": 0,
+        "script_name": "UVSimple",
+        "script_str": "\"\"\"\nin vert_lists v n=[] d=0\nout polygons s\n\"\"\"\n\npolygons = []\nfor vlist in vert_lists:\n    polygons.append([list(range(len(vlist)))])\n    print(vlist)\n"
+      },
+      "snlite_ui": [],
+      "width": 157.74725341796875
+    },
+    "Scripted Node Lite.001": {
+      "bl_idname": "SvScriptNodeLite",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        47.78249740600586,
+        740.7318725585938
+      ],
+      "params": {
+        "float_list": [
+          0.0,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          11.0,
+          12.0,
+          13.0,
+          14.0,
+          15.0,
+          16.0,
+          17.0,
+          18.0,
+          19.0,
+          20.0,
+          21.0,
+          22.0,
+          23.0,
+          24.0,
+          25.0,
+          26.0,
+          27.0,
+          28.0,
+          29.0,
+          30.0,
+          31.0
+        ],
+        "inject_params": 1,
+        "int_list": [
+          8,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "script_name": "SNL_FlowerCurve2.py",
+        "script_str": "\"\"\"\nin petals       s d=8    n=1 \nin innerradius  s d=0.5  n=1 \nin outerradius  s d=1.0  n=1\nin petalwidth   s d=2.0  n=1\nout points      v\n\"\"\"\n\nfrom add_curve_extra_objects.add_curve_aceous_galore import FlowerCurve\n\nparams = vectorize(parameters)\n\npoints = [FlowerCurve(*param_set) for param_set in zip(*params)]"
+      },
+      "snlite_ui": [],
+      "width": 140.0
+    },
+    "Scripted Node.001": {
+      "bl_idname": "SvScriptNode",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "tree_generator.py",
+      "location": [
+        1562.7896728515625,
+        1275.97802734375
+      ],
+      "params": {
+        "button_names": "",
+        "float_list": [
+          0.0,
+          1.0,
+          0.07999999821186066,
+          -0.1899999976158142,
+          1.940000057220459,
+          0.1599999964237213,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          11.0,
+          12.0,
+          13.0,
+          14.0,
+          15.0,
+          16.0,
+          17.0,
+          18.0,
+          19.0,
+          20.0,
+          21.0,
+          22.0,
+          23.0,
+          24.0,
+          25.0,
+          26.0,
+          27.0,
+          28.0,
+          29.0,
+          30.0,
+          31.0
+        ],
+        "has_buttons": 0,
+        "int_list": [
+          0,
+          41,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "script_name": "tree_generator.py",
+        "script_str": "import numpy as np\nimport time\n\nfrom mathutils import Vector, Matrix    \n\nfrom sverchok.data_structure import Matrix_listing\n\ndef closest_np2(xyz1, xyz2):\n    x2 = np.subtract.outer(xyz2[:,0], xyz1[:,0])\n    y2 = np.subtract.outer(xyz2[:,1], xyz1[:,1])\n    z2 = np.subtract.outer(xyz2[:,2], xyz1[:,2])\n    d2 = np.sum((x2**2, y2**2, z2**2), axis=0)\n    ci = d2.argmin(axis=1)\n    column_i = range(d2.shape[0])\n    dout = np.sqrt(d2[column_i, ci])\n    v = np.vstack((x2[column_i, ci], y2[column_i, ci], z2[column_i, ci]))    \n    return dout, ci, v.T\n\nclass SCA:\n\n    def __init__(self, d=0.3, NBP=2000, KILLDIST=5, INFLUENCE=15, endpoints=[], \n                 TROPISM=0.0, max_time=1.0, startpoints=[]):\n        self.killdistance = KILLDIST\n        self.branchlength = d\n        self.maxiterations = NBP\n        self.tropism = np.array(TROPISM)\n        self.influence = INFLUENCE if INFLUENCE > 0 else 1e16\n        self.max_time = max_time\n        \n        if len(startpoints) > 0:            \n            self.bpalln = np.array(startpoints)\n        else:\n            self.bpalln = np.array([[0, 0, 0]])      \n        \n        self.bpp = [None] * self.bpalln.shape[0]\n        self.bpc = [0] * self.bpalln.shape[0]\n        self.bpg = [0] * self.bpalln.shape[0]\n            \n        self.epn = np.array(endpoints)        \n        d, ci, v = closest_np2(self.bpalln, self.epn)\n        self.epbn = ci\n        self.epdn = d\n        self.epvn = v / self.epdn.reshape((-1, 1))\n        self.epbn[self.epdn >= self.influence] = -2\n        \n        \n    def addBranchPoint(self, bpn, pi, generation):\n        self.bpalln = np.append(self.bpalln, [bpn], axis=0)\n\n        self.bpp.append(pi)\n        self.bpc.append(0)\n        #self.bpg.append(generation + 1)\n        self.bpg = np.append(self.bpg, [generation+1])\n        self.bpc[pi] += 1  \n        bi = self.bpalln.shape[0] - 1\n        v = self.epn - bpn\n        d2 = (v**2).sum(axis=1)\n        index = (self.epbn != -1) & (d2 < self.epdn**2) & (d2 > self.killdistance**2)\n         \n        d  = np.sqrt(d2[index])\n        self.epvn[index] = v[index, :] / d.reshape((-1,1))\n        self.epdn[index] = d\n        \n        index2 = (index & (d2 < self.influence**2))               \n        self.epbn[index2] = bi\n        \n        index3 = (index & (d2 >= self.influence**2))                \n        self.epbn[index3] = -2\n        \n        index4 = (self.epbn != -1) & (d2 < self.epdn**2) & (d2 <= self.killdistance**2)                \n        self.epbn[index4] = -1    \n               \n        if self.bpc[pi] > 1:  # a branch point with two children will not grow any new branches ...\n            index_e = (self.epbn == pi)\n            index_b = (np.array(self.bpc) <= 1)\n            d, c, v = closest_np2(self.bpalln[index_b], self.epn[index_e])\n            # this turns c indixes into self.bpalln[index_b] into u indices into self.bpalln\n            #needs better variable names\n            t = np.arange(self.bpalln.shape[0])[index_b]\n            u = t[c]\n            # set points not within influence distance to -2 so they will be\n            # ignored in growBranches\n            u[d >= self.influence] = -2\n\n            self.epdn[index_e] = d\n            self.epbn[index_e] = u            \n            self.epvn[index_e] = v / d.reshape((-1,1))    \n                         \n    def growBranches(self, generation):\n        index = self.epbn >= 0        \n        epbn = self.epbn[index]\n        bis = np.unique(epbn)\n        \n        v_sums = np.empty((bis.shape[0], 3))\n        for col in range(3):\n            v_sums[:, col] = np.bincount(epbn, weights=self.epvn[index, col])[bis]\n#        d2 = (v_sums**2).sum(axis=1)\n#        d = np.sqrt(d2) /self.branchlength\n#        vd = v_sums / d.reshape((-1, 1))\n\n        n_hat = v_sums/(((v_sums**2).sum(axis=1))**0.5).reshape((-1,1))\n        n_tilde = (n_hat + self.tropism)\n        n_tilde = n_tilde/(((n_tilde**2).sum(axis=1))**0.5).reshape((-1,1))\n       \n        newbps = self.bpalln[bis] + n_tilde * self.branchlength\n        newbpps = bis        \n                \n        for newbp, newbpp in zip(newbps, newbpps):\n            self.addBranchPoint(newbp, newbpp, generation)\n                        \n    def iterate(self):\n        t0 = time.time()\n        for i in range(self.maxiterations):\n            nbp = self.bpalln.shape[0]    \n            self.growBranches(i)\n            if self.bpalln.shape[0] == nbp:\n                return\n            if (time.time() - t0) > self.max_time:\n                print('SCA timed out')\n                return\n        return\n\n    def bp_verts_edges_n(self):\n        \"\"\"\n        returns branchpoints verts as a list of positions\n        and edges as index to connect the branch points\n        and leaves matrices \n        \"\"\"\n        verts = []\n        edges = []\n        ends = []\n        ends_inds = []\n        for i, b in enumerate(self.bpalln):\n            bp_parent = self.bpp[i]\n            verts.append(list(b))\n            if bp_parent != None:\n                edges.append((bp_parent, i))\n            if self.bpc[i] == 0:\n                ends.append(True)\n                ends_inds.append(i)\n            else:\n                ends.append(False)  \n        process = ends_inds\n        # branch radii\n        br = [int(t) for t in ends]\n        finished = []\n        while len(process) > 0:\n            process.sort()\n            i = process.pop()\n            finished.append(i)\n            p = self.bpp[i]\n            if p != None:\n                br[p] = br[p] + br[i]\n                if p not in process:\n                    if p not in finished:\n                        process.insert(0, p)    \n                        \n        mats= []\n        for edge in edges:           \n            if ends[edge[1]]:\n                #calculate leaf directions\n                #end will always be edge[1]\n                v0 = Vector(verts[edge[0]])\n                v1 = Vector(verts[edge[1]])\n                dir1 = (v1 - v0).normalized()\n                dir2 = (dir1.cross(Vector((0.0, 0.0, 1.0)))).normalized()               \n                dir3 = -(dir1.cross(dir2)).normalized() \n                m = Matrix.Identity(4)\n                m[0][0:3] = dir1\n                m[1][0:3] = dir2\n                m[2][0:3] = dir3\n                m[3][0:3] = v1\n                m.transpose()\n                mats.append(m)\n\n        mats_out =  Matrix_listing(mats)\n     \n        return verts, edges, ends, br, mats_out\n        \ndef sv_main(npoints=100 , dist=0.05, min_dist=0.05, max_dist=2.0, tip_radius=0.01, trop=[], verts_in=[], verts_start=[]):\n\n    in_sockets = [\n        ['s', 'maximum branches', npoints],\n        ['s', 'branch length', dist],\n        ['s', 'minimum distance', min_dist],\n        ['s', 'maximum distance', max_dist],\n        ['s', 'tip radius', tip_radius], \n        ['v', 'tropism', trop],\n        ['v', 'End Vertices',  verts_in],\n        ['v', 'Start Vertices', verts_start]\n    ]\n    verts_out = []\n    edges_out = []\n    rad_out = []\n    ends_out = []\n    mats_out = []\n    if not verts_start:\n        verts_start = [[]]\n    if not trop:\n        trop = [0., 0., 0.]    \n        \n    if verts_in :\n        sca = SCA(NBP = npoints,\n                  d=dist,\n                  KILLDIST=min_dist,\n                  INFLUENCE=max_dist, \n                  TROPISM=trop[0],\n                  endpoints=verts_in[0],\n                  startpoints = verts_start[0])\n\n        sca.iterate()\n        verts_out, edges_out, ends_out, br, mats_out = sca.bp_verts_edges_n()\n        rad_out = [tip_radius*b**0.5 for b in br]\n        \n    out_sockets = [\n        ['v', 'Vertices', [verts_out]],\n        ['s', 'Edges', [edges_out]],\n        ['s', 'Branch radii', [rad_out]],\n        ['s', 'Ends mask', [ends_out]],\n        ['m', 'Leaf matrices', mats_out],\n    ]\n\n    return in_sockets, out_sockets\n"
+      },
+      "width": 203.734619140625
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        466.0993347167969,
+        826.5444946289062
+      ],
+      "params": {
+        "cicl_check_U": 1,
+        "cicl_check_V": 0,
+        "cup_V": 0,
+        "dir_check": "U_dir",
+        "polygons": "Edges",
+        "slice_check": 0
+      },
+      "width": 140.0
+    },
+    "UV Connection.001": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1971.013916015625,
+        768.9303588867188
+      ],
+      "params": {
+        "cicl_check_U": 1,
+        "cicl_check_V": 0,
+        "cup_U": 0,
+        "cup_V": 0,
+        "dir_check": "V_dir",
+        "polygons": "Pols",
+        "slice_check": 0
+      },
+      "width": 140.0
+    },
+    "UV Connection.002": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        631.347412109375,
+        1028.0435791015625
+      ],
+      "params": {
+        "cicl_check_U": 1,
+        "cicl_check_V": 0,
+        "cup_U": 0,
+        "cup_V": 0,
+        "dir_check": "V_dir",
+        "polygons": "Edges",
+        "slice_check": 0
+      },
+      "width": 140.0
+    },
+    "Vector Interpolation mk3": {
+      "bl_idname": "SvInterpolationNodeMK3",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1730.9332275390625,
+        734.4959716796875
+      ],
+      "params": {
+        "is_cyclic": 0
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        501.04998779296875,
+        215.9948272705078
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1293.3074951171875,
+        1006.09716796875
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector in.002": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        684.537109375,
+        108.34437561035156
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector out": {
+      "bl_idname": "VectorsOutNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        249.78890991210938,
+        172.36654663085938
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        976.74365234375,
+        626.5482788085938
+      ],
+      "params": {
+        "activate": 0,
+        "display_faces": 1,
+        "display_verts": 0,
+        "extended_matrix": 0,
+        "face_colors": [
+          0.3035898208618164,
+          0.7580553889274597,
+          0.8989997506141663
+        ],
+        "ngon_tessellate": 1,
+        "shading": 1
+      },
+      "width": 154.6051025390625
+    },
+    "Viewer Draw.002": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2189.9169921875,
+        795.7435913085938
+      ],
+      "params": {
+        "activate": 0,
+        "display_edges": 0,
+        "display_faces": 1,
+        "display_verts": 0,
+        "extended_matrix": 0,
+        "face_colors": [
+          0.3035898208618164,
+          0.7580553889274597,
+          0.8989997506141663
+        ],
+        "ngon_tessellate": 1,
+        "shading": 1
+      },
+      "width": 154.6051025390625
+    },
+    "Viewer Draw.003": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        469.0745544433594,
+        1184.5157470703125
+      ],
+      "params": {
+        "activate": 0,
+        "display_faces": 1,
+        "display_verts": 1,
+        "extended_matrix": 0,
+        "face_colors": [
+          0.3035898208618164,
+          0.7580553889274597,
+          0.8989997506141663
+        ],
+        "ngon_tessellate": 1,
+        "shading": 1
+      },
+      "width": 154.6051025390625
+    },
+    "Viewer Draw.004": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1286.668701171875,
+        1333.4937744140625
+      ],
+      "params": {
+        "activate": 1,
+        "display_edges": 0,
+        "display_faces": 1,
+        "display_verts": 1,
+        "extended_matrix": 0,
+        "face_colors": [
+          0.3035898208618164,
+          0.7580553889274597,
+          0.8989997506141663
+        ],
+        "ngon_tessellate": 1,
+        "shading": 1,
+        "vertex_colors": [
+          1.0,
+          0.6495914459228516,
+          0.2903999388217926
+        ]
+      },
+      "width": 154.6051025390625
+    },
+    "Viewer Draw.005": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1887.3084716796875,
+        1209.3623046875
+      ],
+      "params": {
+        "activate": 0,
+        "display_edges": 1,
+        "display_faces": 1,
+        "display_verts": 1,
+        "edge_colors": [
+          0.8989999890327454,
+          0.5508808493614197,
+          0.5048933625221252
+        ],
+        "extended_matrix": 0,
+        "face_colors": [
+          0.6317474842071533,
+          0.2726588249206543,
+          0.8989997506141663
+        ],
+        "ngon_tessellate": 1,
+        "shading": 1,
+        "vertex_colors": [
+          0.5562888383865356,
+          0.2903999388217926,
+          1.0
+        ]
+      },
+      "width": 154.6051025390625
+    }
+  },
+  "update_lists": [
+    [
+      "Int",
+      "Integer",
+      "Range Float",
+      "Stop"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Random Num Gen.004",
+      "Seed"
+    ],
+    [
+      "Random Num Gen.004",
+      "Value",
+      "Float to Int.001",
+      "float"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Random Num Gen.002",
+      "Size"
+    ],
+    [
+      "Float to Int.001",
+      "int",
+      "Random Num Gen.002",
+      "Seed"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Random Num Gen.006",
+      "Seed"
+    ],
+    [
+      "Random Num Gen.006",
+      "Value",
+      "Int.001",
+      "Integer"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Random Num Gen",
+      "Size"
+    ],
+    [
+      "Int.001",
+      "Integer",
+      "Random Num Gen",
+      "Low"
+    ],
+    [
+      "Int.001",
+      "Integer",
+      "Random Num Gen",
+      "High"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Random Num Gen.005",
+      "Seed"
+    ],
+    [
+      "Random Num Gen.005",
+      "Value",
+      "Float to Int",
+      "float"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Random Num Gen.003",
+      "Size"
+    ],
+    [
+      "Float to Int",
+      "int",
+      "Random Num Gen.003",
+      "Seed"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Random Num Gen.001",
+      "Size"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Scripted Node Lite.001",
+      "petals"
+    ],
+    [
+      "Random Num Gen.001",
+      "Value",
+      "Scripted Node Lite.001",
+      "innerradius"
+    ],
+    [
+      "Random Num Gen.002",
+      "Value",
+      "Scripted Node Lite.001",
+      "outerradius"
+    ],
+    [
+      "Random Num Gen.003",
+      "Value",
+      "Scripted Node Lite.001",
+      "petalwidth"
+    ],
+    [
+      "Scripted Node Lite.001",
+      "points",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "Range Float.001",
+      "Range",
+      "Vector in.002",
+      "X"
+    ],
+    [
+      "Range Float.001",
+      "Range",
+      "Vector in.002",
+      "Y"
+    ],
+    [
+      "Vector in.002",
+      "Vectors",
+      "Matrix in",
+      "Scale"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Matrix Apply",
+      "Vectors"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Matrix Apply",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "List Flip",
+      "data"
+    ],
+    [
+      "List Flip",
+      "data",
+      "Vector Interpolation mk3",
+      "Vertices"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Vector Interpolation mk3",
+      "Interval"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Line",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Float",
+      "Float",
+      "Line",
+      "Step"
+    ],
+    [
+      "Line",
+      "Vertices",
+      "Vector out",
+      "Vectors"
+    ],
+    [
+      "Scripted Node Lite.001",
+      "points",
+      "Scripted Node Lite",
+      "vert_lists"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "Scripted Node Lite",
+      "polygons",
+      "Viewer Draw.001",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw.001",
+      "matrix"
+    ],
+    [
+      "Vector Interpolation mk3",
+      "Vertices",
+      "UV Connection.001",
+      "vertices"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Scripted Node.001",
+      "End Vertices"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Scripted Node.001",
+      "Start Vertices"
+    ],
+    [
+      "Vector out",
+      "X",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "KDT Closest Edges",
+      "Verts"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Viewer Draw.004",
+      "vertices"
+    ],
+    [
+      "KDT Closest Edges",
+      "Edges",
+      "Viewer Draw.004",
+      "edg_pol"
+    ],
+    [
+      "Scripted Node Lite.001",
+      "points",
+      "Viewer Draw.003",
+      "vertices"
+    ],
+    [
+      "Scripted Node Lite.001",
+      "points",
+      "UV Connection.002",
+      "vertices"
+    ],
+    [
+      "UV Connection.001",
+      "vertices",
+      "Viewer Draw.002",
+      "vertices"
+    ],
+    [
+      "UV Connection.001",
+      "data",
+      "Viewer Draw.002",
+      "edg_pol"
+    ],
+    [
+      "Scripted Node.001",
+      "Vertices",
+      "Viewer Draw.005",
+      "vertices"
+    ],
+    [
+      "Scripted Node.001",
+      "Edges",
+      "Viewer Draw.005",
+      "edg_pol"
+    ]
+  ]
+}

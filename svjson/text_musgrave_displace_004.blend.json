@@ -1,0 +1,423 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Distance": {
+      "bl_idname": "DistancePPNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        595.2211303710938,
+        -107.67019653320312
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Dupli instancer mk4": {
+      "bl_idname": "SvDupliInstancesMK4",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1559.5609130859375,
+        -158.98806762695312
+      ],
+      "params": {
+        "name_node_generated_parent": "parant",
+        "scale": 1
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        815.22119140625,
+        -125.87018585205078
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 6.309999942779541
+      },
+      "width": 140.0
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -172.24237060546875,
+        168.11911010742188
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1302.63671875,
+        -57.540897369384766
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Objects in mk3": {
+      "bl_idname": "SvObjectsNodeMK3",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -437.85113525390625,
+        142.51333618164062
+      ],
+      "object_names": [
+        "Text"
+      ],
+      "params": {
+        "modifiers": 1
+      },
+      "width": 140.0
+    },
+    "Objects in mk3.001": {
+      "bl_idname": "SvObjectsNodeMK3",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        350.906005859375,
+        -79.68260192871094
+      ],
+      "object_names": [
+        "Alpha_0"
+      ],
+      "params": {
+        "modifiers": 1
+      },
+      "width": 140.0
+    },
+    "Objects in mk3.002": {
+      "bl_idname": "SvObjectsNodeMK3",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        366.8787536621094,
+        -374.2144775390625
+      ],
+      "object_names": [
+        "Alpha_0"
+      ],
+      "params": {
+        "modifiers": 0
+      },
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        989.616943359375,
+        -386.45281982421875
+      ],
+      "params": {
+        "high_f": 180.0,
+        "low_f": -180.0,
+        "size": 1656,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1303.3155517578125,
+        105.81307220458984
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1035.22119140625,
+        -213.2073211669922
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        42.8172607421875,
+        48.575199127197266
+      ],
+      "params": {
+        "basemesh_name": "Alpha",
+        "lp": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "material": "Material.001"
+      },
+      "width": 140.0
+    },
+    "Viewer BMeshMK2.001": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        1640.0341796875,
+        111.17967224121094
+      ],
+      "params": {
+        "basemesh_name": "Beta",
+        "merge": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        26.790237426757812,
+        397.3729248046875
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Objects in mk3",
+      "Vertices",
+      "Matrix Apply",
+      "Vectors"
+    ],
+    [
+      "Objects in mk3",
+      "Matrixes",
+      "Matrix Apply",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Objects in mk3.001",
+      "Vertices",
+      "Distance",
+      "vertices1"
+    ],
+    [
+      "Objects in mk3.001",
+      "Matrixes",
+      "Distance",
+      "matrix1"
+    ],
+    [
+      "Objects in mk3.002",
+      "Vertices",
+      "Distance",
+      "vertices2"
+    ],
+    [
+      "Objects in mk3.002",
+      "Matrixes",
+      "Distance",
+      "matrix2"
+    ],
+    [
+      "Distance",
+      "distances",
+      "Math",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "Vector in.001",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "Vector in.001",
+      "Y"
+    ],
+    [
+      "Math",
+      "float",
+      "Vector in.001",
+      "Z"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Matrix in",
+      "Scale"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Matrix in",
+      "Rotation"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Matrix in",
+      "Angle"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Dupli instancer mk4",
+      "matr/vert"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "Objects in mk3",
+      "Polygons",
+      "Viewer BMeshMK2",
+      "faces"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Viewer BMeshMK2.001",
+      "vertices"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer BMeshMK2.001",
+      "matrix"
+    ]
+  ]
+}

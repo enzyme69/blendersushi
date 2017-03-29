@@ -1,0 +1,503 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Rounded Box": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 272.14483642578125,
+      "hide": false,
+      "label": "",
+      "location": [
+        134.6584930419922,
+        107.56415557861328
+      ],
+      "params": {},
+      "width": 213.4596405029297
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -694.7203979492188,
+        26.99399185180664
+      ],
+      "params": {
+        "int_": 32
+      },
+      "width": 140.0
+    },
+    "Int.001": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -794.9609375,
+        631.6240234375
+      ],
+      "params": {
+        "int_": 3
+      },
+      "width": 140.0
+    },
+    "List Input": {
+      "bl_idname": "SvListInputNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        32.8203125,
+        627.2347412109375
+      ],
+      "params": {
+        "float_list": [
+          10.589999198913574,
+          10.080000877380371,
+          6.2099995613098145,
+          9.210000038146973,
+          4.349999904632568,
+          4.259999752044678,
+          17.280000686645508,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "int_": 7,
+        "int_list": [
+          9,
+          6,
+          25,
+          6,
+          13,
+          28,
+          17,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "float_list"
+      },
+      "width": 140.0
+    },
+    "List Repeater": {
+      "bl_idname": "ListRepeaterNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -572.5772705078125,
+        601.57763671875
+      ],
+      "params": {
+        "level": 2,
+        "number": 10,
+        "unwrap": 1
+      },
+      "width": 140.0
+    },
+    "List Repeater.001": {
+      "bl_idname": "ListRepeaterNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -472.1448669433594,
+        758.3322143554688
+      ],
+      "params": {
+        "level": 1,
+        "number": 10,
+        "unwrap": 0
+      },
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        358.9249572753906,
+        118.89736938476562
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -401.2442626953125,
+        422.272705078125
+      ],
+      "params": {
+        "high_f": 30.39999771118164,
+        "high_i": 20,
+        "low_f": 4.260000228881836,
+        "low_i": 16,
+        "seed": 143,
+        "size": 7,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Random Vector MK2": {
+      "bl_idname": "RandomVectorNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -77.26791381835938,
+        219.1051788330078
+      ],
+      "params": {
+        "count_inner": 26,
+        "scale": 8.529999732971191,
+        "seed": 58
+      },
+      "width": 140.0
+    },
+    "Random Vector MK2.001": {
+      "bl_idname": "RandomVectorNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -82.3082275390625,
+        -49.31159973144531
+      ],
+      "params": {
+        "scale": 41.290000915527344
+      },
+      "width": 140.0
+    },
+    "Range Float.001": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -237.11087036132812,
+        -414.6937255859375
+      ],
+      "params": {
+        "count_": 5,
+        "mode": "FRANGE_STEP",
+        "start_": 0.0,
+        "step_": 30.0,
+        "stop_": 6.860000133514404
+      },
+      "width": 140.0
+    },
+    "Rounded Box": {
+      "bl_idname": "SvBoxRoundedNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        193.06942749023438,
+        312.5806884765625
+      ],
+      "params": {
+        "arcdiv": 2,
+        "div_type": 0,
+        "radius": 6.3580002784729
+      },
+      "width": 153.45962524414062
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -318.470947265625,
+        574.5381469726562
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Stethoscope.001": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -283.55078125,
+        734.4256591796875
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector X | Y | Z MK2": {
+      "bl_idname": "SvAxisInputNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -109.00923919677734,
+        -254.2038116455078
+      ],
+      "params": {
+        "axis_x": "0",
+        "axis_y": "0"
+      },
+      "width": 140.7113037109375
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        583.599853515625,
+        368.7250061035156
+      ],
+      "params": {
+        "activate": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Int",
+      "Integer",
+      "Random Vector MK2.001",
+      "Count"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Random Num Gen",
+      "Size"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Random Vector MK2",
+      "Count"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Rounded Box",
+      "radius"
+    ],
+    [
+      "Random Vector MK2",
+      "Random",
+      "Rounded Box",
+      "vector_size"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Range Float.001",
+      "Stop"
+    ],
+    [
+      "Random Vector MK2.001",
+      "Random",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector X | Y | Z MK2",
+      "Vector",
+      "Matrix in",
+      "Rotation"
+    ],
+    [
+      "Range Float.001",
+      "Range",
+      "Matrix in",
+      "Angle"
+    ],
+    [
+      "Rounded Box",
+      "Vers",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Rounded Box",
+      "Pols",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw",
+      "matrix"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "Int.001",
+      "Integer",
+      "List Repeater.001",
+      "Data"
+    ],
+    [
+      "Int.001",
+      "Integer",
+      "List Repeater",
+      "Data"
+    ],
+    [
+      "List Repeater.001",
+      "Data",
+      "Stethoscope.001",
+      "Data"
+    ]
+  ]
+}

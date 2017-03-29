@@ -1,0 +1,281 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -344.614013671875,
+        -57.419334411621094
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Monad": {
+      "bl_idname": "SvMonadGenericNode",
+      "color": [
+        0.8308190107345581,
+        0.911391019821167,
+        0.7545620203018188
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -737.5413208007812,
+        260.7198181152344
+      ],
+      "params": {
+        "cls_bl_idname": "SvGroupNodeMonad_7632396349",
+        "data_storage": "{'output_template': [['Item', 'VerticesSocket'], ['Item', 'StringsSocket']], 'input_template': [['Size', 'StringsSocket', {'prop_name': 'size'}], ['Seed', 'StringsSocket', {'prop_name': 'seed'}]]}",
+        "split": 1,
+        "vectorize": 1
+      },
+      "width": 140.0
+    },
+    "Plane": {
+      "bl_idname": "PlaneNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -825.340087890625,
+        -24.52260971069336
+      ],
+      "params": {
+        "int_X": 7,
+        "int_Y": 12,
+        "step_X": 20.0,
+        "step_Y": 20.0
+      },
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1134.0811767578125,
+        275.53076171875
+      ],
+      "params": {
+        "high_i": 12,
+        "low_i": 3,
+        "seed": 164,
+        "size": 84
+      },
+      "width": 140.0
+    },
+    "Random Num Gen.001": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -950.8291015625,
+        -257.0462646484375
+      ],
+      "params": {
+        "high_f": 6.0,
+        "low_f": 1.0,
+        "size": 84,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Randomize input vertices": {
+      "bl_idname": "SvRandomizeVerticesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -577.4138793945312,
+        -25.200063705444336
+      ],
+      "params": {
+        "random_x_": 7.0,
+        "random_y_": 7.0
+      },
+      "width": 140.0
+    },
+    "Range Int": {
+      "bl_idname": "GenListRangeIntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1014.635986328125,
+        57.77008819580078
+      ],
+      "params": {
+        "count_": 84,
+        "mode": "COUNTRANGE",
+        "start_": 419,
+        "stop_": 9
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -583.4583740234375,
+        -246.8814697265625
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        626.2821655273438,
+        224.860595703125
+      ],
+      "params": {
+        "display_verts": 0,
+        "shading": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -113.0356216430664,
+        264.6434631347656
+      ],
+      "params": {
+        "activate": 0,
+        "display_edges": 0,
+        "display_verts": 0,
+        "shading": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Random Num Gen",
+      "Value",
+      "Monad",
+      "Size"
+    ],
+    [
+      "Range Int",
+      "Range",
+      "Monad",
+      "Seed"
+    ],
+    [
+      "Random Num Gen.001",
+      "Value",
+      "Vector in",
+      "X"
+    ],
+    [
+      "Random Num Gen.001",
+      "Value",
+      "Vector in",
+      "Y"
+    ],
+    [
+      "Random Num Gen.001",
+      "Value",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Randomize input vertices",
+      "Vertices"
+    ],
+    [
+      "Randomize input vertices",
+      "Vertices",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Matrix in",
+      "Scale"
+    ],
+    [
+      "Monad",
+      "Item",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "Monad",
+      "Item",
+      "Viewer Draw.001",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw.001",
+      "matrix"
+    ]
+  ]
+}

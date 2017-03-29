@@ -1,0 +1,340 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Bisect": {
+      "bl_idname": "SvBisectNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        209.32562255859375,
+        -108.65779113769531
+      ],
+      "params": {
+        "fill": 1,
+        "inner": 0,
+        "outer": 1
+      },
+      "width": 140.0
+    },
+    "Bisect.001": {
+      "bl_idname": "SvBisectNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        209.04078674316406,
+        186.1288604736328
+      ],
+      "params": {
+        "fill": 1,
+        "inner": 1,
+        "outer": 0
+      },
+      "width": 140.0
+    },
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -296.97381591796875,
+        -421.2860412597656
+      ],
+      "params": {
+        "float_": 137.58999633789062
+      },
+      "width": 140.0
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -634.3634643554688,
+        -310.3681945800781
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        473.21942138671875,
+        128.82659912109375
+      ],
+      "params": {
+        "JoinLevel": 1
+      },
+      "width": 140.0
+    },
+    "List Join.001": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        469.14056396484375,
+        -82.24452209472656
+      ],
+      "params": {
+        "JoinLevel": 1
+      },
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -73.41514587402344,
+        -259.22418212890625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Mesh Join": {
+      "bl_idname": "SvMeshJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        673.2911376953125,
+        73.09355926513672
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Objects in mk2": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -410.35382080078125,
+        161.89212036132812
+      ],
+      "params": {
+        "objects_local": "['Cube']"
+      },
+      "width": 140.0
+    },
+    "Random Vector MK2": {
+      "bl_idname": "RandomVectorNodeMK2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -416.3838806152344,
+        -276.0783996582031
+      ],
+      "params": {
+        "count_inner": 1,
+        "scale": 1.0
+      },
+      "width": 134.42852783203125
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -410.188720703125,
+        -126.61393737792969
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        927.0926513671875,
+        91.4235610961914
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Frame info",
+      "Current Frame",
+      "Random Vector MK2",
+      "Seed"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Random Vector MK2",
+      "Random",
+      "Matrix in",
+      "Rotation"
+    ],
+    [
+      "Float",
+      "Float",
+      "Matrix in",
+      "Angle"
+    ],
+    [
+      "Objects in mk2",
+      "Vertices",
+      "Bisect.001",
+      "vertices"
+    ],
+    [
+      "Objects in mk2",
+      "Polygons",
+      "Bisect.001",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Bisect.001",
+      "cut_matrix"
+    ],
+    [
+      "Objects in mk2",
+      "Vertices",
+      "Bisect",
+      "vertices"
+    ],
+    [
+      "Objects in mk2",
+      "Polygons",
+      "Bisect",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Bisect",
+      "cut_matrix"
+    ],
+    [
+      "Bisect.001",
+      "vertices",
+      "List Join",
+      "data"
+    ],
+    [
+      "Bisect",
+      "vertices",
+      "List Join",
+      "data 1"
+    ],
+    [
+      "Bisect.001",
+      "polygons",
+      "List Join.001",
+      "data"
+    ],
+    [
+      "Bisect",
+      "polygons",
+      "List Join.001",
+      "data 1"
+    ],
+    [
+      "List Join",
+      "data",
+      "Mesh Join",
+      "Vertices"
+    ],
+    [
+      "List Join.001",
+      "data",
+      "Mesh Join",
+      "PolyEdge"
+    ],
+    [
+      "Mesh Join",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Mesh Join",
+      "PolyEdge",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}

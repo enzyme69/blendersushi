@@ -1,0 +1,389 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "List Del Levels": {
+      "bl_idname": "ListLevelsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1342.76123046875,
+        791.9791870117188
+      ],
+      "params": {
+        "Sverch_LisLev": "0"
+      },
+      "width": 140.0
+    },
+    "List Math": {
+      "bl_idname": "ListFuncNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1377.26416015625,
+        1044.826171875
+      ],
+      "params": {
+        "func_": "MAX",
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Zip": {
+      "bl_idname": "ZipNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1136.0782470703125,
+        864.4794311523438
+      ],
+      "params": {
+        "level": 1,
+        "unwrap": 0
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        686.477783203125,
+        1068.7967529296875
+      ],
+      "params": {
+        "clamp": 0,
+        "new_max": 1.0,
+        "new_min": 0.0,
+        "old_max": 1.0,
+        "old_min": -1.0
+      },
+      "width": 140.0
+    },
+    "Map Range.001": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        542.1179809570312,
+        631.2613525390625
+      ],
+      "params": {
+        "clamp": 0,
+        "new_max": 1.0,
+        "new_min": 0.0,
+        "old_max": 1.0,
+        "old_min": -1.0
+      },
+      "width": 140.0
+    },
+    "Map Range.002": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        790.3007202148438,
+        816.0496215820312
+      ],
+      "params": {
+        "clamp": 0,
+        "new_max": 1.0,
+        "new_min": 0.0,
+        "old_max": 1.0,
+        "old_min": -1.0
+      },
+      "width": 140.0
+    },
+    "Object ID Filter.001": {
+      "bl_idname": "SvFilterObjsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1350.8626708984375,
+        498.1229248046875
+      ],
+      "params": {
+        "formula": "blah"
+      },
+      "width": 140.0
+    },
+    "Object ID Get": {
+      "bl_idname": "SvGetDataObjectNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1120.973388671875,
+        489.6523132324219
+      ],
+      "params": {
+        "Modes": "images"
+      },
+      "width": 140.0
+    },
+    "Object ID Set MK2.001": {
+      "bl_idname": "SvSetDataObjectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1640.097900390625,
+        543.5435791015625
+      ],
+      "params": {
+        "formula": "pixels = v #"
+      },
+      "width": 140.0
+    },
+    "Objects in mk2.002": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -359.4225158691406,
+        682.9561767578125
+      ],
+      "params": {
+        "modifiers": 1,
+        "objects_local": "['Icosphere']"
+      },
+      "width": 140.0
+    },
+    "Range Float.002": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        865.974853515625,
+        527.1483154296875
+      ],
+      "params": {
+        "count_": 10000,
+        "mode": "FRANGE_COUNT",
+        "start_": 1.0,
+        "stop_": 1.0
+      },
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1670.14208984375,
+        1002.6768188476562
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector out": {
+      "bl_idname": "VectorsOutNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -5.025200843811035,
+        894.043701171875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vertex Normal": {
+      "bl_idname": "VectorNormalNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        79.43190002441406,
+        568.5245361328125
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Objects in mk2.002",
+      "Vertices",
+      "List Math",
+      "Data"
+    ],
+    [
+      "Objects in mk2.002",
+      "Vertices",
+      "Vector out",
+      "Vectors"
+    ],
+    [
+      "Vector out",
+      "Y",
+      "Map Range.002",
+      "Value"
+    ],
+    [
+      "Vector out",
+      "Z",
+      "Map Range.001",
+      "Value"
+    ],
+    [
+      "Vector out",
+      "X",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "List Zip",
+      "data"
+    ],
+    [
+      "Map Range.002",
+      "Value",
+      "List Zip",
+      "data 1"
+    ],
+    [
+      "Map Range.001",
+      "Value",
+      "List Zip",
+      "data 2"
+    ],
+    [
+      "Range Float.002",
+      "Range",
+      "List Zip",
+      "data 3"
+    ],
+    [
+      "List Zip",
+      "data",
+      "List Del Levels",
+      "data"
+    ],
+    [
+      "List Math",
+      "Function",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "Object ID Get",
+      "Objects",
+      "Object ID Filter.001",
+      "Objects"
+    ],
+    [
+      "Object ID Filter.001",
+      "Objects(have)",
+      "Object ID Set MK2.001",
+      "Objects"
+    ],
+    [
+      "List Del Levels",
+      "data",
+      "Object ID Set MK2.001",
+      "values"
+    ],
+    [
+      "Objects in mk2.002",
+      "Vertices",
+      "Vertex Normal",
+      "Vertices"
+    ],
+    [
+      "Objects in mk2.002",
+      "Polygons",
+      "Vertex Normal",
+      "Polygons"
+    ]
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -651.5997314453125,
+        -370.5143737792969
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        194.06712341308594,
+        -89.42947387695312
+      ],
+      "params": {
+        "int_": 23
+      },
+      "width": 140.0
+    },
+    "Line.001": {
+      "bl_idname": "LineNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        463.7293395996094,
+        -178.05189514160156
+      ],
+      "params": {
+        "int_": 20,
+        "step_": 0.28000012040138245
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1198.7779541015625,
+        98.44794464111328
+      ],
+      "params": {
+        "JoinLevel": 2,
+        "mix_check": 0,
+        "wrap_check": 0
+      },
+      "width": 140.0
+    },
+    "List Join.001": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1208.856201171875,
+        -199.1044464111328
+      ],
+      "params": {
+        "JoinLevel": 2,
+        "mix_check": 0,
+        "wrap_check": 0
+      },
+      "width": 140.0
+    },
+    "List Split": {
+      "bl_idname": "SvListSplitNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1967.1993408203125,
+        -2.7074928283691406
+      ],
+      "params": {
+        "level": 1,
+        "level_unwrap": 1,
+        "split": 20,
+        "unwrap": 0
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        116.11962890625,
+        -387.8285827636719
+      ],
+      "params": {
+        "items_": "MODULO",
+        "y": 10.0
+      },
+      "width": 140.0
+    },
+    "Math.003": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -123.03794860839844,
+        -407.3989562988281
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.12999999523162842
+      },
+      "width": 140.0
+    },
+    "Math.004": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -385.5129699707031,
+        -493.23248291015625
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": 7.089999675750732
+      },
+      "width": 140.0
+    },
+    "Matrix Apply.001": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        722.3294067382812,
+        -209.76034545898438
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in.001": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        513.5240478515625,
+        -343.8167419433594
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Object ID Raycast MK2": {
+      "bl_idname": "SvOBJRayCastNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1729.045654296875,
+        126.10464477539062
+      ],
+      "params": {},
+      "width": 162.250732421875
+    },
+    "Randomize input vertices": {
+      "bl_idname": "SvRandomizeVerticesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1433.467041015625,
+        100.69197082519531
+      ],
+      "params": {
+        "random_seed_": 30,
+        "random_x_": 0.0,
+        "random_y_": 0.0,
+        "random_z_": 0.0
+      },
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -592.2543334960938,
+        -564.4561767578125
+      ],
+      "params": {
+        "count_": 20,
+        "mode": "FRANGE_COUNT",
+        "step_": 5.0,
+        "stop_": 83.77001953125
+      },
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -215.00079345703125,
+        -653.395751953125
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        940.5100708007812,
+        -37.61309814453125
+      ],
+      "params": {
+        "dir_check": "U_dir",
+        "polygons": "Edges",
+        "slice_check": 1
+      },
+      "width": 140.0
+    },
+    "Vector X | Y | Z MK2": {
+      "bl_idname": "SvAxisInputNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1370.5076904296875,
+        -335.83123779296875
+      ],
+      "params": {
+        "axis_x": "0",
+        "axis_y": "0",
+        "axis_z": "-1"
+      },
+      "width": 174.6990966796875
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        357.1470642089844,
+        -365.69989013671875
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer Draw.002": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2243.11279296875,
+        -64.45368957519531
+      ],
+      "params": {
+        "activate": 1,
+        "display_edges": 1,
+        "display_verts": 0
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Frame info",
+      "Current Frame",
+      "Math.004",
+      "X"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Math.004",
+      "Y"
+    ],
+    [
+      "Math.004",
+      "float",
+      "Math.003",
+      "X"
+    ],
+    [
+      "Math.003",
+      "float",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Vector in.001",
+      "Y"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Matrix in.001",
+      "Location"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Line.001",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Line.001",
+      "Vertices",
+      "Matrix Apply.001",
+      "Vectors"
+    ],
+    [
+      "Matrix in.001",
+      "Matrix",
+      "Matrix Apply.001",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply.001",
+      "Vectors",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "List Join",
+      "data"
+    ],
+    [
+      "List Join",
+      "data",
+      "Randomize input vertices",
+      "Vertices"
+    ],
+    [
+      "Randomize input vertices",
+      "Vertices",
+      "Object ID Raycast MK2",
+      "origin"
+    ],
+    [
+      "Vector X | Y | Z MK2",
+      "Vector",
+      "Object ID Raycast MK2",
+      "direction"
+    ],
+    [
+      "Object ID Raycast MK2",
+      "HitP",
+      "List Split",
+      "Data"
+    ],
+    [
+      "Int",
+      "Integer",
+      "List Split",
+      "Split"
+    ],
+    [
+      "Math.004",
+      "float",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "List Join.001",
+      "data"
+    ],
+    [
+      "List Split",
+      "Split",
+      "Viewer Draw.002",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Viewer Draw.002",
+      "edg_pol"
+    ]
+  ]
+}

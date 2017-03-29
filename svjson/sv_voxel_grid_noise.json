@@ -1,0 +1,578 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Dupli instancer": {
+      "bl_idname": "SvDupliInstancesMK3",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1100.6158447265625,
+        267.95721435546875
+      ],
+      "params": {
+        "auto_release": 1,
+        "name_child": "Suzanne",
+        "name_node_generated_parent": "booom"
+      },
+      "width": 143.77294921875
+    },
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -167.63247680664062,
+        590.9091186523438
+      ],
+      "params": {
+        "float_": 0.2799999713897705
+      },
+      "width": 140.0
+    },
+    "Float.001": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -712.7943115234375,
+        95.2754135131836
+      ],
+      "params": {
+        "float_": 2.200000047683716
+      },
+      "width": 140.0
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -648.3828125,
+        528.0291748046875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -276.7295837402344,
+        336.10845947265625
+      ],
+      "params": {
+        "JoinLevel": 2
+      },
+      "width": 140.0
+    },
+    "List Mask (out)": {
+      "bl_idname": "MaskListNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        802.4864501953125,
+        371.0541076660156
+      ],
+      "params": {
+        "Level": 2
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        421.7397155761719,
+        499.22833251953125
+      ],
+      "params": {
+        "new_max": 2.0,
+        "new_min": 0.0,
+        "old_max": 1.0,
+        "old_min": -1.0
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        188.77322387695312,
+        597.3273315429688
+      ],
+      "params": {
+        "items_": "FLOOR"
+      },
+      "width": 140.0
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        63.04551696777344,
+        116.90652465820312
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -134.7213897705078,
+        -23.487768173217773
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in.001": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        682.4031982421875,
+        80.74874114990234
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Plane": {
+      "bl_idname": "PlaneNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -181.21090698242188,
+        239.99703979492188
+      ],
+      "params": {
+        "int_X": 6,
+        "int_Y": 4,
+        "step_X": 2.5,
+        "step_Y": 2.5
+      },
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        549.0305786132812,
+        604.7737426757812
+      ],
+      "params": {
+        "high_i": 1,
+        "seed": 248,
+        "size": 64
+      },
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -527.7835083007812,
+        -2.71343994140625
+      ],
+      "params": {
+        "count_": 4,
+        "mode": "FRANGE_STEP",
+        "step_": 2.5
+      },
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        712.9093627929688,
+        604.511474609375
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Stethoscope.001": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        439.9128112792969,
+        601.0596923828125
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector Math": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "ADD",
+      "location": [
+        -222.57278442382812,
+        505.40185546875
+      ],
+      "params": {
+        "items_": "ADD",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector Math.001": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "SCALAR",
+      "location": [
+        -2.572784423828125,
+        498.73358154296875
+      ],
+      "params": {
+        "items_": "SCALAR",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector Noise": {
+      "bl_idname": "SvNoiseNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        217.42721557617188,
+        476.1898193359375
+      ],
+      "params": {
+        "noise_type": "CELLNOISE",
+        "out_mode": "SCALAR"
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -316.2695007324219,
+        -68.02708435058594
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -379.94024658203125,
+        515.6604614257812
+      ],
+      "params": {
+        "x_": 21.239999771118164,
+        "y_": 10.529999732971191,
+        "z_": 41.52000045776367
+      },
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1381.6751708984375,
+        359.7565612792969
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Float.001",
+      "Float",
+      "Range Float",
+      "Step"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Float.001",
+      "Float",
+      "Plane",
+      "Step X"
+    ],
+    [
+      "Float.001",
+      "Float",
+      "Plane",
+      "Step Y"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Matrix Apply",
+      "Vectors"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Matrix Apply",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "List Join",
+      "data"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Vector in.001",
+      "Y"
+    ],
+    [
+      "List Join",
+      "data",
+      "Vector Math",
+      "U"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Vector Math",
+      "V"
+    ],
+    [
+      "Vector Math",
+      "W",
+      "Vector Math.001",
+      "U"
+    ],
+    [
+      "Float",
+      "Float",
+      "Vector Math.001",
+      "S"
+    ],
+    [
+      "Vector Math.001",
+      "W",
+      "Vector Noise",
+      "Vertices"
+    ],
+    [
+      "Vector Noise",
+      "Noise S",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Math",
+      "X"
+    ],
+    [
+      "List Join",
+      "data",
+      "List Mask (out)",
+      "data"
+    ],
+    [
+      "Math",
+      "float",
+      "List Mask (out)",
+      "mask"
+    ],
+    [
+      "List Mask (out)",
+      "dataTrue",
+      "Matrix in.001",
+      "Location"
+    ],
+    [
+      "List Mask (out)",
+      "dataTrue",
+      "Dupli instancer",
+      "Locations"
+    ],
+    [
+      "Matrix in.001",
+      "Matrix",
+      "Dupli instancer",
+      "Transforms"
+    ],
+    [
+      "Math",
+      "float",
+      "Stethoscope.001",
+      "Data"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Stethoscope",
+      "Data"
+    ]
+  ]
+}

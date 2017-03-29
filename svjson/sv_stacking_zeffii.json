@@ -1,0 +1,593 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "List Item": "Frame",
+    "List Item.004": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Bounding box": {
+      "bl_idname": "SvBBoxNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -199.72677612304688,
+        68.30393981933594
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Distance": {
+      "bl_idname": "DistancePPNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        303.7840270996094,
+        -171.33282470703125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        602.56103515625,
+        -268.2061462402344
+      ],
+      "params": {
+        "float_": 0.0
+      },
+      "width": 140.0
+    },
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "height": 365.14544677734375,
+      "hide": false,
+      "label": "z height",
+      "location": [
+        16.886552810668945,
+        -17.93964385986328
+      ],
+      "params": {},
+      "width": 202.5979461669922
+    },
+    "List Del Levels": {
+      "bl_idname": "ListLevelsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1202.6903076171875,
+        -89.02179718017578
+      ],
+      "params": {
+        "Sverch_LisLev": "1"
+      },
+      "width": 140.0
+    },
+    "List Del Levels.001": {
+      "bl_idname": "ListLevelsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1211.222412109375,
+        -348.07366943359375
+      ],
+      "params": {
+        "Sverch_LisLev": "1"
+      },
+      "width": 140.0
+    },
+    "List Item": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        32.3271484375,
+        -49.9149284362793
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Item.001": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1011.3735961914062,
+        -89.16921997070312
+      ],
+      "params": {
+        "item": -1,
+        "level": 3
+      },
+      "width": 140.0
+    },
+    "List Item.004": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        34.92508316040039,
+        -213.58819580078125
+      ],
+      "params": {
+        "item": 4
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        461.09906005859375,
+        -315.01116943359375
+      ],
+      "params": {
+        "JoinLevel": 3,
+        "mix_check": 1,
+        "wrap_check": 0
+      },
+      "width": 140.0
+    },
+    "List Join.001": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        805.7219848632812,
+        -93.81291961669922
+      ],
+      "params": {
+        "JoinLevel": 3,
+        "mix_check": 0,
+        "wrap_check": 0
+      },
+      "width": 140.0
+    },
+    "List Modifier": {
+      "bl_idname": "SvListModifierNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        601.9427490234375,
+        -109.37500762939453
+      ],
+      "params": {
+        "func_": "Accumulating Sum"
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1033.8448486328125,
+        -352.6578063964844
+      ],
+      "params": {
+        "items_": "/2"
+      },
+      "width": 140.0
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -425.42041015625,
+        37.49675369262695
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1901.4866943359375,
+        -76.72301483154297
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Objects in mk3": {
+      "bl_idname": "SvObjectsNodeMK3",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -768.3555908203125,
+        -653.3926391601562
+      ],
+      "object_names": [
+        "Cone",
+        "Cube",
+        "Torus.001"
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vector Math MK2": {
+      "bl_idname": "SvVectorMathNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1624.0355224609375,
+        -124.41021728515625
+      ],
+      "params": {
+        "current_op": "ADD"
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1375.6793212890625,
+        -84.12081909179688
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1393.176513671875,
+        -334.19873046875
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        278.6747131347656,
+        296.0617370605469
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2206.699951171875,
+        -571.5233154296875
+      ],
+      "params": {
+        "display_edges": 0,
+        "display_verts": 0,
+        "shading": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Index": {
+      "bl_idname": "IndexViewerNode",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        114.35662841796875,
+        310.9520263671875
+      ],
+      "params": {
+        "activate": 0,
+        "bg_verts_col": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "draw_bg": 1,
+        "numid_verts_col": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Objects in mk3",
+      "Vertices",
+      "Matrix Apply",
+      "Vectors"
+    ],
+    [
+      "Objects in mk3",
+      "Matrixes",
+      "Matrix Apply",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Bounding box",
+      "Vertices"
+    ],
+    [
+      "Bounding box",
+      "Vertices",
+      "List Item",
+      "Data"
+    ],
+    [
+      "Bounding box",
+      "Vertices",
+      "List Item.004",
+      "Data"
+    ],
+    [
+      "List Item",
+      "Item",
+      "Distance",
+      "vertices1"
+    ],
+    [
+      "List Item.004",
+      "Item",
+      "Distance",
+      "vertices2"
+    ],
+    [
+      "Distance",
+      "distances",
+      "List Join",
+      "data"
+    ],
+    [
+      "List Join",
+      "data",
+      "Math",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "List Del Levels.001",
+      "data"
+    ],
+    [
+      "List Del Levels.001",
+      "data",
+      "Vector in.001",
+      "Z"
+    ],
+    [
+      "List Join",
+      "data",
+      "List Modifier",
+      "Data1"
+    ],
+    [
+      "Float",
+      "Float",
+      "List Join.001",
+      "data"
+    ],
+    [
+      "List Modifier",
+      "Result",
+      "List Join.001",
+      "data 1"
+    ],
+    [
+      "List Join.001",
+      "data",
+      "List Item.001",
+      "Data"
+    ],
+    [
+      "List Item.001",
+      "Other",
+      "List Del Levels",
+      "data"
+    ],
+    [
+      "List Del Levels",
+      "data",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Vector Math MK2",
+      "A"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Vector Math MK2",
+      "B"
+    ],
+    [
+      "Bounding box",
+      "Vertices",
+      "Viewer Index",
+      "vertices"
+    ],
+    [
+      "Vector Math MK2",
+      "Out",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Objects in mk3",
+      "Vertices",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "Objects in mk3",
+      "Polygons",
+      "Viewer Draw.001",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw.001",
+      "matrix"
+    ],
+    [
+      "Bounding box",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Bounding box",
+      "Edges",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}

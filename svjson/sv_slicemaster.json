@@ -1,0 +1,472 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {
+    "Math.001": "Frame.001"
+  },
+  "groups": {},
+  "nodes": {
+    "Bisect": {
+      "bl_idname": "SvBisectNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        253.87109375,
+        107.52145385742188
+      ],
+      "params": {
+        "fill": 1,
+        "inner": 1,
+        "outer": 0
+      },
+      "width": 140.0
+    },
+    "Bisect.001": {
+      "bl_idname": "SvBisectNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        509.6255798339844,
+        117.82533264160156
+      ],
+      "params": {
+        "fill": 1,
+        "inner": 0,
+        "outer": 1
+      },
+      "width": 140.0
+    },
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -349.0800476074219,
+        -347.6405029296875
+      ],
+      "params": {
+        "float_": 0.7299999594688416
+      },
+      "width": 140.0
+    },
+    "Float.001": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -363.07904052734375,
+        -479.295166015625
+      ],
+      "params": {
+        "float_": 0.10000000149011612
+      },
+      "width": 140.0
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1076.4996337890625,
+        -299.66693115234375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Frame.001": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 180.50814819335938,
+      "hide": false,
+      "label": "OFFSET",
+      "location": [
+        -155.95614624023438,
+        7.077442169189453
+      ],
+      "params": {},
+      "width": 199.99996948242188
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -76.56263732910156,
+        -388.94549560546875
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": 0.20000000298023224
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -666.6951293945312,
+        -441.5693054199219
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": -10.979999542236328
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -562.7921752929688,
+        -380.6053161621094
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.20000000298023224
+      },
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1.163177490234375,
+        -156.56729125976562
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in.001": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        318.9796142578125,
+        -176.11288452148438
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Objects in mk2": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -72.17676544189453,
+        151.076904296875
+      ],
+      "params": {
+        "objects_local": "['Suzanne']"
+      },
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -623.5739135742188,
+        -226.54055786132812
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -148.27880859375,
+        -176.1495819091797
+      ],
+      "params": {
+        "z_": -0.6000000238418579
+      },
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        193.45242309570312,
+        -221.77359008789062
+      ],
+      "params": {
+        "z_": -0.20000000298023224
+      },
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        713.605224609375,
+        89.98619079589844
+      ],
+      "params": {
+        "activate": 0,
+        "display_verts": 0,
+        "shading": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        537.2874145507812,
+        386.98406982421875
+      ],
+      "params": {
+        "activate": 0,
+        "display_verts": 0,
+        "face_colors": [
+          0.8989999890327454,
+          0.0006915089325048029,
+          0.23942290246486664
+        ],
+        "shading": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Frame info",
+      "Current Frame",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Float.001",
+      "Float",
+      "Math.002",
+      "Y"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Float",
+      "Float"
+    ],
+    [
+      "Float",
+      "Float",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Objects in mk2",
+      "Vertices",
+      "Bisect",
+      "vertices"
+    ],
+    [
+      "Objects in mk2",
+      "Polygons",
+      "Bisect",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Bisect",
+      "cut_matrix"
+    ],
+    [
+      "Bisect",
+      "vertices",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "Bisect",
+      "polygons",
+      "Viewer Draw.001",
+      "edg_pol"
+    ],
+    [
+      "Float",
+      "Float",
+      "Math",
+      "X"
+    ],
+    [
+      "Float.001",
+      "Float",
+      "Math",
+      "Y"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "Math",
+      "float",
+      "Vector in.001",
+      "Z"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Matrix in.001",
+      "Location"
+    ],
+    [
+      "Bisect",
+      "vertices",
+      "Bisect.001",
+      "vertices"
+    ],
+    [
+      "Bisect",
+      "polygons",
+      "Bisect.001",
+      "edg_pol"
+    ],
+    [
+      "Matrix in.001",
+      "Matrix",
+      "Bisect.001",
+      "cut_matrix"
+    ],
+    [
+      "Bisect.001",
+      "vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Bisect.001",
+      "polygons",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}

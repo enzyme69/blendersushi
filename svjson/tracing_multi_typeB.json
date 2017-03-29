@@ -1,0 +1,498 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {
+    "Objects in mk2.001": "ORIG EMITTER"
+  },
+  "groups": {},
+  "nodes": {
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1385.02099609375,
+        -54.62548065185547
+      ],
+      "params": {},
+      "width": 141.2576904296875
+    },
+    "Frame info.001": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -603.9599609375,
+        -419.5308532714844
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Item": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1101.4949951171875,
+        205.48130798339844
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Slice": {
+      "bl_idname": "ListSliceNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1572.2091064453125,
+        45.980979919433594
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Slice.001": {
+      "bl_idname": "ListSliceNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1572.2091064453125,
+        245.14459228515625
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -383.9599609375,
+        -394.46380615234375
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.10000000149011612
+      },
+      "width": 140.0
+    },
+    "ORIG EMITTER": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 313.75677490234375,
+      "hide": false,
+      "label": "MASTER",
+      "location": [
+        -233.07264709472656,
+        168.5111846923828
+      ],
+      "params": {},
+      "width": 200.0
+    },
+    "Object ID Set": {
+      "bl_idname": "SvSetDataObjectNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        643.0664672851562,
+        -19.86324691772461
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Objects in mk2": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "TRACER Objects In",
+      "location": [
+        -120.52919006347656,
+        12.237543106079102
+      ],
+      "params": {
+        "groupname": "Group",
+        "objects_local": "['TRACER.001', 'TRACER.002', 'TRACER.003', 'TRACER.004', 'TRACER.005', 'TRACER.006']"
+      },
+      "width": 140.0
+    },
+    "Objects in mk2.001": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -129.2928466796875,
+        145.24560546875
+      ],
+      "params": {
+        "objects_local": "['Circle']"
+      },
+      "width": 140.0
+    },
+    "Particles": {
+      "bl_idname": "SvParticlesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -101.29972839355469,
+        239.9764404296875
+      ],
+      "params": {},
+      "width": 188.95587158203125
+    },
+    "Random Vector MK2": {
+      "bl_idname": "RandomVectorNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -233.37942504882812,
+        -545.9050903320312
+      ],
+      "params": {
+        "count_inner": 6,
+        "scale": 5.0
+      },
+      "width": 140.0
+    },
+    "Scripted Node": {
+      "bl_idname": "SvScriptNode",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "sv_SNGetAllParticles.py",
+      "location": [
+        797.0350341796875,
+        154.23858642578125
+      ],
+      "params": {
+        "button_names": "",
+        "has_buttons": 0,
+        "script_name": "sv_SNGetAllParticles.py",
+        "script_str": "def sv_main(c=[]):\n    in_sockets = [\n       ['v', 'Not working socket', c],\n    ]\n\n    out = []\n    for i in bpy.data.objects:\n        if i.particle_systems:\n            ps = i.particle_systems.active.particles\n            out.append([i2.location[:] for i2 in ps])\n\n    out_sockets = [\n        ['v', 'particles', out]\n    ]\n\n    return in_sockets, out_sockets\n"
+      },
+      "width": 188.95263671875
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1352.2091064453125,
+        201.00819396972656
+      ],
+      "params": {
+        "polygons": "Edges",
+        "slice_check": 0
+      },
+      "width": 140.0
+    },
+    "Vector Math": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "ADD",
+      "location": [
+        515.9993286132812,
+        -207.71810913085938
+      ],
+      "params": {
+        "items_": "ADD",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector Math.001": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "ADD",
+      "location": [
+        110.30619812011719,
+        -417.2705993652344
+      ],
+      "params": {
+        "items_": "ADD",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector Noise": {
+      "bl_idname": "SvNoiseNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        312.6116027832031,
+        -292.2318420410156
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -163.9599609375,
+        -415.79205322265625
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        453.1329040527344,
+        345.869140625
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1792.2938232421875,
+        186.0980987548828
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Scripted Node",
+      "particles",
+      "List Item",
+      "Data"
+    ],
+    [
+      "List Item",
+      "Other",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "List Slice",
+      "Data"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "List Slice",
+      "Stop"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "List Slice.001",
+      "Data"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "List Slice.001",
+      "Stop"
+    ],
+    [
+      "List Slice.001",
+      "Slice",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "List Slice",
+      "Slice",
+      "Viewer Draw.001",
+      "edg_pol"
+    ],
+    [
+      "Objects in mk2.001",
+      "Object",
+      "Particles",
+      "Object"
+    ],
+    [
+      "Particles",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Frame info.001",
+      "Current Frame",
+      "Math",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "Vector in",
+      "X"
+    ],
+    [
+      "Random Vector MK2",
+      "Random",
+      "Vector Math.001",
+      "U"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Vector Math.001",
+      "V"
+    ],
+    [
+      "Vector Math.001",
+      "W",
+      "Vector Noise",
+      "Vertices"
+    ],
+    [
+      "Particles",
+      "Vertices",
+      "Vector Math",
+      "U"
+    ],
+    [
+      "Vector Noise",
+      "Noise V",
+      "Vector Math",
+      "V"
+    ],
+    [
+      "Objects in mk2",
+      "Object",
+      "Object ID Set",
+      "Objects"
+    ],
+    [
+      "Vector Math",
+      "W",
+      "Object ID Set",
+      "values"
+    ]
+  ]
+}

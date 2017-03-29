@@ -1,0 +1,428 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Map Range.001": "Frame.001",
+    "Range Float.001": "Frame.001",
+    "Vector in.003": "Frame.001"
+  },
+  "groups": {},
+  "nodes": {
+    "Easing 0..1": {
+      "bl_idname": "SvEasingNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        863.3997802734375,
+        583.40185546875
+      ],
+      "params": {},
+      "width": 167.19219970703125
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -889.2055053710938,
+        -11.252269744873047
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Frame.001": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 399.9495544433594,
+      "hide": false,
+      "label": "",
+      "location": [
+        195.4283447265625,
+        5.930503845214844
+      ],
+      "params": {},
+      "width": 384.39080810546875
+    },
+    "List Del Levels": {
+      "bl_idname": "ListLevelsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        429.9968566894531,
+        394.6456604003906
+      ],
+      "params": {
+        "Sverch_LisLev": "2"
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -227.2015838623047,
+        177.23178100585938
+      ],
+      "params": {
+        "new_max": 1.0,
+        "old_max": 20.0,
+        "old_min": 0.0
+      },
+      "width": 140.0
+    },
+    "Map Range.001": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        125.27336120605469,
+        -62.98094940185547
+      ],
+      "params": {
+        "new_max": 10.0,
+        "old_max": 20.0,
+        "old_min": 0.0
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -449.20550537109375,
+        -34.23247528076172
+      ],
+      "params": {
+        "items_": "ADD"
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -669.2055053710938,
+        7.044948577880859
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": -28.48999786376953
+      },
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        744.7320556640625,
+        -99.33221435546875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -710.1192626953125,
+        -164.81317138671875
+      ],
+      "params": {
+        "mode": "FRANGE_COUNT"
+      },
+      "width": 140.0
+    },
+    "Range Float.001": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        152.86424255371094,
+        -261.85662841796875
+      ],
+      "params": {
+        "mode": "FRANGE_COUNT"
+      },
+      "width": 140.0
+    },
+    "Vector Evaluate": {
+      "bl_idname": "EvaluateLineNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        234.85186767578125,
+        297.2574462890625
+      ],
+      "params": {
+        "factor_": 0.8600000143051147
+      },
+      "width": 140.0
+    },
+    "Vector Interpolation mk3": {
+      "bl_idname": "SvInterpolationNodeMK3",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        907.20849609375,
+        427.5981750488281
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        51.83234405517578,
+        402.0143127441406
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        42.14484405517578,
+        225.07205200195312
+      ],
+      "params": {
+        "x_": 10.0
+      },
+      "width": 100.0
+    },
+    "Vector in.002": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        775.657470703125,
+        51.860198974609375
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector in.003": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        349.6641845703125,
+        -94.4736557006836
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        947.56884765625,
+        84.00714111328125
+      ],
+      "params": {
+        "activate": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Frame info",
+      "Current Frame",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math",
+      "X"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Math",
+      "Y"
+    ],
+    [
+      "Math",
+      "float",
+      "Map Range.001",
+      "Value"
+    ],
+    [
+      "Map Range.001",
+      "Value",
+      "Vector in.003",
+      "X"
+    ],
+    [
+      "Range Float.001",
+      "Range",
+      "Vector in.003",
+      "Y"
+    ],
+    [
+      "Vector in.003",
+      "Vectors",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector in.002",
+      "Vectors",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw",
+      "matrix"
+    ],
+    [
+      "Math",
+      "float",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Vector Evaluate",
+      "Factor"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Vector Evaluate",
+      "Vertice A"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Vector Evaluate",
+      "Vertice B"
+    ],
+    [
+      "Vector Evaluate",
+      "EvPoint",
+      "List Del Levels",
+      "data"
+    ]
+  ]
+}

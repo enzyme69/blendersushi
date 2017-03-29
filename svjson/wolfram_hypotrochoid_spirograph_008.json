@@ -1,0 +1,230 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Pipe": {
+      "bl_idname": "SvPipeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        386.3865966796875,
+        58.95249557495117
+      ],
+      "params": {
+        "close": 1,
+        "cup_fill": 0,
+        "shape": "Square"
+      },
+      "width": 150.26123046875
+    },
+    "Scripted Node": {
+      "bl_idname": "SvScriptNode",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "spirograph.py",
+      "location": [
+        -257.089111328125,
+        168.77444458007812
+      ],
+      "params": {
+        "button_names": "",
+        "files_popup": "spiral_fib.py",
+        "float_list": [
+          0.0,
+          1.0,
+          0.9199999570846558,
+          1.3999998569488525,
+          0.4099999964237213,
+          9.100000381469727,
+          2.619999885559082,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          11.0,
+          12.0,
+          13.0,
+          14.0,
+          15.0,
+          16.0,
+          17.0,
+          18.0,
+          19.0,
+          20.0,
+          21.0,
+          22.0,
+          23.0,
+          24.0,
+          25.0,
+          26.0,
+          27.0,
+          28.0,
+          29.0,
+          30.0,
+          31.0
+        ],
+        "has_buttons": 0,
+        "int_list": [
+          0,
+          1948,
+          2,
+          24,
+          17,
+          11,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "script_name": "spirograph.py",
+        "script_str": "def sv_main(n=250, t = 2.0, a=5, b=7, c=2.2):\n\n    in_sockets = [\n        ['s', 'Number of points',  n],\n        ['s', 'Scale', t],\n        ['s', 'A', a],\n        ['s', 'B', b],\n        ['s', 'C', c],\n        \n    ]\n\n    from math import sin, cos, radians, pi, sqrt\n    from mathutils import Vector, Euler\n\n    Verts = []\n    verts_new = Verts.append\n\n    for i in range(0, n):\n        theta = i * radians(pi)\n        #theta = i * radians(137.5)\n        \n        \n        #a = c * ((2 * n * h) / (n + 1))\n        #b = c * (((n - 1) * h) / (n + 1))\n        \n        x = (a-b) * cos(theta) + c * cos( ((a/b)-1)  * theta)\n        y = (a-b) * sin(theta) + c * sin( ((a/b)-1)  * theta)\n        \n        verts_new(( t * x, t * y, 0.0 ))\n\n    out_sockets = [\n        ['v', 'Verts', [Verts]]\n    ]\n\n    return in_sockets, out_sockets\n"
+      },
+      "width": 307.3759765625
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        108.70596313476562,
+        199.73062133789062
+      ],
+      "params": {
+        "cicl_check_U": 0,
+        "cicl_check_V": 0,
+        "cup_U": 0,
+        "cup_V": 0,
+        "dir_check": "U_dir",
+        "polygons": "Edges",
+        "slice_check": 0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        406.4013977050781,
+        283.56610107421875
+      ],
+      "params": {
+        "activate": 1,
+        "display_verts": 0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        736.8845825195312,
+        166.33782958984375
+      ],
+      "params": {
+        "activate": 0,
+        "display_edges": 0,
+        "display_verts": 0,
+        "shading": 0
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Scripted Node",
+      "Verts",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Pipe",
+      "Vers"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Pipe",
+      "Edgs"
+    ],
+    [
+      "Pipe",
+      "Vers",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "Pipe",
+      "Pols",
+      "Viewer Draw.001",
+      "edg_pol"
+    ]
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {
+    "TOTEM": "{\"nodes\": {\"Mesh Join\": {\"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"params\": {}, \"label\": \"\", \"bl_idname\": \"SvMeshJoinNode\", \"width\": 140.0, \"location\": [755.2755126953125, 297.2781066894531], \"height\": 100.0, \"hide\": false}, \"List Length\": {\"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"params\": {\"level\": 0}, \"label\": \"\", \"bl_idname\": \"ListLengthNode\", \"width\": 140.0, \"location\": [-839.7308349609375, 157.6669158935547], \"height\": 100.0, \"hide\": false}, \"Vector Rewire\": {\"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"params\": {}, \"label\": \"\", \"bl_idname\": \"SvVectorRewire\", \"width\": 140.0, \"location\": [-205.12176513671875, -4.1791534423828125], \"height\": 100.0, \"hide\": false}, \"Random Num Gen\": {\"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"params\": {\"low_i\": 0, \"high_i\": 2, \"seed\": 85}, \"label\": \"\", \"bl_idname\": \"SvRndNumGen\", \"width\": 140.0, \"location\": [-399.7308349609375, 428.7456970214844], \"height\": 100.0, \"hide\": false}, \"List Item\": {\"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"params\": {\"level\": 1, \"item\": 0}, \"label\": \"\", \"bl_idname\": \"ListItem2Node\", \"width\": 140.0, \"location\": [267.2521667480469, 284.7212829589844], \"height\": 100.0, \"hide\": true}, \"Group Inputs Exp\": {\"color\": [0.8308190107345581, 0.911391019821167, 0.7545620203018188], \"params\": {\"node_kind\": \"outputs\"}, \"outputs\": [[\"Size\", \"StringsSocket\"], [\"Seed\", \"StringsSocket\"]], \"label\": \"\", \"bl_idname\": \"SvGroupInputsNodeExp\", \"width\": 140.0, \"location\": [-1365.58984375, 97.94622039794922], \"height\": 100.0, \"hide\": false}, \"Matrix in\": {\"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"params\": {}, \"label\": \"\", \"bl_idname\": \"MatrixGenNode\", \"width\": 140.0, \"location\": [276.4211120605469, 43.57051467895508], \"height\": 100.0, \"hide\": false}, \"Line\": {\"color\": [0.9200000166893005, 0.9200000166893005, 0.9200000166893005], \"params\": {\"int_\": 10, \"step_\": 2.0}, \"label\": \"\", \"bl_idname\": \"LineNode\", \"width\": 189.04800415039062, \"location\": [-492.98284912109375, -96.799072265625], \"height\": 100.0, \"hide\": false}, \"Group Outputs Exp\": {\"color\": [0.8308190107345581, 0.911391019821167, 0.7545620203018188], \"params\": {\"node_kind\": \"inputs\"}, \"label\": \"\", \"bl_idname\": \"SvGroupOutputsNodeExp\", \"width\": 140.0, \"location\": [942.4917602539062, 285.2151794433594], \"height\": 100.0, \"inputs\": [[\"Item\", \"VerticesSocket\"], [\"Item\", \"StringsSocket\"]], \"hide\": false}, \"Math\": {\"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"params\": {\"items_\": \"-1\"}, \"label\": \"\", \"bl_idname\": \"ScalarMathNode\", \"width\": 140.0, \"location\": [-619.7308349609375, 205.04075622558594], \"height\": 100.0, \"hide\": false}, \"Matrix Apply\": {\"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"params\": {}, \"label\": \"\", \"bl_idname\": \"MatrixApplyNode\", \"width\": 140.0, \"location\": [614.0315551757812, 333.1696472167969], \"height\": 100.0, \"hide\": false}, \"Objects in mk3\": {\"color\": [0.904932975769043, 1.0, 0.883421003818512], \"object_names\": [\"Cube\", \"Cube.001\", \"Cube.002\"], \"params\": {}, \"label\": \"\", \"bl_idname\": \"SvObjectsNodeMK3\", \"width\": 140.0, \"location\": [-1031.24853515625, 16.335025787353516], \"height\": 100.0, \"hide\": false}, \"List Item.001\": {\"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"params\": {\"level\": 1, \"item\": 0}, \"label\": \"\", \"bl_idname\": \"ListItem2Node\", \"width\": 140.0, \"location\": [274.4956359863281, 188.21942138671875], \"height\": 100.0, \"hide\": true}}, \"export_version\": \"0.063\", \"cls_bl_idname\": \"SvGroupNodeMonad_7632396349\", \"bl_idname\": \"SverchGroupTreeType\", \"groups\": {}, \"framed_nodes\": {}, \"update_lists\": [[\"Objects in mk3\", \"Vertices\", \"List Length\", \"Data\"], [\"List Length\", \"Length\", \"Math\", \"X\"], [\"Group Inputs Exp\", \"Size\", \"Random Num Gen\", \"Size\"], [\"Group Inputs Exp\", \"Seed\", \"Random Num Gen\", \"Seed\"], [\"Math\", \"float\", \"Random Num Gen\", \"High\"], [\"Objects in mk3\", \"Vertices\", \"List Item\", \"Data\"], [\"Random Num Gen\", \"Value\", \"List Item\", \"Item\"], [\"Group Inputs Exp\", \"Size\", \"Line\", \"N\\u00ba Vertices\"], [\"Line\", \"Vertices\", \"Vector Rewire\", \"Vectors\"], [\"Vector Rewire\", \"Vectors\", \"Matrix in\", \"Location\"], [\"List Item\", \"Item\", \"Matrix Apply\", \"Vectors\"], [\"Matrix in\", \"Matrix\", \"Matrix Apply\", \"Matrixes\"], [\"Objects in mk3\", \"Polygons\", \"List Item.001\", \"Data\"], [\"Random Num Gen\", \"Value\", \"List Item.001\", \"Item\"], [\"Matrix Apply\", \"Vectors\", \"Mesh Join\", \"Vertices\"], [\"List Item.001\", \"Item\", \"Mesh Join\", \"PolyEdge\"], [\"Mesh Join\", \"Vertices\", \"Group Outputs Exp\", \"Item\"], [\"Mesh Join\", \"PolyEdge\", \"Group Outputs Exp\", \"Item\"]]}"
+  },
+  "nodes": {
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -636.048095703125,
+        -6.533512115478516
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Monad": {
+      "bl_idname": "SvMonadGenericNode",
+      "color": [
+        0.8308190107345581,
+        0.911391019821167,
+        0.7545620203018188
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -688.8078002929688,
+        238.78213500976562
+      ],
+      "params": {
+        "cls_dict": {
+          "cls_bl_idname": "SvGroupNodeMonad_7632396349",
+          "input_template": [
+            [
+              "Size",
+              "StringsSocket",
+              {
+                "prop_name": "size"
+              }
+            ],
+            [
+              "Seed",
+              "StringsSocket",
+              {
+                "prop_name": "seed"
+              }
+            ]
+          ],
+          "output_template": [
+            [
+              "Item",
+              "VerticesSocket"
+            ],
+            [
+              "Item",
+              "StringsSocket"
+            ]
+          ]
+        },
+        "monad": "TOTEM",
+        "seed": 97,
+        "size": 13,
+        "split": 1,
+        "vectorize": 1
+      },
+      "width": 140.0
+    },
+    "Plane": {
+      "bl_idname": "PlaneNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -806.0331420898438,
+        -28.14218521118164
+      ],
+      "params": {
+        "int_X": 7,
+        "int_Y": 7,
+        "step_X": 11.050000190734863,
+        "step_Y": 11.050000190734863
+      },
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1134.0811767578125,
+        275.53076171875
+      ],
+      "params": {
+        "high_i": 15,
+        "low_i": 3,
+        "seed": 35,
+        "size": 49
+      },
+      "width": 140.0
+    },
+    "Range Int": {
+      "bl_idname": "GenListRangeIntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1115.84521484375,
+        47.2850227355957
+      ],
+      "params": {
+        "count_": 49,
+        "mode": "COUNTRANGE",
+        "start_": 159,
+        "stop_": 9
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        626.2821655273438,
+        224.860595703125
+      ],
+      "params": {
+        "display_verts": 0,
+        "shading": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -438.0549011230469,
+        245.2074432373047
+      ],
+      "params": {
+        "activate": 0,
+        "display_edges": 0,
+        "display_verts": 0,
+        "shading": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Random Num Gen",
+      "Value",
+      "Monad",
+      "Size"
+    ],
+    [
+      "Range Int",
+      "Range",
+      "Monad",
+      "Seed"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Monad",
+      "Item",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "Monad",
+      "Item",
+      "Viewer Draw.001",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw.001",
+      "matrix"
+    ]
+  ]
+}

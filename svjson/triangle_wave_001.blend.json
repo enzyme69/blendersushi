@@ -1,0 +1,286 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Box": {
+      "bl_idname": "SvBoxNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        118.44615173339844,
+        119.22355651855469
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Formula": {
+      "bl_idname": "Formula2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -830.6051025390625,
+        -345.9049072265625
+      ],
+      "params": {
+        "formula": "abs((x % 6) - 3)"
+      },
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1264.5986328125,
+        -228.15382385253906
+      ],
+      "params": {
+        "int_": 30
+      },
+      "width": 140.0
+    },
+    "Line": {
+      "bl_idname": "LineNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -540.7466430664062,
+        -61.842018127441406
+      ],
+      "params": {
+        "int_": 37,
+        "step_": 11.889999389648438
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -573.7186889648438,
+        -269.1865234375
+      ],
+      "params": {
+        "new_max": 20.0,
+        "new_min": -20.0,
+        "old_max": 3.0,
+        "old_min": 0.0
+      },
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        142.70596313476562,
+        -127.54582977294922
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1042.7764892578125,
+        -318.17315673828125
+      ],
+      "params": {
+        "mode": "FRANGE",
+        "step_": 1.0
+      },
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -334.7774658203125,
+        -424.51922607421875
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector Math": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "ADD",
+      "location": [
+        -59.656829833984375,
+        -101.7985610961914
+      ],
+      "params": {
+        "items_": "ADD",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -268.5506591796875,
+        -244.56024169921875
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        416.4185791015625,
+        62.31965637207031
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Int",
+      "Integer",
+      "Line",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Range Float",
+      "Step"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Formula",
+      "X"
+    ],
+    [
+      "Formula",
+      "Result",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Line",
+      "Vertices",
+      "Vector Math",
+      "U"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Vector Math",
+      "V"
+    ],
+    [
+      "Vector Math",
+      "W",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Box",
+      "Vers",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Box",
+      "Pols",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw",
+      "matrix"
+    ]
+  ]
+}

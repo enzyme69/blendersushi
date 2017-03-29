@@ -1,0 +1,444 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Circle": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        164.24697875976562,
+        340.0464782714844
+      ],
+      "params": {
+        "degr_": 6.2831854820251465,
+        "mode_": 0,
+        "rad_": 22.739999771118164,
+        "vert_": 7
+      },
+      "width": 140.0
+    },
+    "Circle.001": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -381.6465759277344,
+        33.572265625
+      ],
+      "params": {
+        "rad_": 66.22999572753906,
+        "vert_": 10
+      },
+      "width": 140.0
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -322.4366455078125,
+        -355.8902893066406
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -729.55224609375,
+        -169.4899444580078
+      ],
+      "params": {
+        "int_": 36
+      },
+      "width": 140.0
+    },
+    "List Item": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        924.3411254882812,
+        142.79029846191406
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -52.28428649902344,
+        110.96624755859375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix Apply.001": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        453.58917236328125,
+        194.53244018554688
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        250.31594848632812,
+        11.267120361328125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -69.12162017822266,
+        -208.80335998535156
+      ],
+      "params": {
+        "count_": 50,
+        "mode": "FRANGE_STEP",
+        "start_": 0.0,
+        "step_": 20.0
+      },
+      "width": 140.0
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1189.5126953125,
+        172.64637756347656
+      ],
+      "params": {
+        "cicl_check_V": 1,
+        "dir_check": "V_dir",
+        "polygons": "Edges",
+        "slice_check": 0
+      },
+      "width": 140.0
+    },
+    "UV Connection.001": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        723.8851928710938,
+        554.9955444335938
+      ],
+      "params": {
+        "cicl_check_V": 1,
+        "dir_check": "V_dir",
+        "polygons": "Edges",
+        "slice_check": 0
+      },
+      "width": 140.0
+    },
+    "Vector X | Y | Z MK2": {
+      "bl_idname": "SvAxisInputNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -134.35452270507812,
+        -84.51351165771484
+      ],
+      "params": {
+        "axis_x": "0",
+        "axis_y": "0",
+        "axis_z": "-1"
+      },
+      "width": 137.74981689453125
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        1280.85009765625,
+        685.2388305664062
+      ],
+      "params": {
+        "basemesh_name": "Alpha"
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1019.3206176757812,
+        403.86871337890625
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 192.4398193359375
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1524.3310546875,
+        306.7037353515625
+      ],
+      "params": {
+        "activate": 0,
+        "edge_colors": [
+          0.8989997506141663,
+          0.16682560741901398,
+          0.06674051284790039
+        ]
+      },
+      "width": 192.4398193359375
+    },
+    "Viewer Draw.002": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        951.1636962890625,
+        776.7266845703125
+      ],
+      "params": {
+        "activate": 0,
+        "display_verts": 0
+      },
+      "width": 192.4398193359375
+    }
+  },
+  "update_lists": [
+    [
+      "Frame info",
+      "Current Frame",
+      "Range Float",
+      "Start"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Range Float",
+      "Stop"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Circle.001",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Circle.001",
+      "Vertices",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector X | Y | Z MK2",
+      "Vector",
+      "Matrix in",
+      "Rotation"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Matrix in",
+      "Angle"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Circle",
+      "Edges",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw",
+      "matrix"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Matrix Apply.001",
+      "Vectors"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Matrix Apply.001",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply.001",
+      "Vectors",
+      "UV Connection.001",
+      "vertices"
+    ],
+    [
+      "UV Connection.001",
+      "vertices",
+      "Viewer Draw.002",
+      "vertices"
+    ],
+    [
+      "UV Connection.001",
+      "data",
+      "Viewer Draw.002",
+      "edg_pol"
+    ],
+    [
+      "Matrix Apply.001",
+      "Vectors",
+      "List Item",
+      "Data"
+    ],
+    [
+      "List Item",
+      "Item",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Viewer Draw.001",
+      "edg_pol"
+    ],
+    [
+      "UV Connection.001",
+      "vertices",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "UV Connection.001",
+      "data",
+      "Viewer BMeshMK2",
+      "edges"
+    ]
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Circle": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -296.74688720703125,
+        -157.43214416503906
+      ],
+      "params": {
+        "rad_": 2.049999952316284,
+        "vert_": 8
+      },
+      "width": 140.0
+    },
+    "Circle.001": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -217.00411987304688,
+        84.73544311523438
+      ],
+      "params": {
+        "rad_": 0.43000003695487976,
+        "vert_": 12
+      },
+      "width": 141.365478515625
+    },
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6004599928855896,
+        0.415818989276886,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "Major Radius",
+      "location": [
+        -793.5341186523438,
+        -237.71063232421875
+      ],
+      "params": {
+        "float_": 2.4099998474121094
+      },
+      "width": 140.0
+    },
+    "Float.001": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6004599928855896,
+        0.415818989276886,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "Minor Radius",
+      "location": [
+        -805.6131591796875,
+        -21.653274536132812
+      ],
+      "params": {
+        "float_": 0.5799998641014099
+      },
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6004599928855896,
+        0.415818989276886,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "Major Segment",
+      "location": [
+        -788.3749389648438,
+        -344.4465637207031
+      ],
+      "params": {
+        "int_": 14
+      },
+      "width": 140.0
+    },
+    "Int.001": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6004599928855896,
+        0.415818989276886,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "Minor Segment",
+      "location": [
+        -795.2772216796875,
+        -112.83306884765625
+      ],
+      "params": {
+        "int_": 5
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -400.0887451171875,
+        -465.13885498046875
+      ],
+      "params": {
+        "items_": "DIV",
+        "x": 360.0
+      },
+      "width": 140.0
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        464.3741149902344,
+        62.347721099853516
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        161.38479614257812,
+        -177.1808624267578
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -40.85954666137695,
+        -351.3663024902344
+      ],
+      "params": {
+        "mode": "FRANGE_STEP",
+        "step_": 36.0,
+        "stop_": 316.4700012207031
+      },
+      "width": 140.0
+    },
+    "Rotation": {
+      "bl_idname": "SvRotationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        51.702823638916016,
+        227.27999877929688
+      ],
+      "params": {
+        "mode": "EULER",
+        "x_": 90.0,
+        "y_": 0.0,
+        "z_": 0.0
+      },
+      "width": 140.0
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        681.32763671875,
+        133.42733764648438
+      ],
+      "params": {
+        "cicl_check_U": 1,
+        "cicl_check_V": 1,
+        "dir_check": "U_dir",
+        "polygons": "Pols",
+        "slice_check": 0
+      },
+      "width": 140.0
+    },
+    "Vector X | Y | Z MK2": {
+      "bl_idname": "SvAxisInputNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -122.0621337890625,
+        -251.37774658203125
+      ],
+      "params": {
+        "axis_x": "0",
+        "axis_y": "0"
+      },
+      "width": 139.15460205078125
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        880.2374877929688,
+        87.5691909790039
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Float",
+      "Float",
+      "Circle",
+      "Radius"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Circle",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Math",
+      "Y"
+    ],
+    [
+      "Math",
+      "float",
+      "Range Float",
+      "Step"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Range Float",
+      "Stop"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector X | Y | Z MK2",
+      "Vector",
+      "Matrix in",
+      "Rotation"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Matrix in",
+      "Angle"
+    ],
+    [
+      "Float.001",
+      "Float",
+      "Circle.001",
+      "Radius"
+    ],
+    [
+      "Int.001",
+      "Integer",
+      "Circle.001",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Circle.001",
+      "Vertices",
+      "Rotation",
+      "Vertices"
+    ],
+    [
+      "Rotation",
+      "Vertices",
+      "Matrix Apply",
+      "Vectors"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Matrix Apply",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}
