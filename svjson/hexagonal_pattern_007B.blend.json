@@ -1,0 +1,423 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Float": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Delete Loose": {
+      "bl_idname": "SvDeleteLooseNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2100.135009765625,
+        700.1334228515625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -280.9640197753906,
+        48.707916259765625
+      ],
+      "params": {
+        "float_": 0.0020000000949949026
+      },
+      "width": 140.0
+    },
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 130.2110137939453,
+      "hide": false,
+      "label": "",
+      "location": [
+        -60.49577713012695,
+        56.50309371948242
+      ],
+      "params": {},
+      "width": 199.99998474121094
+    },
+    "KDT Closest Verts": {
+      "bl_idname": "SvKDTreeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        340.3499450683594,
+        450.1282958984375
+      ],
+      "params": {
+        "mode": "FIND_RANGE"
+      },
+      "width": 152.79656982421875
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        662.7904052734375,
+        559.7786254882812
+      ],
+      "params": {
+        "JoinLevel": 2,
+        "mix_check": 0,
+        "wrap_check": 0
+      },
+      "width": 176.07135009765625
+    },
+    "List Join.001": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1571.296142578125,
+        722.4268798828125
+      ],
+      "params": {
+        "mix_check": 0,
+        "wrap_check": 0
+      },
+      "width": 140.0
+    },
+    "List Length": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        640.449951171875,
+        265.7313537597656
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Mask (out)": {
+      "bl_idname": "MaskListNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1820.08154296875,
+        735.6774291992188
+      ],
+      "params": {
+        "Level": 2
+      },
+      "width": 140.0
+    },
+    "List Modifier": {
+      "bl_idname": "SvListModifierNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1322.1219482421875,
+        638.5051879882812
+      ],
+      "params": {
+        "func_": "Mask subset (A in B)",
+        "listify": 1
+      },
+      "width": 174.89532470703125
+    },
+    "List Slice": {
+      "bl_idname": "ListSliceNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        274.44781494140625,
+        -286.9361572265625
+      ],
+      "params": {
+        "level": 1,
+        "stop": 4183
+      },
+      "width": 140.0
+    },
+    "Objects in mk2": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -69.4845962524414,
+        501.384521484375
+      ],
+      "params": {
+        "modifiers": 1,
+        "objects_local": "['Text.001']"
+      },
+      "width": 140.0
+    },
+    "Objects in mk2.001": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -40.17448043823242,
+        -117.83633422851562
+      ],
+      "params": {
+        "modifiers": 1,
+        "objects_local": "['Text']"
+      },
+      "width": 140.0
+    },
+    "Range Int": {
+      "bl_idname": "GenListRangeIntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1077.3626708984375,
+        740.4961547851562
+      ],
+      "params": {
+        "stop_": 11
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1084.6993408203125,
+        40.47505187988281
+      ],
+      "params": {
+        "activate": 1,
+        "display_edges": 1,
+        "display_verts": 0,
+        "edge_colors": [
+          0.841144859790802,
+          0.8989999890327454,
+          0.8273305892944336
+        ]
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.003": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2388.09521484375,
+        584.2896118164062
+      ],
+      "params": {
+        "activate": 0,
+        "display_edges": 1,
+        "display_verts": 1,
+        "shading": 0,
+        "transparant": 0,
+        "vertex_colors": [
+          1.0,
+          0.8967800140380859,
+          0.0
+        ]
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Objects in mk2.001",
+      "Vertices",
+      "List Length",
+      "Data"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Range Int",
+      "Stop"
+    ],
+    [
+      "Objects in mk2.001",
+      "Vertices",
+      "KDT Closest Verts",
+      "Verts"
+    ],
+    [
+      "Objects in mk2",
+      "Vertices",
+      "KDT Closest Verts",
+      "Check Verts"
+    ],
+    [
+      "Float",
+      "Float",
+      "KDT Closest Verts",
+      "radius"
+    ],
+    [
+      "KDT Closest Verts",
+      "grouped .idx",
+      "List Join",
+      "data"
+    ],
+    [
+      "Range Int",
+      "Range",
+      "List Modifier",
+      "Data1"
+    ],
+    [
+      "List Join",
+      "data",
+      "List Modifier",
+      "Data2"
+    ],
+    [
+      "List Modifier",
+      "Result",
+      "List Join.001",
+      "data"
+    ],
+    [
+      "Objects in mk2.001",
+      "Vertices",
+      "List Mask (out)",
+      "data"
+    ],
+    [
+      "List Join.001",
+      "data",
+      "List Mask (out)",
+      "mask"
+    ],
+    [
+      "Objects in mk2.001",
+      "Edges",
+      "List Slice",
+      "Data"
+    ],
+    [
+      "Objects in mk2.001",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "List Slice",
+      "Slice",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "List Mask (out)",
+      "dataFalse",
+      "Delete Loose",
+      "Vertices"
+    ],
+    [
+      "Objects in mk2.001",
+      "Edges",
+      "Delete Loose",
+      "PolyEdge"
+    ],
+    [
+      "Delete Loose",
+      "Vertices",
+      "Viewer Draw.003",
+      "vertices"
+    ],
+    [
+      "Delete Loose",
+      "PolyEdge",
+      "Viewer Draw.003",
+      "edg_pol"
+    ]
+  ]
+}

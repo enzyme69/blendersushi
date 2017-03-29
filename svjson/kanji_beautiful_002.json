@@ -1,0 +1,186 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "List Item": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        30.72170639038086,
+        -33.086402893066406
+      ],
+      "params": {
+        "item": 3,
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Length": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        73.35763549804688,
+        219.7987823486328
+      ],
+      "params": {
+        "level": 0
+      },
+      "width": 140.0
+    },
+    "Objects in mk2": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -410.30523681640625,
+        145.518310546875
+      ],
+      "params": {
+        "objects_local": "['GP_Layer.001']"
+      },
+      "width": 140.0
+    },
+    "Separate Loose Parts": {
+      "bl_idname": "SvSeparateMeshNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -164.99839782714844,
+        159.54957580566406
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        307.275634765625,
+        221.29319763183594
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector Interpolation": {
+      "bl_idname": "SvInterpolationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        254.0586395263672,
+        -55.74956512451172
+      ],
+      "params": {
+        "mode": "SPL",
+        "t_in": 1.0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        489.01165771484375,
+        -28.063507080078125
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Objects in mk2",
+      "Vertices",
+      "Separate Loose Parts",
+      "Vertices"
+    ],
+    [
+      "Objects in mk2",
+      "Edges",
+      "Separate Loose Parts",
+      "Poly Egde"
+    ],
+    [
+      "Separate Loose Parts",
+      "Vertices",
+      "List Item",
+      "Data"
+    ],
+    [
+      "List Item",
+      "Item",
+      "Vector Interpolation",
+      "Vertices"
+    ],
+    [
+      "Separate Loose Parts",
+      "Vertices",
+      "List Length",
+      "Data"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "Vector Interpolation",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ]
+  ]
+}

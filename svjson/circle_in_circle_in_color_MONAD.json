@@ -1,0 +1,331 @@
+{
+  "export_version": "0.064",
+  "framed_nodes": {},
+  "groups": {
+    "CircleInCircle": "{\"export_version\": \"0.064\", \"cls_bl_idname\": \"SvGroupNodeMonad_4781208190\", \"framed_nodes\": {}, \"update_lists\": [[\"Group Inputs Exp\", \"DIVISION\", \"Int\", \"Integer\"], [\"Int\", \"Integer\", \"Math\", \"X\"], [\"Math\", \"float\", \"Float to Int\", \"float\"], [\"Float to Int\", \"int\", \"Random Vector MK2\", \"Count\"], [\"Group Inputs Exp\", \"SeedA\", \"Random Vector MK2\", \"Seed\"], [\"Random Vector MK2\", \"Random\", \"Vector out\", \"Vectors\"], [\"Vector out\", \"Z\", \"Math.003\", \"X\"], [\"Vector out\", \"X\", \"Math.001\", \"X\"], [\"Float to Int\", \"int\", \"Random Num Gen\", \"Size\"], [\"Group Inputs Exp\", \"SeedB\", \"Random Num Gen\", \"Seed\"], [\"Random Num Gen\", \"Value\", \"Color in\", \"H\"], [\"Vector out\", \"Y\", \"Math.002\", \"X\"], [\"Math.001\", \"float\", \"Vector in\", \"X\"], [\"Math.002\", \"float\", \"Vector in\", \"Y\"], [\"Math.003\", \"float\", \"Vector in\", \"Z\"], [\"Float to Int\", \"int\", \"Range Float\", \"Stop\"], [\"Group Inputs Exp\", \"State\", \"Switch\", \"State\"], [\"Vector in\", \"Vectors\", \"Switch\", \"T 0\"], [\"Color in\", \"Colors\", \"Switch\", \"F 0\"], [\"Group Inputs Exp\", \"RadTop\", \"Cylinder\", \"RadTop\"], [\"Group Inputs Exp\", \"RadBot\", \"Cylinder\", \"RadBot\"], [\"Group Inputs Exp\", \"Vertices\", \"Cylinder\", \"Vertices\"], [\"Int\", \"Integer\", \"Cylinder\", \"Subdivisions\"], [\"Cylinder\", \"Vertices\", \"UV Connection\", \"vertices\"], [\"UV Connection\", \"vertices\", \"Group Outputs Exp\", \"vertices\"], [\"UV Connection\", \"data\", \"Group Outputs Exp\", \"data\"], [\"Switch\", \"Out 0\", \"Group Outputs Exp\", \"COLOR\"]], \"nodes\": {\"Math.003\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"ScalarMathNode\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"params\": {\"items_\": \"ABS\"}, \"location\": [844.4602661132812, -121.62110900878906]}, \"Group Outputs Exp\": {\"height\": 100.0, \"color\": [0.8308190107345581, 0.911391019821167, 0.7545620203018188], \"bl_idname\": \"SvGroupOutputsNodeExp\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"inputs\": [[\"vertices\", \"VerticesSocket\"], [\"data\", \"StringsSocket\"], [\"COLOR\", \"VerticesSocket\"]], \"params\": {\"node_kind\": \"inputs\"}, \"location\": [1658.6505126953125, 219.71701049804688]}, \"Group Inputs Exp\": {\"height\": 100.0, \"color\": [0.8308190107345581, 0.911391019821167, 0.7545620203018188], \"bl_idname\": \"SvGroupInputsNodeExp\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"params\": {\"node_kind\": \"outputs\"}, \"outputs\": [[\"DIVISION\", \"StringsSocket\"], [\"Vertices\", \"StringsSocket\"], [\"SeedA\", \"StringsSocket\"], [\"SeedB\", \"StringsSocket\"], [\"State\", \"StringsSocket\"], [\"RadTop\", \"StringsSocket\"], [\"RadBot\", \"StringsSocket\"]], \"location\": [-1068.2872314453125, 68.1249008178711]}, \"Color in\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"SvColorsInNode\", \"width\": 143.5032958984375, \"label\": \"\", \"hide\": false, \"params\": {\"v_\": 1.0, \"h_\": 0.14999999105930328, \"s_\": 1.0, \"selected_mode\": \"HSV\"}, \"location\": [969.8442993164062, -299.2798767089844]}, \"Vector in\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"GenVectorsNode\", \"width\": 100.0, \"label\": \"\", \"hide\": false, \"params\": {}, \"location\": [1088.2598876953125, 15.685099601745605]}, \"Float to Int\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"Float2IntNode\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"params\": {}, \"location\": [5.1875457763671875, -89.35421752929688]}, \"Random Num Gen\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"SvRndNumGen\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"params\": {\"high_f\": 1.0, \"seed\": 52, \"type_selected_mode\": \"Float\"}, \"location\": [418.60504150390625, -420.0096435546875]}, \"Range Float\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"SvGenFloatRange\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"params\": {\"stop_\": 1.0, \"mode\": \"FRANGE_COUNT\"}, \"location\": [362.3577880859375, -191.52947998046875]}, \"Random Vector MK2\": {\"height\": 100.0, \"color\": [0.0, 0.5, 0.5], \"bl_idname\": \"RandomVectorNodeMK2\", \"width\": 181.880615234375, \"label\": \"\", \"hide\": false, \"params\": {\"count_inner\": 8, \"seed\": 193}, \"location\": [302.4912109375, 47.52438735961914]}, \"Int\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"IntegerNode\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"params\": {\"int_\": 8}, \"location\": [-591.556884765625, -85.39997863769531]}, \"Vector out\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"VectorsOutNode\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"params\": {}, \"location\": [620.5558471679688, 57.201622009277344]}, \"Math.002\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"ScalarMathNode\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"params\": {\"items_\": \"ABS\"}, \"location\": [841.5271606445312, -4.934928894042969]}, \"UV Connection\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"LineConnectNodeMK2\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"params\": {\"slice_check\": 1}, \"location\": [229.0264434814453, 311.6055908203125]}, \"Switch\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"SvSwitchNode\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"params\": {\"switch_state\": 0}, \"location\": [1273.136962890625, -16.399307250976562]}, \"Cylinder\": {\"height\": 100.0, \"color\": [0.0, 0.5, 0.5], \"bl_idname\": \"CylinderNode\", \"width\": 173.956298828125, \"label\": \"\", \"hide\": false, \"params\": {\"vert_\": 6, \"Separate\": 1, \"radBot_\": 2.799999952316284, \"radTop_\": 0.4300000071525574, \"subd_\": 4}, \"location\": [-146.8131561279297, 238.26734924316406]}, \"Math\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"ScalarMathNode\", \"width\": 140.0, \"label\": \"\", \"hide\": true, \"params\": {\"items_\": \"ADD\", \"y\": 2.0}, \"location\": [-176.0084228515625, -129.14633178710938]}, \"Math.001\": {\"height\": 100.0, \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"bl_idname\": \"ScalarMathNode\", \"width\": 140.0, \"label\": \"\", \"hide\": false, \"params\": {\"items_\": \"ABS\"}, \"location\": [845.2410888671875, 112.63986206054688]}}, \"groups\": {}, \"bl_idname\": \"SverchGroupTreeType\"}"
+  },
+  "nodes": {
+    "Bricks grid": {
+      "bl_idname": "SvBricksNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        157.59413146972656,
+        57.84108352661133
+      ],
+      "params": {
+        "du_": 1.6100000143051147,
+        "dv_": 0.46000000834465027
+      },
+      "width": 162.22142028808594
+    },
+    "List Length": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        417.333984375,
+        22.92950439453125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        989.7159423828125,
+        -26.62928009033203
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Monad": {
+      "bl_idname": "SvMonadGenericNode",
+      "color": [
+        0.8308190107345581,
+        0.911391019821167,
+        0.7545620203018188
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        779.6442260742188,
+        406.3840026855469
+      ],
+      "params": {
+        "cls_dict": {
+          "cls_bl_idname": "SvGroupNodeMonad_4781208190",
+          "input_template": [
+            [
+              "DIVISION",
+              "StringsSocket",
+              {
+                "prop_name": "int_"
+              }
+            ],
+            [
+              "Vertices",
+              "StringsSocket",
+              {
+                "prop_name": "vert_"
+              }
+            ],
+            [
+              "SeedA",
+              "StringsSocket",
+              {
+                "prop_name": "seed"
+              }
+            ],
+            [
+              "SeedB",
+              "StringsSocket",
+              {
+                "prop_name": "seed2"
+              }
+            ],
+            [
+              "State",
+              "StringsSocket",
+              {
+                "prop_name": "switch_state"
+              }
+            ],
+            [
+              "RadTop",
+              "StringsSocket",
+              {
+                "prop_name": "radTop_"
+              }
+            ],
+            [
+              "RadBot",
+              "StringsSocket",
+              {
+                "prop_name": "radBot_"
+              }
+            ]
+          ],
+          "output_template": [
+            [
+              "vertices",
+              "VerticesSocket"
+            ],
+            [
+              "data",
+              "StringsSocket"
+            ],
+            [
+              "COLOR",
+              "VerticesSocket"
+            ]
+          ]
+        },
+        "int_": 9,
+        "monad": "CircleInCircle",
+        "radBot_": 1.149999976158142,
+        "radTop_": 0.2200000286102295,
+        "seed": 10,
+        "seed2": 24,
+        "split": 0,
+        "switch_state": 0,
+        "vectorize": 0,
+        "vert_": 6
+      },
+      "width": 246.774658203125
+    },
+    "Range Int": {
+      "bl_idname": "GenListRangeIntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        456.287353515625,
+        218.80679321289062
+      ],
+      "params": {
+        "count_": 4,
+        "mode": "COUNTRANGE",
+        "start_": 416,
+        "stop_": 4
+      },
+      "width": 140.0
+    },
+    "Vector Math MK2": {
+      "bl_idname": "SvVectorMathNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        743.791015625,
+        -45.739776611328125
+      ],
+      "params": {
+        "amount": 2.0,
+        "current_op": "SCALAR"
+      },
+      "width": 140.0
+    },
+    "Vertex color new": {
+      "bl_idname": "SvVertexColorNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1579.6766357421875,
+        225.35804748535156
+      ],
+      "params": {
+        "mode": "polygons",
+        "use_active": 0
+      },
+      "width": 140.0
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        1324.526123046875,
+        548.7691040039062
+      ],
+      "params": {
+        "basemesh_name": "Beta",
+        "lp": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "material": "Material.001"
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Bricks grid",
+      "Centers",
+      "List Length",
+      "Data"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Range Int",
+      "Stop"
+    ],
+    [
+      "Range Int",
+      "Range",
+      "Monad",
+      "SeedA"
+    ],
+    [
+      "Range Int",
+      "Range",
+      "Monad",
+      "SeedB"
+    ],
+    [
+      "Bricks grid",
+      "Centers",
+      "Vector Math MK2",
+      "A"
+    ],
+    [
+      "Vector Math MK2",
+      "Out",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Monad",
+      "vertices",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "Monad",
+      "data",
+      "Viewer BMeshMK2",
+      "faces"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer BMeshMK2",
+      "matrix"
+    ],
+    [
+      "Viewer BMeshMK2",
+      "Objects",
+      "Vertex color new",
+      "Object"
+    ],
+    [
+      "Monad",
+      "COLOR",
+      "Vertex color new",
+      "Color"
+    ]
+  ]
+}

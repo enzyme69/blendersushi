@@ -1,0 +1,418 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Circle": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -360.3293762207031,
+        422.71221923828125
+      ],
+      "params": {
+        "degr_": 6.2831854820251465,
+        "mode_": 0,
+        "rad_": 2.799999713897705,
+        "vert_": 12
+      },
+      "width": 140.0
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -568.8931274414062,
+        -246.81771850585938
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1199.6060791015625,
+        -72.18705749511719
+      ],
+      "params": {
+        "int_": 19
+      },
+      "width": 140.0
+    },
+    "Line": {
+      "bl_idname": "LineNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -122.1542739868164,
+        19.627681732177734
+      ],
+      "params": {
+        "int_": 10,
+        "step_": 1.0
+      },
+      "width": 220.23321533203125
+    },
+    "List Item": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        863.063232421875,
+        69.23868560791016
+      ],
+      "params": {
+        "item": 0,
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "List Repeater": {
+      "bl_idname": "ListRepeaterNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        181.31341552734375,
+        391.1476135253906
+      ],
+      "params": {
+        "level": 1,
+        "number": 10,
+        "unwrap": 1
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        157.93954467773438,
+        -245.85568237304688
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": 153.07000732421875
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -313.93426513671875,
+        -258.10205078125
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 6.999999523162842
+      },
+      "width": 205.956298828125
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        657.2276611328125,
+        276.5163269042969
+      ],
+      "params": {},
+      "width": 137.060302734375
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        449.40264892578125,
+        21.17221450805664
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -398.8627624511719,
+        -427.04595947265625
+      ],
+      "params": {
+        "mode": "FRANGE_COUNT",
+        "stop_": 360.0
+      },
+      "width": 140.0
+    },
+    "Vector X | Y | Z MK2": {
+      "bl_idname": "SvAxisInputNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -417.2337951660156,
+        -143.2359161376953
+      ],
+      "params": {
+        "axis_x": "0",
+        "axis_y": "0",
+        "axis_z": "1"
+      },
+      "width": 210.15066528320312
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1451.817138671875,
+        12.340991973876953
+      ],
+      "params": {
+        "activate": 1,
+        "display_verts": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1071.375244140625,
+        502.50518798828125
+      ],
+      "params": {
+        "activate": 1,
+        "display_edges": 1,
+        "display_verts": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Index": {
+      "bl_idname": "IndexViewerNode",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1211.6678466796875,
+        212.9925994873047
+      ],
+      "params": {
+        "activate": 1,
+        "bg_verts_col": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "draw_bg": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Int",
+      "Integer",
+      "Circle",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Line",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Range Float",
+      "Stop"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math",
+      "X"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Math",
+      "Y"
+    ],
+    [
+      "Line",
+      "Vertices",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector X | Y | Z MK2",
+      "Vector",
+      "Matrix in",
+      "Rotation"
+    ],
+    [
+      "Math",
+      "float",
+      "Matrix in",
+      "Angle"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "List Repeater",
+      "Data"
+    ],
+    [
+      "Int",
+      "Integer",
+      "List Repeater",
+      "Number"
+    ],
+    [
+      "List Repeater",
+      "Data",
+      "Matrix Apply",
+      "Vectors"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Matrix Apply",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "List Item",
+      "Data"
+    ],
+    [
+      "List Item",
+      "Item",
+      "Viewer Index",
+      "vertices"
+    ],
+    [
+      "List Repeater",
+      "Data",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw.001",
+      "matrix"
+    ]
+  ]
+}

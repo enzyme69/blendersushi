@@ -1,0 +1,221 @@
+{
+  "export_version": "0.064",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "List Shuffle": {
+      "bl_idname": "ListShuffleNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        394.40496826171875,
+        -201.14373779296875
+      ],
+      "params": {
+        "level": 2,
+        "seed": 185
+      },
+      "width": 140.0
+    },
+    "List Split": {
+      "bl_idname": "SvListSplitNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        624.1625366210938,
+        -43.446407318115234
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -118.04694366455078,
+        174.8773651123047
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Objects in mk3": {
+      "bl_idname": "SvObjectsNodeMK3",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -389.4813232421875,
+        93.52320861816406
+      ],
+      "object_names": [
+        "Curve",
+        "Curve.001",
+        "Curve.002",
+        "Curve.003",
+        "Curve.004",
+        "Curve.005",
+        "Curve.006",
+        "Curve.007"
+      ],
+      "params": {},
+      "width": 176.71688842773438
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        137.21823120117188,
+        -202.89720153808594
+      ],
+      "params": {
+        "count_": 8,
+        "mode": "FRANGE_COUNT",
+        "start_": 0.32999998331069946,
+        "stop_": 1.0
+      },
+      "width": 140.0
+    },
+    "Vertex color new": {
+      "bl_idname": "SvVertexColorNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        822.199462890625,
+        127.34342956542969
+      ],
+      "params": {
+        "mode": "vertices"
+      },
+      "width": 140.0
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        116.46401977539062,
+        146.81004333496094
+      ],
+      "params": {
+        "basemesh_name": "Alpha",
+        "lp": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "material": "sv_material"
+      },
+      "width": 177.66998291015625
+    }
+  },
+  "update_lists": [
+    [
+      "Range Float",
+      "Range",
+      "List Shuffle",
+      "data"
+    ],
+    [
+      "List Shuffle",
+      "data",
+      "List Split",
+      "Data"
+    ],
+    [
+      "Objects in mk3",
+      "Vertices",
+      "Matrix Apply",
+      "Vectors"
+    ],
+    [
+      "Objects in mk3",
+      "Matrixes",
+      "Matrix Apply",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "Objects in mk3",
+      "Polygons",
+      "Viewer BMeshMK2",
+      "faces"
+    ],
+    [
+      "Viewer BMeshMK2",
+      "Objects",
+      "Vertex color new",
+      "Object"
+    ],
+    [
+      "List Split",
+      "Split",
+      "Vertex color new",
+      "Color"
+    ]
+  ]
+}

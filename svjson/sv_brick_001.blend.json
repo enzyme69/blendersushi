@@ -1,0 +1,451 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Rotation": "Frame",
+    "Rotation.001": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Bricks grid": {
+      "bl_idname": "SvBricksNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -446.71221923828125,
+        132.5169219970703
+      ],
+      "params": {
+        "du_": 2.4800000190734863,
+        "dv_": 0.9700000286102295,
+        "rand_seed_": 28,
+        "rdu_": 0.09000000357627869,
+        "rdv_": 0.029999999329447746,
+        "shift_": 0.4399999976158142,
+        "sizeu_": 14.889999389648438,
+        "sizev_": 10.119999885559082,
+        "toothing_": 0.0,
+        "toothing_r_": 0.0
+      },
+      "width": 244.4051513671875
+    },
+    "Centers polygons 3": {
+      "bl_idname": "CentersPolsNodeMK3",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        375.1731262207031,
+        13.93208122253418
+      ],
+      "params": {
+        "Separate": 0
+      },
+      "width": 140.0
+    },
+    "Extrude Separate Faces": {
+      "bl_idname": "SvExtrudeSeparateNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        364.72064208984375,
+        443.0755615234375
+      ],
+      "params": {
+        "height_": 1.46999990940094,
+        "scale_": 0.8799999952316284
+      },
+      "width": 140.0
+    },
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 90.00503540039062,
+      "hide": false,
+      "label": "",
+      "location": [
+        -84.31156921386719,
+        123.52951049804688
+      ],
+      "params": {},
+      "width": 259.500732421875
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        531.3604736328125,
+        -65.48587036132812
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in.001": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1129.425048828125,
+        294.9047546386719
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Polygon Boom": {
+      "bl_idname": "PolygonBoomNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        209.7122802734375,
+        139.62098693847656
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Randomize input vertices": {
+      "bl_idname": "SvRandomizeVerticesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        595.4813842773438,
+        563.4080200195312
+      ],
+      "params": {
+        "random_x_": 0.019999999552965164,
+        "random_y_": 0.019999999552965164,
+        "random_z_": 0.019999999552965164
+      },
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        750.6512451171875,
+        334.43707275390625
+      ],
+      "params": {
+        "count_": 19,
+        "mode": "FRANGE_STEP",
+        "start_": 0.5099999904632568,
+        "step_": 3.130000114440918
+      },
+      "width": 140.0
+    },
+    "Rotation": {
+      "bl_idname": "SvRotationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -36.052486419677734,
+        134.2445068359375
+      ],
+      "params": {
+        "mode": "EULER",
+        "y_": 0.0,
+        "z_": 90.0
+      },
+      "width": 140.0
+    },
+    "Rotation.001": {
+      "bl_idname": "SvRotationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        76.44823455810547,
+        134.24952697753906
+      ],
+      "params": {
+        "mode": "EULER",
+        "x_": 180.0,
+        "y_": 90.0,
+        "z_": 90.0
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        218.95443725585938,
+        -241.04598999023438
+      ],
+      "params": {
+        "x_": 1.5,
+        "y_": 1.5,
+        "z_": 1.5
+      },
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        962.5740356445312,
+        181.83335876464844
+      ],
+      "params": {
+        "x_": 0.29999998211860657,
+        "y_": 0.29999998211860657,
+        "z_": 0.5999999642372131
+      },
+      "width": 100.0
+    },
+    "Vector in.002": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        976.3389892578125,
+        337.9347839355469
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        1296.096923828125,
+        661.36376953125
+      ],
+      "params": {
+        "basemesh_name": "Epsilon",
+        "merge": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        767.276123046875,
+        135.75831604003906
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Bricks grid",
+      "Vertices",
+      "Rotation",
+      "Vertices"
+    ],
+    [
+      "Rotation",
+      "Vertices",
+      "Rotation.001",
+      "Vertices"
+    ],
+    [
+      "Rotation.001",
+      "Vertices",
+      "Polygon Boom",
+      "vertices"
+    ],
+    [
+      "Bricks grid",
+      "Polygons",
+      "Polygon Boom",
+      "edg_pol"
+    ],
+    [
+      "Polygon Boom",
+      "vertices",
+      "Centers polygons 3",
+      "Vertices"
+    ],
+    [
+      "Polygon Boom",
+      "edg_pol",
+      "Centers polygons 3",
+      "Polygons"
+    ],
+    [
+      "Centers polygons 3",
+      "Origins",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Matrix in",
+      "Scale"
+    ],
+    [
+      "Polygon Boom",
+      "vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Polygon Boom",
+      "edg_pol",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw",
+      "matrix"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Vector in.002",
+      "X"
+    ],
+    [
+      "Rotation.001",
+      "Vertices",
+      "Extrude Separate Faces",
+      "Vertices"
+    ],
+    [
+      "Bricks grid",
+      "Polygons",
+      "Extrude Separate Faces",
+      "Polygons"
+    ],
+    [
+      "Extrude Separate Faces",
+      "Vertices",
+      "Randomize input vertices",
+      "Vertices"
+    ],
+    [
+      "Vector in.002",
+      "Vectors",
+      "Matrix in.001",
+      "Location"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Matrix in.001",
+      "Scale"
+    ],
+    [
+      "Randomize input vertices",
+      "Vertices",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "Extrude Separate Faces",
+      "Polygons",
+      "Viewer BMeshMK2",
+      "faces"
+    ],
+    [
+      "Matrix in.001",
+      "Matrix",
+      "Viewer BMeshMK2",
+      "matrix"
+    ]
+  ]
+}

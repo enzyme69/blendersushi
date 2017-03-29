@@ -1,0 +1,653 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Int": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Circle": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -693.6068725585938,
+        122.53870391845703
+      ],
+      "params": {
+        "rad_": 5.710000038146973,
+        "vert_": 25
+      },
+      "width": 140.0
+    },
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 130.43966674804688,
+      "hide": false,
+      "label": "",
+      "location": [
+        0.0,
+        60.0
+      ],
+      "params": {},
+      "width": 200.0
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -70.56411743164062,
+        220.5379638671875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1055.8328857421875,
+        210.43966674804688
+      ],
+      "params": {
+        "int_": 47
+      },
+      "width": 140.0
+    },
+    "Line": {
+      "bl_idname": "LineNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        619.7225341796875,
+        389.3758544921875
+      ],
+      "params": {
+        "step_": 2.0
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1812.36376953125,
+        191.636962890625
+      ],
+      "params": {
+        "clamp": 0,
+        "new_max": 1.0,
+        "new_min": 0.0,
+        "old_max": 1.0,
+        "old_min": -1.0
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        736.4024658203125,
+        203.3182373046875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        150.59942626953125,
+        172.3245849609375
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.10000000149011612
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        927.00390625,
+        165.30850219726562
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 1.0999996662139893
+      },
+      "width": 140.0
+    },
+    "Math.003": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        372.8386535644531,
+        209.61331176757812
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": 0.20000000298023224
+      },
+      "width": 140.0
+    },
+    "Math.004": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        570.7897338867188,
+        187.2416229248047
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 8.0
+      },
+      "width": 140.0
+    },
+    "Math.005": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1172.1273193359375,
+        171.4904327392578
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": 1.8899998664855957
+      },
+      "width": 140.0
+    },
+    "Math.006": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1592.36376953125,
+        235.82798767089844
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": 1.899999976158142
+      },
+      "width": 140.0
+    },
+    "Math.007": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        400.4873962402344,
+        491.90765380859375
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 2.0
+      },
+      "width": 140.0
+    },
+    "Randomize input vertices": {
+      "bl_idname": "SvRandomizeVerticesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        77.73983764648438,
+        -98.44967651367188
+      ],
+      "params": {
+        "random_x_": 1.2599999904632568,
+        "random_y_": 1.1100000143051147,
+        "random_z_": 0.0
+      },
+      "width": 140.0
+    },
+    "Randomize input vertices.001": {
+      "bl_idname": "SvRandomizeVerticesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -133.0107879638672,
+        39.352535247802734
+      ],
+      "params": {
+        "random_x_": 1.0799999237060547,
+        "random_y_": 0.5099999904632568,
+        "random_z_": 0.0
+      },
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        87.6572494506836,
+        455.360595703125
+      ],
+      "params": {
+        "count_": 10,
+        "mode": "FRANGE_COUNT",
+        "stop_": 10.0
+      },
+      "width": 140.0
+    },
+    "Scale": {
+      "bl_idname": "SvScaleNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -242.80758666992188,
+        -137.493896484375
+      ],
+      "params": {
+        "factor_": 4.960000038146973
+      },
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        1.0,
+        0.8993440270423889,
+        0.9742509722709656
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2148.68017578125,
+        201.67385864257812
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector Lerp": {
+      "bl_idname": "SvVectorLerp",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2072.505859375,
+        61.80015563964844
+      ],
+      "params": {
+        "factor_": 1.0,
+        "process_mode": "Lerp"
+      },
+      "width": 140.0
+    },
+    "Vector Math MK2": {
+      "bl_idname": "SvVectorMathNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        866.2733764648438,
+        468.45513916015625
+      ],
+      "params": {
+        "current_op": "ADD"
+      },
+      "width": 140.0
+    },
+    "Vector Noise MK2": {
+      "bl_idname": "SvNoiseNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1094.0706787109375,
+        399.4258728027344
+      ],
+      "params": {
+        "noise_type": "STDPERLIN",
+        "out_mode": "SCALAR",
+        "seed": 44
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        620.4874267578125,
+        568.763671875
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer Draw.002": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2393.193359375,
+        10.607250213623047
+      ],
+      "params": {
+        "activate": 1,
+        "display_verts": 1,
+        "vertex_colors": [
+          0.9480000138282776,
+          0.0,
+          0.10513991117477417
+        ],
+        "vertex_size": 10.0
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Int",
+      "Integer",
+      "Line",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math.007",
+      "X"
+    ],
+    [
+      "Math.007",
+      "float",
+      "Vector in",
+      "X"
+    ],
+    [
+      "Line",
+      "Vertices",
+      "Vector Math MK2",
+      "A"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Vector Math MK2",
+      "B"
+    ],
+    [
+      "Vector Math MK2",
+      "Out",
+      "Vector Noise MK2",
+      "Vertices"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Range Float",
+      "Stop"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math.003",
+      "X"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Math.003",
+      "Y"
+    ],
+    [
+      "Math.003",
+      "float",
+      "Math.004",
+      "X"
+    ],
+    [
+      "Math.004",
+      "float",
+      "Math",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Math.005",
+      "X"
+    ],
+    [
+      "Math.005",
+      "float",
+      "Math.006",
+      "X"
+    ],
+    [
+      "Vector Noise MK2",
+      "Noise S",
+      "Math.006",
+      "Y"
+    ],
+    [
+      "Math.006",
+      "float",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Circle",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Scale",
+      "Vertices"
+    ],
+    [
+      "Scale",
+      "Vertices",
+      "Randomize input vertices",
+      "Vertices"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Randomize input vertices.001",
+      "Vertices"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Vector Lerp",
+      "Factor"
+    ],
+    [
+      "Randomize input vertices.001",
+      "Vertices",
+      "Vector Lerp",
+      "Vertice A"
+    ],
+    [
+      "Randomize input vertices",
+      "Vertices",
+      "Vector Lerp",
+      "Vertice B"
+    ],
+    [
+      "Vector Lerp",
+      "EvPoint",
+      "Viewer Draw.002",
+      "vertices"
+    ],
+    [
+      "Circle",
+      "Edges",
+      "Viewer Draw.002",
+      "edg_pol"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Stethoscope",
+      "Data"
+    ]
+  ]
+}

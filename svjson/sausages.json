@@ -1,0 +1,319 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Int.001": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -628.9443969726562,
+        190.5319366455078
+      ],
+      "params": {
+        "int_": 142
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        185.2635498046875,
+        459.92620849609375
+      ],
+      "params": {
+        "clamp": 1,
+        "new_max": 0.5199999809265137,
+        "new_min": 0.059999994933605194,
+        "old_max": -0.9200001955032349,
+        "old_min": -0.9399999380111694
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -97.629638671875,
+        414.5328063964844
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Objects in mk3": {
+      "bl_idname": "SvObjectsNodeMK3",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -839.0670776367188,
+        25.721839904785156
+      ],
+      "object_names": [
+        "Alpha.0000",
+        "GP_Layer.001"
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -210.357666015625,
+        258.180908203125
+      ],
+      "params": {
+        "count_": 116,
+        "mode": "FRANGE_COUNT",
+        "stop_": 1.0
+      },
+      "width": 140.0
+    },
+    "Range Float.001": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -280.748046875,
+        428.9684753417969
+      ],
+      "params": {
+        "count_": 49,
+        "mode": "FRANGE_STEP",
+        "step_": 1.0
+      },
+      "width": 140.0
+    },
+    "Separate Loose Parts": {
+      "bl_idname": "SvSeparateMeshNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -496.6043395996094,
+        10.40594482421875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Skin Mesher mk1b": {
+      "bl_idname": "SvSkinViewerNodeMK1b",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        749.056396484375,
+        525.1943359375
+      ],
+      "params": {
+        "basemesh_name": "Alpha",
+        "distance_doubles": 0.0,
+        "general_radius_x": 0.24699999392032623,
+        "general_radius_y": 0.24699999392032623,
+        "live_updates": 1
+      },
+      "width": 208.63592529296875
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        249.065673828125,
+        105.22607421875
+      ],
+      "params": {
+        "polygons": "Edges",
+        "slice_check": 0
+      },
+      "width": 140.0
+    },
+    "Vector Interpolation mk3": {
+      "bl_idname": "SvInterpolationNodeMK3",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -55.44681167602539,
+        117.75051879882812
+      ],
+      "params": {
+        "t_in": 0.5299999713897705
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        496.8706970214844,
+        85.0737533569336
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Int.001",
+      "Integer",
+      "Range Float.001",
+      "Stop"
+    ],
+    [
+      "Range Float.001",
+      "Range",
+      "Math",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Int.001",
+      "Integer",
+      "Range Float",
+      "Stop"
+    ],
+    [
+      "Objects in mk3",
+      "Vertices",
+      "Separate Loose Parts",
+      "Vertices"
+    ],
+    [
+      "Objects in mk3",
+      "Edges",
+      "Separate Loose Parts",
+      "Poly Egde"
+    ],
+    [
+      "Separate Loose Parts",
+      "Vertices",
+      "Vector Interpolation mk3",
+      "Vertices"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Vector Interpolation mk3",
+      "Interval"
+    ],
+    [
+      "Vector Interpolation mk3",
+      "Vertices",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Skin Mesher mk1b",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Skin Mesher mk1b",
+      "edges"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Skin Mesher mk1b",
+      "radii_x"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Skin Mesher mk1b",
+      "radii_y"
+    ]
+  ]
+}

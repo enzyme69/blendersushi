@@ -1,0 +1,562 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Float": "Frame",
+    "Vector Math": "Frame",
+    "Vector Math.001": "Frame",
+    "Vector Noise MK2": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        555.3436889648438,
+        255.16912841796875
+      ],
+      "params": {
+        "float_": 0.9100000262260437
+      },
+      "width": 140.0
+    },
+    "Float.001": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        576.3797607421875,
+        440.83648681640625
+      ],
+      "params": {
+        "float_": 0.46000003814697266
+      },
+      "width": 140.0
+    },
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 420.88873291015625,
+      "hide": false,
+      "label": "",
+      "location": [
+        502.2763977050781,
+        559.7196044921875
+      ],
+      "params": {},
+      "width": 692.6846923828125
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1767.866455078125,
+        -213.87899780273438
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Plane": {
+      "bl_idname": "PlaneNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1192.3050537109375,
+        -374.2533874511719
+      ],
+      "params": {
+        "int_X": 5,
+        "int_Y": 5,
+        "step_X": 9.920000076293945,
+        "step_Y": 9.920000076293945
+      },
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -667.6055908203125,
+        -113.46521759033203
+      ],
+      "params": {
+        "high_f": 10.0,
+        "low_f": 2.0,
+        "seed": 29,
+        "size": 25,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Range Int": {
+      "bl_idname": "GenListRangeIntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        32.54350280761719,
+        335.40911865234375
+      ],
+      "params": {
+        "count_": 25,
+        "mode": "COUNTRANGE",
+        "start_": 185
+      },
+      "width": 140.0
+    },
+    "Rounded Box": {
+      "bl_idname": "SvBoxRoundedNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -184.9479522705078,
+        49.08567810058594
+      ],
+      "params": {
+        "arcdiv": 5,
+        "lindiv": 0.0,
+        "odd_axis_align": 0,
+        "radius": 1.0
+      },
+      "width": 168.26010131835938
+    },
+    "Vector Math": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "ADD",
+      "location": [
+        1048.0284423828125,
+        233.15939331054688
+      ],
+      "params": {
+        "items_": "ADD",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector Math.001": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "SCALAR",
+      "location": [
+        812.5676879882812,
+        88.87071228027344
+      ],
+      "params": {
+        "items_": "SCALAR",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector Math.002": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "ADD",
+      "location": [
+        1409.1357421875,
+        -14.056876182556152
+      ],
+      "params": {
+        "items_": "ADD",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector Math.003": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "SCALAR",
+      "location": [
+        1127.1998291015625,
+        232.00430297851562
+      ],
+      "params": {
+        "items_": "SCALAR",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector Math.004": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "SCALAR",
+      "location": [
+        739.5523681640625,
+        353.01336669921875
+      ],
+      "params": {
+        "items_": "SCALAR",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector Math.005": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "ADD",
+      "location": [
+        1923.1204833984375,
+        267.3703308105469
+      ],
+      "params": {
+        "items_": "ADD",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector Noise MK2": {
+      "bl_idname": "SvNoiseNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        591.841064453125,
+        41.290977478027344
+      ],
+      "params": {
+        "noise_type": "STDPERLIN",
+        "seed": 401
+      },
+      "width": 140.0
+    },
+    "Vector Noise MK2.001": {
+      "bl_idname": "SvNoiseNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        477.40423583984375,
+        326.1285400390625
+      ],
+      "params": {
+        "noise_type": "CELLNOISE",
+        "out_mode": "VECTOR",
+        "seed": 248
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -452.38458251953125,
+        -41.055633544921875
+      ],
+      "params": {
+        "x_": 0.0,
+        "y_": 0.0,
+        "z_": 0.0
+      },
+      "width": 100.0
+    },
+    "Vector out": {
+      "bl_idname": "VectorsOutNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        917.4042358398438,
+        302.482666015625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vertex Normal": {
+      "bl_idname": "VectorNormalNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        603.9852294921875,
+        151.5521697998047
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2079.8759765625,
+        27.901140213012695
+      ],
+      "params": {
+        "activate": 0,
+        "display_edges": 0,
+        "display_verts": 0,
+        "shading": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Random Num Gen",
+      "Value",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Rounded Box",
+      "vector_size"
+    ],
+    [
+      "Rounded Box",
+      "Vers",
+      "Vertex Normal",
+      "Vertices"
+    ],
+    [
+      "Rounded Box",
+      "Pols",
+      "Vertex Normal",
+      "Polygons"
+    ],
+    [
+      "Rounded Box",
+      "Vers",
+      "Vector Noise MK2.001",
+      "Vertices"
+    ],
+    [
+      "Range Int",
+      "Range",
+      "Vector Noise MK2.001",
+      "Seed"
+    ],
+    [
+      "Vector Noise MK2.001",
+      "Noise V",
+      "Vector Math.004",
+      "U"
+    ],
+    [
+      "Float.001",
+      "Float",
+      "Vector Math.004",
+      "S"
+    ],
+    [
+      "Vector Math.004",
+      "W",
+      "Vector out",
+      "Vectors"
+    ],
+    [
+      "Vertex Normal",
+      "Normals",
+      "Vector Math.003",
+      "U"
+    ],
+    [
+      "Vector out",
+      "X",
+      "Vector Math.003",
+      "S"
+    ],
+    [
+      "Vector Math.003",
+      "W",
+      "Vector Math.002",
+      "U"
+    ],
+    [
+      "Rounded Box",
+      "Vers",
+      "Vector Math.002",
+      "V"
+    ],
+    [
+      "Rounded Box",
+      "Vers",
+      "Vector Noise MK2",
+      "Vertices"
+    ],
+    [
+      "Range Int",
+      "Range",
+      "Vector Noise MK2",
+      "Seed"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector Noise MK2",
+      "Noise V",
+      "Vector Math.001",
+      "U"
+    ],
+    [
+      "Float",
+      "Float",
+      "Vector Math.001",
+      "S"
+    ],
+    [
+      "Rounded Box",
+      "Vers",
+      "Vector Math",
+      "U"
+    ],
+    [
+      "Vector Math.001",
+      "W",
+      "Vector Math",
+      "V"
+    ],
+    [
+      "Vector Math",
+      "W",
+      "Vector Math.005",
+      "U"
+    ],
+    [
+      "Vector Math.002",
+      "W",
+      "Vector Math.005",
+      "V"
+    ],
+    [
+      "Vector Math.005",
+      "W",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Rounded Box",
+      "Pols",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw",
+      "matrix"
+    ]
+  ]
+}

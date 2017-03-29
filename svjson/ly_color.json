@@ -1,0 +1,316 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "Select part",
+      "location": [
+        -398.86285400390625,
+        -151.58987426757812
+      ],
+      "params": {
+        "int_": 0
+      },
+      "width": 140.0
+    },
+    "List Input": {
+      "bl_idname": "SvListInputNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        262.5898742675781,
+        546.805419921875
+      ],
+      "params": {
+        "int_": 5,
+        "mode": "vector",
+        "v_int": 5,
+        "vector_list": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "width": 274.68670654296875
+    },
+    "List Item": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        118.9533920288086,
+        -105.36795043945312
+      ],
+      "params": {
+        "item": 4,
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Item.001": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        106.30953216552734,
+        64.22600555419922
+      ],
+      "params": {
+        "item": 4,
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Item.002": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        605.04443359375,
+        340.99224853515625
+      ],
+      "params": {
+        "item": 4,
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        217.5373992919922,
+        323.1603088378906
+      ],
+      "params": {
+        "JoinLevel": 2
+      },
+      "width": 140.0
+    },
+    "Objects in mk3": {
+      "bl_idname": "SvObjectsNodeMK3",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -324.6889343261719,
+        209.61549377441406
+      ],
+      "object_names": [
+        "Cube"
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Separate Loose Parts": {
+      "bl_idname": "SvSeparateMeshNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -115.53397369384766,
+        313.8350830078125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vertex color new": {
+      "bl_idname": "SvVertexColorNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1045.04443359375,
+        275.8094482421875
+      ],
+      "params": {
+        "mode": "polygons"
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        499.860107421875,
+        133.7473602294922
+      ],
+      "params": {
+        "activate": 0,
+        "vertex_size": 3.202000141143799
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Objects in mk3",
+      "Vertices",
+      "Separate Loose Parts",
+      "Vertices"
+    ],
+    [
+      "Objects in mk3",
+      "Polygons",
+      "Separate Loose Parts",
+      "Poly Egde"
+    ],
+    [
+      "Separate Loose Parts",
+      "Vertices",
+      "List Item",
+      "Data"
+    ],
+    [
+      "Int",
+      "Integer",
+      "List Item",
+      "Item"
+    ],
+    [
+      "Separate Loose Parts",
+      "Poly Egde idx",
+      "List Join",
+      "data"
+    ],
+    [
+      "List Input",
+      "Vector List",
+      "List Item.002",
+      "Data"
+    ],
+    [
+      "List Join",
+      "data",
+      "List Item.002",
+      "Item"
+    ],
+    [
+      "Objects in mk3",
+      "Object",
+      "Vertex color new",
+      "Object"
+    ],
+    [
+      "List Item.002",
+      "Item",
+      "Vertex color new",
+      "Color"
+    ],
+    [
+      "Separate Loose Parts",
+      "Poly Egde",
+      "List Item.001",
+      "Data"
+    ],
+    [
+      "Int",
+      "Integer",
+      "List Item.001",
+      "Item"
+    ],
+    [
+      "List Item",
+      "Item",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "List Item.001",
+      "Item",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}

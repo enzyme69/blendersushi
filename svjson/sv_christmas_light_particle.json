@@ -1,0 +1,321 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {
+    "Int": "Frame",
+    "List Item": "Frame",
+    "List Item.001": "Frame",
+    "Objects in mk2": "Frame",
+    "Viewer BMeshMK2": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 595.4978637695312,
+      "hide": false,
+      "label": "",
+      "location": [
+        -50.427452087402344,
+        458.0221252441406
+      ],
+      "params": {},
+      "width": 1149.7757568359375
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -547.5327758789062,
+        -22.445632934570312
+      ],
+      "params": {
+        "int_": -1
+      },
+      "width": 140.0
+    },
+    "KDT Closest Edges": {
+      "bl_idname": "SvKDTreeEdgesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1243.8258056640625,
+        393.3992004394531
+      ],
+      "params": {
+        "maxNum": 2,
+        "maxdist": 1.0299999713897705,
+        "skip": 1
+      },
+      "width": 140.0
+    },
+    "List Item": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        45.5455436706543,
+        90.47572326660156
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Item.001": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        33.86982345581055,
+        -110.032470703125
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "Objects in mk2": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -414.19793701171875,
+        -131.27647399902344
+      ],
+      "params": {
+        "modifiers": 1,
+        "objects_local": "['Text.002', 'Text.001', 'Text']",
+        "sort": 0
+      },
+      "width": 140.0
+    },
+    "Particles": {
+      "bl_idname": "SvParticlesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        601.9025268554688,
+        428.34002685546875
+      ],
+      "params": {},
+      "width": 209.17669677734375
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        974.8884887695312,
+        490.1190490722656
+      ],
+      "params": {
+        "dir_check": "U_dir",
+        "polygons": "Edges"
+      },
+      "width": 140.0
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        402.24298095703125,
+        38.33660888671875
+      ],
+      "params": {
+        "basemesh_name": "Alpha",
+        "lp": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "width": 140.0
+    },
+    "Viewer BMeshMK2.001": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        1642.3203125,
+        481.2513427734375
+      ],
+      "params": {
+        "basemesh_name": "Delta",
+        "merge": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1426.012939453125,
+        688.6466674804688
+      ],
+      "params": {
+        "activate": 0,
+        "display_edges": 0
+      },
+      "width": 146.3572998046875
+    }
+  },
+  "update_lists": [
+    [
+      "Objects in mk2",
+      "Vertices",
+      "List Item",
+      "Data"
+    ],
+    [
+      "Int",
+      "Integer",
+      "List Item",
+      "Item"
+    ],
+    [
+      "Objects in mk2",
+      "Polygons",
+      "List Item.001",
+      "Data"
+    ],
+    [
+      "Int",
+      "Integer",
+      "List Item.001",
+      "Item"
+    ],
+    [
+      "List Item",
+      "Item",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "List Item.001",
+      "Item",
+      "Viewer BMeshMK2",
+      "faces"
+    ],
+    [
+      "Viewer BMeshMK2",
+      "Objects",
+      "Particles",
+      "Object"
+    ],
+    [
+      "Particles",
+      "Vertices",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "KDT Closest Edges",
+      "Verts"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "KDT Closest Edges",
+      "Edges",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer BMeshMK2.001",
+      "vertices"
+    ]
+  ]
+}

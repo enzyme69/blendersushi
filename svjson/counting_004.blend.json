@@ -1,0 +1,270 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -499.5566711425781,
+        22.536182403564453
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -522.1317138671875,
+        -183.4598388671875
+      ],
+      "params": {
+        "int_": 10
+      },
+      "width": 140.0
+    },
+    "Object ID Filter": {
+      "bl_idname": "SvFilterObjsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        433.3210144042969,
+        84.25849914550781
+      ],
+      "params": {
+        "formula": "."
+      },
+      "width": 140.0
+    },
+    "Object ID Get": {
+      "bl_idname": "SvGetDataObjectNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        256.0228271484375,
+        81.9407730102539
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Object ID Set MK2": {
+      "bl_idname": "SvSetDataObjectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        638.6055908203125,
+        0.9330339431762695
+      ],
+      "params": {
+        "formula": "modifiers[\"Array\"].count"
+      },
+      "width": 211.6854248046875
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -286.9987487792969,
+        81.00655364990234
+      ],
+      "params": {
+        "high_i": 5
+      },
+      "width": 140.0
+    },
+    "Scripted Node Lite": {
+      "bl_idname": "SvScriptNodeLite",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -60.97766876220703,
+        -134.06814575195312
+      ],
+      "params": {
+        "inject_params": 0,
+        "script_name": "Counting.py",
+        "script_str": "\n\"\"\"   (tripple quote marks to demark the header)\nin maxnumber s default=[[0]] nested=1\nin listnumbers  s  default=[[]] nested=1\nout outnumbers s \nout total s\n\"\"\"\n\n#mystuff = []\n\nblah = []\n\nfor i in range(maxnumber[0]):\n    blah.append(listnumbers.count(i))\n\n    \noutnumbers = [blah]\ntotal = len(listnumbers)"
+      },
+      "snlite_ui": [],
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -54.83863830566406,
+        83.17585754394531
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Stethoscope.001": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        351.092529296875,
+        -149.10755920410156
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Stethoscope.002": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        279.1322326660156,
+        -242.4055938720703
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Frame info",
+      "Current Frame",
+      "Random Num Gen",
+      "Size"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Random Num Gen",
+      "High"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Scripted Node Lite",
+      "maxnumber"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Scripted Node Lite",
+      "listnumbers"
+    ],
+    [
+      "Object ID Get",
+      "Objects",
+      "Object ID Filter",
+      "Objects"
+    ],
+    [
+      "Object ID Filter",
+      "Objects(have)",
+      "Object ID Set MK2",
+      "Objects"
+    ],
+    [
+      "Scripted Node Lite",
+      "outnumbers",
+      "Object ID Set MK2",
+      "values"
+    ],
+    [
+      "Scripted Node Lite",
+      "outnumbers",
+      "Stethoscope.001",
+      "Data"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "Scripted Node Lite",
+      "total",
+      "Stethoscope.002",
+      "Data"
+    ]
+  ]
+}

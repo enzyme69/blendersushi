@@ -1,0 +1,575 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Int": "Frame",
+    "List Del Levels": "Frame.003",
+    "List Flip": "Frame.003",
+    "List Slice": "Frame",
+    "List Sum": "Frame.003",
+    "Math": "Frame",
+    "Math.001": "Frame.003",
+    "Math.002": "Frame.003",
+    "Range Float": "Frame.001",
+    "Scripted Node.001": "Frame.003",
+    "UV Connection.001": "Frame.003",
+    "Vector Interpolation": "Frame.001"
+  },
+  "groups": {},
+  "nodes": {
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 268.98480224609375,
+      "hide": false,
+      "label": "Filter Stroke",
+      "location": [
+        -273.4168395996094,
+        554.7673950195312
+      ],
+      "params": {},
+      "width": 543.9443359375
+    },
+    "Frame.001": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 202.33526611328125,
+      "hide": false,
+      "label": "Resample Stroke",
+      "location": [
+        1507.6807861328125,
+        744.988525390625
+      ],
+      "params": {},
+      "width": 390.76727294921875
+    },
+    "Frame.003": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 348.0135498046875,
+      "hide": false,
+      "label": "",
+      "location": [
+        -137.49700927734375,
+        598.4089965820312
+      ],
+      "params": {},
+      "width": 1599.278564453125
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -228.74974060058594,
+        -586.458984375
+      ],
+      "params": {
+        "int_": 0
+      },
+      "width": 140.0
+    },
+    "List Del Levels": {
+      "bl_idname": "ListLevelsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -310.36846923828125,
+        -128.16070556640625
+      ],
+      "params": {
+        "Sverch_LisLev": "3,4"
+      },
+      "width": 140.0
+    },
+    "List Flip": {
+      "bl_idname": "ListFlipNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1088.9100341796875,
+        58.8917236328125
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Slice": {
+      "bl_idname": "ListSliceNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        115.19461059570312,
+        -507.30682373046875
+      ],
+      "params": {
+        "start": 1,
+        "stop": 2
+      },
+      "width": 140.0
+    },
+    "List Sum": {
+      "bl_idname": "ListSumNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        427.4767761230469,
+        49.13604736328125
+      ],
+      "params": {
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -10.639434814453125,
+        -691.2916259765625
+      ],
+      "params": {
+        "items_": "+1"
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        641.4619750976562,
+        59.60455322265625
+      ],
+      "params": {
+        "items_": "DIV",
+        "x": 1.0
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        868.9100341796875,
+        54.97576904296875
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 1.0
+      },
+      "width": 140.0
+    },
+    "Mesh Join": {
+      "bl_idname": "SvMeshJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1600.75830078125,
+        867.4769287109375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Randomize input vertices": {
+      "bl_idname": "SvRandomizeVerticesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1841.3505859375,
+        943.727783203125
+      ],
+      "params": {
+        "random_x_": 0.0,
+        "random_y_": 0.0,
+        "random_z_": 0.0
+      },
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -982.5700073242188,
+        -708.6532592773438
+      ],
+      "params": {
+        "count_": 51,
+        "mode": "FRANGE",
+        "stop_": 1.0
+      },
+      "width": 140.0
+    },
+    "Scripted Node": {
+      "bl_idname": "SvScriptNode",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "GP_Import",
+      "location": [
+        -979.8090209960938,
+        406.0703430175781
+      ],
+      "params": {
+        "button_names": "",
+        "files_popup": "sv_lang_template.sn",
+        "has_buttons": 0,
+        "int_list": [
+          0,
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "script_name": "GP_Import",
+        "script_str": "def sv_main(a=0):\n\n    in_sockets = [\n        ['s', 'nothing',  a],\n        ]\n\n    if bpy.data.grease_pencil:\n        verts_out = [[[[p.co[:] for p in str.points] for str in gl.active_frame.strokes] for gl in gp.layers] for gp in bpy.data.grease_pencil]\n    else:\n        verts_out = [[]]\n\n    out_sockets = [\n        ['v', 'verts', verts_out]\n    ]\n\n    return in_sockets, out_sockets",
+        "user_name": "templates"
+      },
+      "width": 140.0
+    },
+    "Scripted Node.001": {
+      "bl_idname": "SvScriptNode",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "edge-length.py",
+      "location": [
+        180.9144744873047,
+        -49.26025390625
+      ],
+      "params": {
+        "button_names": "",
+        "files_popup": "edge-length.py",
+        "has_buttons": 0,
+        "script_name": "edge-length.py",
+        "script_str": "import mathutils \nfrom mathutils import Vector\n\n#get length of all edges\n \ndef sv_main(verts=[[]],edges=[[]]):\n \n    # in boilerplate - make your own sockets\n    in_sockets = [\n        ['v', 'Vertices',  verts],\n        ['s', 'Edges',  edges],\n    ]\n    lengths = []\n    for v,es in zip(verts,edges):\n        lens=[]\n        for e0,e1 in es:\n            lens.append((Vector(v[e0])-Vector(v[e1])).length) \n        lengths.append(lens)    \n    \n    out_sockets = [\n        ['s', 'Lengths', lengths],\n    ]\n \n    return in_sockets, out_sockets\n",
+        "user_name": "templates"
+      },
+      "width": 140.0
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1379.39697265625,
+        840.8692626953125
+      ],
+      "params": {
+        "dir_check": "U_dir",
+        "polygons": "Edges"
+      },
+      "width": 140.0
+    },
+    "UV Connection.001": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -70.50698852539062,
+        35.74517822265625
+      ],
+      "params": {
+        "dir_check": "U_dir",
+        "polygons": "Edges",
+        "slice_check": 1
+      },
+      "width": 140.0
+    },
+    "Vector Interpolation": {
+      "bl_idname": "SvInterpolationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -791.802734375,
+        -717.4723510742188
+      ],
+      "params": {
+        "t_in": 0.050000011920928955
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2289.98876953125,
+        973.83740234375
+      ],
+      "params": {
+        "activate": 1,
+        "display_verts": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Scripted Node",
+      "verts",
+      "List Del Levels",
+      "data"
+    ],
+    [
+      "List Del Levels",
+      "data",
+      "UV Connection.001",
+      "vertices"
+    ],
+    [
+      "UV Connection.001",
+      "vertices",
+      "Scripted Node.001",
+      "Vertices"
+    ],
+    [
+      "UV Connection.001",
+      "data",
+      "Scripted Node.001",
+      "Edges"
+    ],
+    [
+      "Scripted Node.001",
+      "Lengths",
+      "List Sum",
+      "Data"
+    ],
+    [
+      "List Sum",
+      "Sum",
+      "Math.001",
+      "Y"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Math.002",
+      "float",
+      "List Flip",
+      "data"
+    ],
+    [
+      "List Flip",
+      "data",
+      "Range Float",
+      "Stop"
+    ],
+    [
+      "Scripted Node",
+      "verts",
+      "Vector Interpolation",
+      "Vertices"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Vector Interpolation",
+      "Interval"
+    ],
+    [
+      "Vector Interpolation",
+      "Vertices",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Mesh Join",
+      "Vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Mesh Join",
+      "PolyEdge"
+    ],
+    [
+      "Mesh Join",
+      "Vertices",
+      "Randomize input vertices",
+      "Vertices"
+    ],
+    [
+      "Randomize input vertices",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Mesh Join",
+      "PolyEdge",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Math",
+      "X"
+    ],
+    [
+      "Scripted Node",
+      "verts",
+      "List Slice",
+      "Data"
+    ],
+    [
+      "Int",
+      "Integer",
+      "List Slice",
+      "Start"
+    ],
+    [
+      "Math",
+      "float",
+      "List Slice",
+      "Stop"
+    ]
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Distance": {
+      "bl_idname": "DistancePPNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        124.17587280273438,
+        -166.14614868164062
+      ],
+      "params": {
+        "Cross_dist": 1
+      },
+      "width": 150.876953125
+    },
+    "List Slice": {
+      "bl_idname": "ListSliceNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        542.57373046875,
+        7.161766052246094
+      ],
+      "params": {
+        "level": 1,
+        "stop": 94
+      },
+      "width": 140.0
+    },
+    "List Sort": {
+      "bl_idname": "ListSortNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        364.390625,
+        -54.98603057861328
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix out": {
+      "bl_idname": "MatrixOutNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -118.74372100830078,
+        -288.83648681640625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Objects in mk3": {
+      "bl_idname": "SvObjectsNodeMK3",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -339.4919128417969,
+        -188.63006591796875
+      ],
+      "object_names": [
+        "Empty"
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Random Vector MK2": {
+      "bl_idname": "RandomVectorNodeMK2",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -243.00396728515625,
+        15.17341423034668
+      ],
+      "params": {
+        "count_inner": 100,
+        "scale": 3.069999933242798,
+        "seed": 75
+      },
+      "width": 140.0
+    },
+    "Randomize input vertices": {
+      "bl_idname": "SvRandomizeVerticesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -37.14616394042969,
+        29.946819305419922
+      ],
+      "params": {
+        "random_seed_": 30,
+        "random_x_": 2.0,
+        "random_y_": 2.0,
+        "random_z_": 2.0
+      },
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        1.0,
+        0.8993440270423889,
+        0.9742509722709656
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        294.1593017578125,
+        -383.6125793457031
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        743.8892211914062,
+        17.002227783203125
+      ],
+      "params": {
+        "polygons": "Edges",
+        "slice_check": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        966.520751953125,
+        74.85488891601562
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Objects in mk3",
+      "Matrixes",
+      "Matrix out",
+      "Matrix"
+    ],
+    [
+      "Matrix out",
+      "Location",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "Random Vector MK2",
+      "Random",
+      "Randomize input vertices",
+      "Vertices"
+    ],
+    [
+      "Randomize input vertices",
+      "Vertices",
+      "Distance",
+      "vertices1"
+    ],
+    [
+      "Matrix out",
+      "Location",
+      "Distance",
+      "vertices2"
+    ],
+    [
+      "Randomize input vertices",
+      "Vertices",
+      "List Sort",
+      "data"
+    ],
+    [
+      "Distance",
+      "distances",
+      "List Sort",
+      "keys"
+    ],
+    [
+      "List Sort",
+      "data",
+      "List Slice",
+      "Data"
+    ],
+    [
+      "List Slice",
+      "Slice",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}

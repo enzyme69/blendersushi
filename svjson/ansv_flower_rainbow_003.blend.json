@@ -1,0 +1,607 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1229.0589599609375,
+        -75.94711303710938
+      ],
+      "params": {
+        "int_": 9
+      },
+      "width": 140.0
+    },
+    "Int.001": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        810.0194091796875,
+        -301.1566467285156
+      ],
+      "params": {
+        "int_": 30
+      },
+      "width": 140.0
+    },
+    "Line": {
+      "bl_idname": "LineNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -442.4171142578125,
+        -43.509620666503906
+      ],
+      "params": {
+        "int_": 8,
+        "step_": 0.7000000476837158
+      },
+      "width": 140.0
+    },
+    "Line.001": {
+      "bl_idname": "LineNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1155.29296875,
+        -120.61280822753906
+      ],
+      "params": {
+        "int_": 18,
+        "step_": 0.01000005379319191
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        994.3331298828125,
+        107.28372192382812
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -815.9789428710938,
+        143.40228271484375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -610.9347534179688,
+        139.32286071777344
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 1.71999990940094
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -390.93475341796875,
+        161.9443359375
+      ],
+      "params": {
+        "items_": "ABS"
+      },
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1838.85498046875,
+        -57.31370544433594
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Mirror": {
+      "bl_idname": "SvMirrorNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        298.1642761230469,
+        314.4408874511719
+      ],
+      "params": {
+        "mode": "AXIS"
+      },
+      "width": 312.16265869140625
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1049.53662109375,
+        141.7484130859375
+      ],
+      "params": {
+        "count_": 8,
+        "mode": "FRANGE_STEP",
+        "step_": 0.4000000059604645
+      },
+      "width": 178.38946533203125
+    },
+    "Range Float.001": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1231.7740478515625,
+        -310.7242736816406
+      ],
+      "params": {
+        "count_": 20,
+        "mode": "FRANGE_STEP",
+        "start_": 0.0,
+        "step_": 12.0,
+        "stop_": 1.0
+      },
+      "width": 140.0
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1213.1357421875,
+        172.1671142578125
+      ],
+      "params": {
+        "dir_check": "V_dir",
+        "polygons": "Pols",
+        "slice_check": 0
+      },
+      "width": 140.0
+    },
+    "Vector Math": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "ADD",
+      "location": [
+        46.87664794921875,
+        198.779541015625
+      ],
+      "params": {
+        "items_": "ADD",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector X | Y | Z MK2": {
+      "bl_idname": "SvAxisInputNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1511.260009765625,
+        -213.804931640625
+      ],
+      "params": {
+        "axis_x": "0",
+        "axis_y": "0"
+      },
+      "width": 153.0250244140625
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -170.93475341796875,
+        133.74859619140625
+      ],
+      "params": {
+        "y_": 0.9600000381469727
+      },
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1573.1990966796875,
+        -78.71904754638672
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector out": {
+      "bl_idname": "VectorsOutNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1362.7164306640625,
+        -88.255615234375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        2337.219482421875,
+        110.85482788085938
+      ],
+      "params": {
+        "basemesh_name": "Alpha",
+        "grouping": 1,
+        "material": "FlowerMat"
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        691.8470458984375,
+        -91.18730163574219
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        795.314697265625,
+        373.5752868652344
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.002": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2079.719970703125,
+        209.16128540039062
+      ],
+      "params": {
+        "activate": 0,
+        "display_verts": 0
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Int.001",
+      "Integer",
+      "Line.001",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Line.001",
+      "Vertices",
+      "Vector out",
+      "Vectors"
+    ],
+    [
+      "Vector out",
+      "X",
+      "Vector in.001",
+      "Z"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Range Float",
+      "Stop"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Math",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Int.001",
+      "Integer",
+      "Range Float.001",
+      "Stop"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector X | Y | Z MK2",
+      "Vector",
+      "Matrix in",
+      "Rotation"
+    ],
+    [
+      "Range Float.001",
+      "Range",
+      "Matrix in",
+      "Angle"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Vector in",
+      "Y"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Line",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Line",
+      "Vertices",
+      "Vector Math",
+      "U"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Vector Math",
+      "V"
+    ],
+    [
+      "Vector Math",
+      "W",
+      "Mirror",
+      "Vertices"
+    ],
+    [
+      "Mirror",
+      "Vertices",
+      "List Join",
+      "data"
+    ],
+    [
+      "Vector Math",
+      "W",
+      "List Join",
+      "data 1"
+    ],
+    [
+      "List Join",
+      "data",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer Draw.002",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Viewer Draw.002",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw.002",
+      "matrix"
+    ],
+    [
+      "Mirror",
+      "Vertices",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "Line",
+      "Edges",
+      "Viewer Draw.001",
+      "edg_pol"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Viewer BMeshMK2",
+      "faces"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer BMeshMK2",
+      "matrix"
+    ],
+    [
+      "Vector Math",
+      "W",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Line",
+      "Edges",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}

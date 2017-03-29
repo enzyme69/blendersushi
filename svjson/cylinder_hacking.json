@@ -1,0 +1,508 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Int": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Bounding box": {
+      "bl_idname": "SvBBoxNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        265.75482177734375,
+        198.46878051757812
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Cylinder": {
+      "bl_idname": "CylinderNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -327.5504455566406,
+        46.32746124267578
+      ],
+      "params": {
+        "cap_": 1,
+        "height_": 3.3499999046325684,
+        "radBot_": 2.0799999237060547,
+        "radTop_": 1.0299999713897705,
+        "subd_": 2,
+        "vert_": 12
+      },
+      "width": 140.0
+    },
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 129.2977294921875,
+      "hide": false,
+      "label": "",
+      "location": [
+        0.0,
+        60.0
+      ],
+      "params": {},
+      "width": 200.0
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -560.2706909179688,
+        -611.2210083007812
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -635.1624755859375,
+        -102.7022705078125
+      ],
+      "params": {
+        "int_": 21
+      },
+      "width": 140.0
+    },
+    "Int.001": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -822.28759765625,
+        -220.4355926513672
+      ],
+      "params": {
+        "int_": 16
+      },
+      "width": 140.0
+    },
+    "Line": {
+      "bl_idname": "LineNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -426.6684265136719,
+        -377.7777404785156
+      ],
+      "params": {
+        "step_": 0.6399999856948853
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1043.42333984375,
+        131.0991973876953
+      ],
+      "params": {
+        "JoinLevel": 2
+      },
+      "width": 140.0
+    },
+    "List Split": {
+      "bl_idname": "SvListSplitNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -96.69136810302734,
+        176.1805419921875
+      ],
+      "params": {
+        "level_unwrap": 1,
+        "split": 12
+      },
+      "width": 140.0
+    },
+    "List Split.001": {
+      "bl_idname": "SvListSplitNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        537.2820434570312,
+        -109.3771743774414
+      ],
+      "params": {
+        "level_unwrap": 1,
+        "split": 1
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -542.6245727539062,
+        -195.08486938476562
+      ],
+      "params": {
+        "items_": "SUB",
+        "x": 2.0,
+        "y": 2.0
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -340.27069091796875,
+        -590.2493896484375
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.019999999552965164
+      },
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -125.43287658691406,
+        -77.35260009765625
+      ],
+      "params": {
+        "high_f": 1.4500000476837158,
+        "low_f": 0.7799999713897705,
+        "seed": 141,
+        "size": 4,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Scale": {
+      "bl_idname": "SvScaleNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        773.5009765625,
+        207.73330688476562
+      ],
+      "params": {
+        "Separate": 0,
+        "factor_": 0.9099999666213989
+      },
+      "width": 140.0
+    },
+    "Vector Math MK2": {
+      "bl_idname": "SvVectorMathNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        47.36170959472656,
+        -398.53985595703125
+      ],
+      "params": {
+        "current_op": "ADD"
+      },
+      "width": 140.0
+    },
+    "Vector Noise MK2": {
+      "bl_idname": "SvNoiseNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        267.3616943359375,
+        -318.61517333984375
+      ],
+      "params": {
+        "out_mode": "SCALAR",
+        "seed": 45
+      },
+      "width": 140.0
+    },
+    "Vector Rewire": {
+      "bl_idname": "SvVectorRewire",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -206.66842651367188,
+        -360.7214660644531
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -120.27069091796875,
+        -543.6458129882812
+      ],
+      "params": {
+        "z_": 2.3399999141693115
+      },
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1287.154541015625,
+        5.915493011474609
+      ],
+      "params": {
+        "display_edges": 0,
+        "display_verts": 0,
+        "shading": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Int.001",
+      "Integer",
+      "Line",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Line",
+      "Vertices",
+      "Vector Rewire",
+      "Vectors"
+    ],
+    [
+      "Int.001",
+      "Integer",
+      "Math",
+      "X"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Cylinder",
+      "Vertices"
+    ],
+    [
+      "Math",
+      "float",
+      "Cylinder",
+      "Subdivisions"
+    ],
+    [
+      "Cylinder",
+      "Vertices",
+      "List Split",
+      "Data"
+    ],
+    [
+      "Int",
+      "Integer",
+      "List Split",
+      "Split"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Vector Rewire",
+      "Vectors",
+      "Vector Math MK2",
+      "A"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Vector Math MK2",
+      "B"
+    ],
+    [
+      "Vector Math MK2",
+      "Out",
+      "Vector Noise MK2",
+      "Vertices"
+    ],
+    [
+      "Vector Noise MK2",
+      "Noise S",
+      "List Split.001",
+      "Data"
+    ],
+    [
+      "List Split",
+      "Split",
+      "Bounding box",
+      "Vertices"
+    ],
+    [
+      "List Split",
+      "Split",
+      "Scale",
+      "Vertices"
+    ],
+    [
+      "Bounding box",
+      "Mean",
+      "Scale",
+      "Center"
+    ],
+    [
+      "List Split.001",
+      "Split",
+      "Scale",
+      "Factor"
+    ],
+    [
+      "Int.001",
+      "Integer",
+      "Random Num Gen",
+      "Size"
+    ],
+    [
+      "Scale",
+      "Vertices",
+      "List Join",
+      "data"
+    ],
+    [
+      "List Join",
+      "data",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Cylinder",
+      "Polygons",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}

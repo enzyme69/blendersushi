@@ -1,0 +1,225 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Circle.001": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        303.3777770996094,
+        61.55168914794922
+      ],
+      "params": {
+        "mode_": 0,
+        "rad_": 3.5799999237060547,
+        "vert_": 12
+      },
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        50.7872314453125,
+        -185.03990173339844
+      ],
+      "params": {
+        "int_": 12
+      },
+      "width": 140.0
+    },
+    "Line": {
+      "bl_idname": "LineNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        730.0877685546875,
+        205.76763916015625
+      ],
+      "params": {
+        "int_": 3
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        488.5855712890625,
+        -195.9307098388672
+      ],
+      "params": {
+        "items_": "DIV",
+        "x": 360.0
+      },
+      "width": 140.0
+    },
+    "Matrix in.001": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        897.8541259765625,
+        42.568321228027344
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        695.2892456054688,
+        -146.00033569335938
+      ],
+      "params": {
+        "count_": 12,
+        "mode": "FRANGE_STEP",
+        "step_": 30.0,
+        "stop_": 330.0
+      },
+      "width": 151.7586669921875
+    },
+    "Vector X | Y | Z MK2.001": {
+      "bl_idname": "SvAxisInputNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        642.0247802734375,
+        -32.618431091308594
+      ],
+      "params": {
+        "axis_x": "0",
+        "axis_y": "0",
+        "axis_z": "1"
+      },
+      "width": 171.50634765625
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1088.419921875,
+        233.6409149169922
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Int",
+      "Integer",
+      "Math",
+      "Y"
+    ],
+    [
+      "Math",
+      "float",
+      "Range Float",
+      "Step"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Range Float",
+      "Stop"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Circle.001",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Circle.001",
+      "Vertices",
+      "Matrix in.001",
+      "Location"
+    ],
+    [
+      "Vector X | Y | Z MK2.001",
+      "Vector",
+      "Matrix in.001",
+      "Rotation"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Matrix in.001",
+      "Angle"
+    ],
+    [
+      "Line",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Line",
+      "Edges",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "Matrix in.001",
+      "Matrix",
+      "Viewer Draw",
+      "matrix"
+    ]
+  ]
+}

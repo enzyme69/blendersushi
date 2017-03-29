@@ -1,0 +1,1789 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Float": "Frame.002",
+    "Float.001": "Frame.001",
+    "Float.002": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Centers polygons 3": {
+      "bl_idname": "CentersPolsNodeMK3",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2157.866943359375,
+        -1275.6541748046875
+      ],
+      "params": {
+        "Separate": 0
+      },
+      "width": 140.0
+    },
+    "Centers polygons 3.001": {
+      "bl_idname": "CentersPolsNodeMK3",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2143.884521484375,
+        -215.7679901123047
+      ],
+      "params": {
+        "Separate": 0
+      },
+      "width": 140.0
+    },
+    "Circle": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2105.454345703125,
+        -730.8849487304688
+      ],
+      "params": {
+        "rad_": 0.10000000149011612,
+        "vert_": 12
+      },
+      "width": 140.0
+    },
+    "Circle.001": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2117.718017578125,
+        -502.07733154296875
+      ],
+      "params": {
+        "rad_": 0.06999999284744263,
+        "vert_": 12
+      },
+      "width": 140.0
+    },
+    "Cylinder": {
+      "bl_idname": "CylinderNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        354.9338684082031,
+        -690.200439453125
+      ],
+      "params": {
+        "cap_": 1,
+        "height_": 0.7399999499320984,
+        "radBot_": 0.04000002518296242,
+        "radTop_": 0.04000002518296242,
+        "subd_": 2,
+        "vert_": 8
+      },
+      "width": 140.0
+    },
+    "Extrude Edges": {
+      "bl_idname": "SvExtrudeEdgesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2504.3837890625,
+        -928.9021606445312
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Extrude Edges.001": {
+      "bl_idname": "SvExtrudeEdgesNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2493.392578125,
+        91.8751220703125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Extrude Separate Faces": {
+      "bl_idname": "SvExtrudeSeparateNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -893.6472778320312,
+        -123.52381134033203
+      ],
+      "params": {
+        "height_": -0.35999995470046997,
+        "scale_": 0.7600000500679016
+      },
+      "width": 224.92095947265625
+    },
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1415.672119140625,
+        -564.08154296875
+      ],
+      "params": {
+        "float_": 0.699999988079071
+      },
+      "width": 140.0
+    },
+    "Float.001": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1444.9776611328125,
+        -419.2318420410156
+      ],
+      "params": {
+        "float_": 1.3600001335144043
+      },
+      "width": 140.0
+    },
+    "Float.002": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1872.3746337890625,
+        -727.6958618164062
+      ],
+      "params": {
+        "float_": 0.10000000149011612
+      },
+      "width": 140.0
+    },
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 129.30413818359375,
+      "hide": false,
+      "label": "",
+      "location": [
+        0.0,
+        60.0
+      ],
+      "params": {},
+      "width": 200.0
+    },
+    "Frame.001": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 129.76815795898438,
+      "hide": false,
+      "label": "",
+      "location": [
+        0.0,
+        60.0
+      ],
+      "params": {},
+      "width": 200.0
+    },
+    "Frame.002": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 129.52264404296875,
+      "hide": false,
+      "label": "",
+      "location": [
+        -35.51469039916992,
+        34.604164123535156
+      ],
+      "params": {},
+      "width": 200.0
+    },
+    "List Item": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -43.0164794921875,
+        -321.03759765625
+      ],
+      "params": {
+        "item": 4,
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "List Item.001": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -28.816844940185547,
+        -507.846923828125
+      ],
+      "params": {
+        "item": 5,
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "List Item.002": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -27.551679611206055,
+        -1061.614013671875
+      ],
+      "params": {
+        "item": 6,
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "List Item.003": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        3.474928855895996,
+        -1228.635986328125
+      ],
+      "params": {
+        "item": 7,
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "List Item.004": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2852.519287109375,
+        -1310.6861572265625
+      ],
+      "params": {
+        "item": 8,
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "List Item.005": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2973.486328125,
+        -1546.7236328125
+      ],
+      "params": {
+        "item": 8,
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "List Item.006": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2908.69189453125,
+        -508.69482421875
+      ],
+      "params": {
+        "item": 8,
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "List Item.007": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2790.66455078125,
+        -297.6947021484375
+      ],
+      "params": {
+        "item": 8,
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        179.36349487304688,
+        -318.884521484375
+      ],
+      "params": {
+        "JoinLevel": 2
+      },
+      "width": 140.0
+    },
+    "List Join.001": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        265.7822570800781,
+        -1081.4178466796875
+      ],
+      "params": {
+        "JoinLevel": 2
+      },
+      "width": 140.0
+    },
+    "List Length": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2396.35107421875,
+        -1540.56494140625
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Length.001": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2350.66455078125,
+        -445.0975341796875
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2609.490234375,
+        -1463.1746826171875
+      ],
+      "params": {
+        "items_": "-1"
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2592.42138671875,
+        -1635.3223876953125
+      ],
+      "params": {
+        "items_": "-1"
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2781.48779296875,
+        -1678.339111328125
+      ],
+      "params": {
+        "items_": "-1"
+      },
+      "width": 140.0
+    },
+    "Math.003": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2559.787353515625,
+        -416.3248291015625
+      ],
+      "params": {
+        "items_": "-1"
+      },
+      "width": 140.0
+    },
+    "Math.004": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2724.04248046875,
+        -594.6539306640625
+      ],
+      "params": {
+        "items_": "-1"
+      },
+      "width": 140.0
+    },
+    "Math.005": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2536.673828125,
+        -575.5958251953125
+      ],
+      "params": {
+        "items_": "-1"
+      },
+      "width": 140.0
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1945.969970703125,
+        -1188.3536376953125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix Apply.001": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1957.60693359375,
+        -212.1817626953125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix Deform": {
+      "bl_idname": "MatrixDeformNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        946.446044921875,
+        -460.5047607421875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix Deform.001": {
+      "bl_idname": "MatrixDeformNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        927.892578125,
+        -1185.5762939453125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        707.453369140625,
+        -1039.985107421875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Mesh Join": {
+      "bl_idname": "SvMeshJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -550.6846313476562,
+        -251.7570037841797
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Plane": {
+      "bl_idname": "PlaneNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1147.63916015625,
+        -208.1634521484375
+      ],
+      "params": {
+        "Center": 1,
+        "int_X": 2,
+        "int_Y": 2,
+        "step_X": 0.7000001668930054,
+        "step_Y": 1.2699989080429077
+      },
+      "width": 140.0
+    },
+    "Recalc normals": {
+      "bl_idname": "SvRecalcNormalsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -185.947998046875,
+        161.5111083984375
+      ],
+      "params": {
+        "invert": 0
+      },
+      "width": 140.0
+    },
+    "Solidify": {
+      "bl_idname": "SvSolidifyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2752.05517578125,
+        -969.69140625
+      ],
+      "params": {
+        "thickness": 0.10000000149011612
+      },
+      "width": 140.0
+    },
+    "Solidify.001": {
+      "bl_idname": "SvSolidifyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2761.461181640625,
+        75.8983154296875
+      ],
+      "params": {
+        "thickness": 0.07000000029802322
+      },
+      "width": 140.0
+    },
+    "Solidify.002": {
+      "bl_idname": "SvSolidifyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -440.8955993652344,
+        80.91349792480469
+      ],
+      "params": {
+        "thickness": -0.019999995827674866
+      },
+      "width": 140.0
+    },
+    "Vector Drop": {
+      "bl_idname": "VectorDropNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        841.9345092773438,
+        -871.684326171875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vector Drop.001": {
+      "bl_idname": "VectorDropNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        3133.251220703125,
+        -953.2039794921875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vector Drop.002": {
+      "bl_idname": "VectorDropNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        3068.456787109375,
+        84.8248291015625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vector Interpolation mk3": {
+      "bl_idname": "SvInterpolationNodeMK3",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        427.7001953125,
+        -369.335693359375
+      ],
+      "params": {
+        "t_in": 0.5
+      },
+      "width": 140.0
+    },
+    "Vector Interpolation mk3.001": {
+      "bl_idname": "SvInterpolationNodeMK3",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        461.24566650390625,
+        -1077.5789794921875
+      ],
+      "params": {
+        "t_in": 0.5
+      },
+      "width": 140.0
+    },
+    "Vector Rewire": {
+      "bl_idname": "SvVectorRewire",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1238.4915771484375,
+        -616.3798217773438
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vector Rewire.001": {
+      "bl_idname": "SvVectorRewire",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        3376.41455078125,
+        -946.2174682617188
+      ],
+      "params": {
+        "selected_mode_to": "Z"
+      },
+      "width": 140.0
+    },
+    "Vector Rewire.002": {
+      "bl_idname": "SvVectorRewire",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        3304.605224609375,
+        76.5882568359375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        695.5911865234375,
+        -931.2142333984375
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        756.4514770507812,
+        -531.6597290039062
+      ],
+      "params": {
+        "y_": 0.17999999225139618,
+        "z_": -0.05000000074505806
+      },
+      "width": 100.0
+    },
+    "Vector in.002": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2966.614501953125,
+        -831.0841674804688
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector in.003": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        655.6069946289062,
+        -1192.7476806640625
+      ],
+      "params": {
+        "x_": 0.0,
+        "y_": -0.14999999105930328,
+        "z_": -0.05000000074505806
+      },
+      "width": 100.0
+    },
+    "Vector in.004": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2901.820068359375,
+        206.94464111328125
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        47.94267272949219,
+        96.6571044921875
+      ],
+      "params": {
+        "activate": 1,
+        "display_verts": 0,
+        "shading": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.002": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1593.88671875,
+        -359.05206298828125
+      ],
+      "params": {
+        "activate": 1,
+        "display_verts": 0,
+        "face_colors": [
+          0.33856722712516785,
+          0.8989999890327454,
+          0.4462803602218628
+        ],
+        "shading": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.003": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1578.7899169921875,
+        -604.3624877929688
+      ],
+      "params": {
+        "activate": 1,
+        "display_verts": 0,
+        "face_colors": [
+          0.4960625171661377,
+          0.8989999890327454,
+          0.49860864877700806
+        ],
+        "shading": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.004": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        3676.809326171875,
+        -1070.288330078125
+      ],
+      "params": {
+        "activate": 1,
+        "display_edges": 1,
+        "display_verts": 0,
+        "face_colors": [
+          0.8989999890327454,
+          0.39813515543937683,
+          0.5737511515617371
+        ],
+        "shading": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.005": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        3652.455322265625,
+        -1392.286376953125
+      ],
+      "params": {
+        "activate": 1,
+        "display_edges": 1,
+        "display_verts": 0,
+        "face_colors": [
+          0.8989999890327454,
+          0.39813515543937683,
+          0.5737511515617371
+        ],
+        "shading": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.006": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        3574.78662109375,
+        -78.490478515625
+      ],
+      "params": {
+        "activate": 1,
+        "display_edges": 1,
+        "display_verts": 0,
+        "face_colors": [
+          0.8989999890327454,
+          0.39813515543937683,
+          0.5737511515617371
+        ],
+        "shading": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.007": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        3610.096923828125,
+        -399.2109375
+      ],
+      "params": {
+        "activate": 1,
+        "display_edges": 1,
+        "display_verts": 0,
+        "face_colors": [
+          0.8989999890327454,
+          0.39813515543937683,
+          0.5737511515617371
+        ],
+        "shading": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Float",
+      "Float",
+      "Cylinder",
+      "Height"
+    ],
+    [
+      "Float",
+      "Float",
+      "Plane",
+      "Step X"
+    ],
+    [
+      "Float.001",
+      "Float",
+      "Plane",
+      "Step Y"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Extrude Separate Faces",
+      "Vertices"
+    ],
+    [
+      "Plane",
+      "Polygons",
+      "Extrude Separate Faces",
+      "Polygons"
+    ],
+    [
+      "Extrude Separate Faces",
+      "Vertices",
+      "Mesh Join",
+      "Vertices"
+    ],
+    [
+      "Extrude Separate Faces",
+      "ExtrudedPolys",
+      "Mesh Join",
+      "PolyEdge"
+    ],
+    [
+      "Mesh Join",
+      "Vertices",
+      "List Item.003",
+      "Data"
+    ],
+    [
+      "Mesh Join",
+      "Vertices",
+      "List Item.002",
+      "Data"
+    ],
+    [
+      "List Item.002",
+      "Item",
+      "List Join.001",
+      "data"
+    ],
+    [
+      "List Item.003",
+      "Item",
+      "List Join.001",
+      "data 1"
+    ],
+    [
+      "List Join.001",
+      "data",
+      "Vector Interpolation mk3.001",
+      "Vertices"
+    ],
+    [
+      "Vector Interpolation mk3.001",
+      "Vertices",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Matrix Deform.001",
+      "Original"
+    ],
+    [
+      "Vector in.003",
+      "Vectors",
+      "Matrix Deform.001",
+      "Location"
+    ],
+    [
+      "Cylinder",
+      "Vertices",
+      "Vector Drop",
+      "Vectors"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Vector Drop",
+      "Matrixes"
+    ],
+    [
+      "Vector Drop",
+      "Vectors",
+      "Vector Rewire",
+      "Vectors"
+    ],
+    [
+      "Vector Rewire",
+      "Vectors",
+      "Matrix Apply",
+      "Vectors"
+    ],
+    [
+      "Matrix Deform.001",
+      "Matrix",
+      "Matrix Apply",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Centers polygons 3",
+      "Vertices"
+    ],
+    [
+      "Cylinder",
+      "Polygons",
+      "Centers polygons 3",
+      "Polygons"
+    ],
+    [
+      "Mesh Join",
+      "Vertices",
+      "List Item",
+      "Data"
+    ],
+    [
+      "Mesh Join",
+      "Vertices",
+      "List Item.001",
+      "Data"
+    ],
+    [
+      "List Item",
+      "Item",
+      "List Join",
+      "data"
+    ],
+    [
+      "List Item.001",
+      "Item",
+      "List Join",
+      "data 1"
+    ],
+    [
+      "List Join",
+      "data",
+      "Vector Interpolation mk3",
+      "Vertices"
+    ],
+    [
+      "Vector Interpolation mk3",
+      "Vertices",
+      "Matrix Deform",
+      "Original"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Matrix Deform",
+      "Location"
+    ],
+    [
+      "Vector Rewire",
+      "Vectors",
+      "Matrix Apply.001",
+      "Vectors"
+    ],
+    [
+      "Matrix Deform",
+      "Matrix",
+      "Matrix Apply.001",
+      "Matrixes"
+    ],
+    [
+      "Matrix Apply.001",
+      "Vectors",
+      "Centers polygons 3.001",
+      "Vertices"
+    ],
+    [
+      "Cylinder",
+      "Polygons",
+      "Centers polygons 3.001",
+      "Polygons"
+    ],
+    [
+      "Centers polygons 3.001",
+      "Origins",
+      "List Length.001",
+      "Data"
+    ],
+    [
+      "List Length.001",
+      "Length",
+      "Math.005",
+      "X"
+    ],
+    [
+      "Centers polygons 3",
+      "Origins",
+      "List Length",
+      "Data"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Float.002",
+      "Float",
+      "Circle",
+      "Radius"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Extrude Edges",
+      "Vertices"
+    ],
+    [
+      "Circle",
+      "Edges",
+      "Extrude Edges",
+      "Edg_Pol"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Extrude Edges",
+      "Matrices"
+    ],
+    [
+      "Float.002",
+      "Float",
+      "Circle.001",
+      "Radius"
+    ],
+    [
+      "Circle.001",
+      "Vertices",
+      "Extrude Edges.001",
+      "Vertices"
+    ],
+    [
+      "Circle.001",
+      "Edges",
+      "Extrude Edges.001",
+      "Edg_Pol"
+    ],
+    [
+      "Circle.001",
+      "Vertices",
+      "Extrude Edges.001",
+      "Matrices"
+    ],
+    [
+      "Extrude Edges.001",
+      "Vertices",
+      "Solidify.001",
+      "vertices"
+    ],
+    [
+      "Extrude Edges.001",
+      "Polygons",
+      "Solidify.001",
+      "polygons"
+    ],
+    [
+      "Solidify.001",
+      "vertices",
+      "Vector Drop.002",
+      "Vectors"
+    ],
+    [
+      "Vector in.004",
+      "Vectors",
+      "Vector Drop.002",
+      "Matrixes"
+    ],
+    [
+      "Vector Drop.002",
+      "Vectors",
+      "Vector Rewire.002",
+      "Vectors"
+    ],
+    [
+      "Extrude Edges",
+      "Vertices",
+      "Solidify",
+      "vertices"
+    ],
+    [
+      "Extrude Edges",
+      "Polygons",
+      "Solidify",
+      "polygons"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Centers polygons 3",
+      "Origins",
+      "List Item.005",
+      "Data"
+    ],
+    [
+      "Math.002",
+      "float",
+      "List Item.005",
+      "Item"
+    ],
+    [
+      "Math.005",
+      "float",
+      "Math.004",
+      "X"
+    ],
+    [
+      "Centers polygons 3.001",
+      "Origins",
+      "List Item.006",
+      "Data"
+    ],
+    [
+      "Math.004",
+      "float",
+      "List Item.006",
+      "Item"
+    ],
+    [
+      "Solidify",
+      "vertices",
+      "Vector Drop.001",
+      "Vectors"
+    ],
+    [
+      "Vector in.002",
+      "Vectors",
+      "Vector Drop.001",
+      "Matrixes"
+    ],
+    [
+      "Vector Drop.001",
+      "Vectors",
+      "Vector Rewire.001",
+      "Vectors"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Math",
+      "X"
+    ],
+    [
+      "Centers polygons 3",
+      "Origins",
+      "List Item.004",
+      "Data"
+    ],
+    [
+      "Math",
+      "float",
+      "List Item.004",
+      "Item"
+    ],
+    [
+      "Vector Rewire.001",
+      "Vectors",
+      "Viewer Draw.004",
+      "vertices"
+    ],
+    [
+      "Solidify",
+      "polygons",
+      "Viewer Draw.004",
+      "edg_pol"
+    ],
+    [
+      "List Item.004",
+      "Item",
+      "Viewer Draw.004",
+      "matrix"
+    ],
+    [
+      "Vector Rewire",
+      "Vectors",
+      "Viewer Draw.003",
+      "vertices"
+    ],
+    [
+      "Cylinder",
+      "Polygons",
+      "Viewer Draw.003",
+      "edg_pol"
+    ],
+    [
+      "Matrix Deform.001",
+      "Matrix",
+      "Viewer Draw.003",
+      "matrix"
+    ],
+    [
+      "Extrude Separate Faces",
+      "Vertices",
+      "Solidify.002",
+      "vertices"
+    ],
+    [
+      "Extrude Separate Faces",
+      "Polygons",
+      "Solidify.002",
+      "polygons"
+    ],
+    [
+      "Solidify.002",
+      "vertices",
+      "Recalc normals",
+      "Vertices"
+    ],
+    [
+      "Solidify.002",
+      "polygons",
+      "Recalc normals",
+      "Polygons"
+    ],
+    [
+      "Recalc normals",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Recalc normals",
+      "Polygons",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "List Length.001",
+      "Length",
+      "Math.003",
+      "X"
+    ],
+    [
+      "Centers polygons 3.001",
+      "Origins",
+      "List Item.007",
+      "Data"
+    ],
+    [
+      "Math.003",
+      "float",
+      "List Item.007",
+      "Item"
+    ],
+    [
+      "Vector Rewire.002",
+      "Vectors",
+      "Viewer Draw.006",
+      "vertices"
+    ],
+    [
+      "Solidify.001",
+      "polygons",
+      "Viewer Draw.006",
+      "edg_pol"
+    ],
+    [
+      "List Item.007",
+      "Item",
+      "Viewer Draw.006",
+      "matrix"
+    ],
+    [
+      "Vector Rewire.001",
+      "Vectors",
+      "Viewer Draw.005",
+      "vertices"
+    ],
+    [
+      "Solidify",
+      "polygons",
+      "Viewer Draw.005",
+      "edg_pol"
+    ],
+    [
+      "List Item.005",
+      "Item",
+      "Viewer Draw.005",
+      "matrix"
+    ],
+    [
+      "Vector Rewire",
+      "Vectors",
+      "Viewer Draw.002",
+      "vertices"
+    ],
+    [
+      "Cylinder",
+      "Polygons",
+      "Viewer Draw.002",
+      "edg_pol"
+    ],
+    [
+      "Matrix Deform",
+      "Matrix",
+      "Viewer Draw.002",
+      "matrix"
+    ],
+    [
+      "Vector Rewire.002",
+      "Vectors",
+      "Viewer Draw.007",
+      "vertices"
+    ],
+    [
+      "Solidify.001",
+      "polygons",
+      "Viewer Draw.007",
+      "edg_pol"
+    ],
+    [
+      "List Item.006",
+      "Item",
+      "Viewer Draw.007",
+      "matrix"
+    ]
+  ]
+}

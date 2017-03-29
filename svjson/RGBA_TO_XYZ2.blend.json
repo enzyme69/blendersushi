@@ -1,0 +1,536 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Int": "Frame",
+    "List Del Levels": "Frame",
+    "List Input": "Frame",
+    "List Join": "Frame",
+    "List Length": "Frame",
+    "List Repeater": "Frame",
+    "Math": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 530.6415405273438,
+      "hide": false,
+      "label": "MASK_OUT",
+      "location": [
+        7.940652847290039,
+        39.311737060546875
+      ],
+      "params": {},
+      "width": 963.3328857421875
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        22.82247543334961,
+        -244.81552124023438
+      ],
+      "params": {
+        "int_": 4
+      },
+      "width": 140.0
+    },
+    "List Del Levels": {
+      "bl_idname": "ListLevelsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        590.5693359375,
+        -214.59829711914062
+      ],
+      "params": {
+        "Sverch_LisLev": "0"
+      },
+      "width": 140.0
+    },
+    "List Input": {
+      "bl_idname": "SvListInputNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        112.17024230957031,
+        -366.93768310546875
+      ],
+      "params": {
+        "int_": 4,
+        "int_list": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        780.083984375,
+        -260.1589050292969
+      ],
+      "params": {
+        "JoinLevel": 2,
+        "mix_check": 0,
+        "wrap_check": 0
+      },
+      "width": 140.0
+    },
+    "List Length": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        16.751100540161133,
+        -80.67024993896484
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Mask (out)": {
+      "bl_idname": "MaskListNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1025.4959716796875,
+        201.40692138671875
+      ],
+      "params": {
+        "Level": 2
+      },
+      "width": 140.0
+    },
+    "List Repeater": {
+      "bl_idname": "ListRepeaterNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        408.19903564453125,
+        -190.20248413085938
+      ],
+      "params": {
+        "level": 0,
+        "unwrap": 1
+      },
+      "width": 140.0
+    },
+    "List Slice": {
+      "bl_idname": "ListSliceNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2135.9580078125,
+        -3.0705413818359375
+      ],
+      "params": {
+        "level": 1,
+        "start": 11,
+        "stop": 2131
+      },
+      "width": 137.060546875
+    },
+    "List Split": {
+      "bl_idname": "SvListSplitNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1253.2261962890625,
+        166.75717163085938
+      ],
+      "params": {
+        "level": 1,
+        "level_unwrap": 1,
+        "split": 3,
+        "unwrap": 1
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        210.8736114501953,
+        -222.6942138671875
+      ],
+      "params": {
+        "items_": "DIV"
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1437.3096923828125,
+        181.98252868652344
+      ],
+      "params": {
+        "items_": "*2",
+        "y": 2.0
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1608.9080810546875,
+        173.44744873046875
+      ],
+      "params": {
+        "items_": "-1",
+        "y": 1.0
+      },
+      "width": 140.0
+    },
+    "Object ID Filter": {
+      "bl_idname": "SvFilterObjsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -320.3388671875,
+        161.69415283203125
+      ],
+      "params": {
+        "formula": "UTAH"
+      },
+      "width": 140.0
+    },
+    "Object ID Get": {
+      "bl_idname": "SvGetDataObjectNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -491.7582092285156,
+        162.81837463378906
+      ],
+      "params": {
+        "Modes": "images"
+      },
+      "width": 140.0
+    },
+    "Object ID Set MK2": {
+      "bl_idname": "SvSetDataObjectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -153.88644409179688,
+        153.95643615722656
+      ],
+      "params": {
+        "formula": "pixels[:]"
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1992.7786865234375,
+        158.2907257080078
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector out": {
+      "bl_idname": "VectorsOutNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1810.8145751953125,
+        150.04644775390625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2294.007080078125,
+        182.5143585205078
+      ],
+      "params": {
+        "activate": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Object ID Get",
+      "Objects",
+      "Object ID Filter",
+      "Objects"
+    ],
+    [
+      "Object ID Filter",
+      "Objects(have)",
+      "Object ID Set MK2",
+      "Objects"
+    ],
+    [
+      "Object ID Set MK2",
+      "outvalues",
+      "List Length",
+      "Data"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Math",
+      "X"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Math",
+      "Y"
+    ],
+    [
+      "List Input",
+      "List",
+      "List Repeater",
+      "Data"
+    ],
+    [
+      "Math",
+      "float",
+      "List Repeater",
+      "Number"
+    ],
+    [
+      "List Repeater",
+      "Data",
+      "List Del Levels",
+      "data"
+    ],
+    [
+      "List Del Levels",
+      "data",
+      "List Join",
+      "data"
+    ],
+    [
+      "Object ID Set MK2",
+      "outvalues",
+      "List Mask (out)",
+      "data"
+    ],
+    [
+      "List Join",
+      "data",
+      "List Mask (out)",
+      "mask"
+    ],
+    [
+      "List Mask (out)",
+      "dataTrue",
+      "List Split",
+      "Data"
+    ],
+    [
+      "List Split",
+      "Split",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Vector out",
+      "Vectors"
+    ],
+    [
+      "Vector out",
+      "X",
+      "Vector in",
+      "X"
+    ],
+    [
+      "Vector out",
+      "Y",
+      "Vector in",
+      "Y"
+    ],
+    [
+      "Vector out",
+      "Z",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "List Slice",
+      "Data"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Viewer Draw",
+      "vertices"
+    ]
+  ]
+}

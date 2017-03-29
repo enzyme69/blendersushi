@@ -1,0 +1,647 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        341.10797119140625,
+        -473.8516845703125
+      ],
+      "params": {
+        "float_": 0.49000000953674316
+      },
+      "width": 140.0
+    },
+    "GRID_0": {
+      "bl_idname": "SvObjectsNodeMK3",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        431.5553894042969,
+        470.1334533691406
+      ],
+      "object_names": [
+        "GRID_0"
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        776.9420166015625,
+        -103.8863525390625
+      ],
+      "params": {
+        "items_": "SINE"
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1417.02783203125,
+        -81.46516418457031
+      ],
+      "params": {
+        "items_": "ABS"
+      },
+      "width": 150.06060791015625
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        770.9747924804688,
+        -241.30494689941406
+      ],
+      "params": {
+        "items_": "COSINE"
+      },
+      "width": 140.0
+    },
+    "Math.004": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        991.8449096679688,
+        -154.72555541992188
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": 4.690000057220459
+      },
+      "width": 140.0
+    },
+    "Math.006": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        572.0328979492188,
+        -152.82669067382812
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 4.690000057220459
+      },
+      "width": 140.0
+    },
+    "Math.007": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        568.42724609375,
+        -319.3694152832031
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 4.690000057220459
+      },
+      "width": 140.0
+    },
+    "Math.008": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1195.529541015625,
+        -86.18392944335938
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 1.0600000619888306
+      },
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -240.1513671875,
+        -129.4990692138672
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in.001": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -593.1646118164062,
+        308.849853515625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Plane": {
+      "bl_idname": "PlaneNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -760.4159545898438,
+        160.9148712158203
+      ],
+      "params": {
+        "int_X": 2,
+        "int_Y": 2,
+        "step_X": 1.0,
+        "step_Y": 1.0
+      },
+      "width": 140.0
+    },
+    "Plane.001": {
+      "bl_idname": "PlaneNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1021.5258178710938,
+        -233.57936096191406
+      ],
+      "params": {
+        "Center": 1,
+        "Separate": 0,
+        "int_X": 50,
+        "int_Y": 50,
+        "step_X": 1.0,
+        "step_Y": 1.0
+      },
+      "width": 140.0
+    },
+    "Scale": {
+      "bl_idname": "SvScaleNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -113.90670776367188,
+        255.05335998535156
+      ],
+      "params": {
+        "factor_": 1.0
+      },
+      "width": 140.0
+    },
+    "Vector Drop": {
+      "bl_idname": "VectorDropNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -370.62091064453125,
+        229.044189453125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vector Lerp": {
+      "bl_idname": "SvVectorLerp",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1674.872314453125,
+        -235.46810913085938
+      ],
+      "params": {
+        "process_mode": "Evaluate"
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -289.6888427734375,
+        369.06549072265625
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1678.080078125,
+        -39.987117767333984
+      ],
+      "params": {
+        "x_": 0.8999999761581421,
+        "y_": 0.5699999928474426,
+        "z_": 1.0
+      },
+      "width": 100.0
+    },
+    "Vector in.002": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1119.0731201171875,
+        -328.880859375
+      ],
+      "params": {
+        "x_": 1.0,
+        "y_": 0.0
+      },
+      "width": 100.0
+    },
+    "Vector in.003": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1114.7333984375,
+        -443.3504333496094
+      ],
+      "params": {
+        "x_": 0.8100000023841858,
+        "y_": 1.0,
+        "z_": 1.3799999952316284
+      },
+      "width": 100.0
+    },
+    "Vector out": {
+      "bl_idname": "VectorsOutNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -283.17596435546875,
+        -278.88568115234375
+      ],
+      "params": {},
+      "width": 214.9581298828125
+    },
+    "Vertex color new": {
+      "bl_idname": "SvVertexColorNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2050.410888671875,
+        83.7860107421875
+      ],
+      "params": {
+        "mode": "polygons"
+      },
+      "width": 185.44189453125
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        124.790283203125,
+        158.38345336914062
+      ],
+      "params": {
+        "basemesh_name": "GRID",
+        "hide": 1,
+        "material": "Material.001",
+        "merge": 1
+      },
+      "width": 148.052490234375
+    },
+    "Viewer Index": {
+      "bl_idname": "IndexViewerNode",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        668.5481567382812,
+        459.51129150390625
+      ],
+      "params": {
+        "activate": 1,
+        "display_face_index": 1,
+        "display_vert_index": 0,
+        "draw_bg": 0,
+        "numid_faces_col": [
+          0.9415614008903503,
+          1.0,
+          0.9920814633369446,
+          1.0
+        ]
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Plane.001",
+      "Vertices",
+      "Vector out",
+      "Vectors"
+    ],
+    [
+      "Vector out",
+      "Y",
+      "Math.007",
+      "X"
+    ],
+    [
+      "Float",
+      "Float",
+      "Math.007",
+      "Y"
+    ],
+    [
+      "Math.007",
+      "float",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Vector out",
+      "X",
+      "Math.006",
+      "X"
+    ],
+    [
+      "Float",
+      "Float",
+      "Math.006",
+      "Y"
+    ],
+    [
+      "Math.006",
+      "float",
+      "Math",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "Math.004",
+      "X"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Math.004",
+      "Y"
+    ],
+    [
+      "Math.004",
+      "float",
+      "Math.008",
+      "X"
+    ],
+    [
+      "Math.008",
+      "float",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Vector Lerp",
+      "Factor"
+    ],
+    [
+      "Vector in.002",
+      "Vectors",
+      "Vector Lerp",
+      "Vertices A"
+    ],
+    [
+      "Vector in.003",
+      "Vectors",
+      "Vector Lerp",
+      "Vertices B"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Vector Drop",
+      "Vectors"
+    ],
+    [
+      "Matrix in.001",
+      "Matrix",
+      "Vector Drop",
+      "Matrixes"
+    ],
+    [
+      "Vector Drop",
+      "Vectors",
+      "Scale",
+      "Vertices"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Scale",
+      "Center"
+    ],
+    [
+      "Plane.001",
+      "Vertices",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Scale",
+      "Vertices",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "Plane",
+      "Polygons",
+      "Viewer BMeshMK2",
+      "faces"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer BMeshMK2",
+      "matrix"
+    ],
+    [
+      "Viewer BMeshMK2",
+      "Objects",
+      "Vertex color new",
+      "Object"
+    ],
+    [
+      "Vector Lerp",
+      "EvPoint",
+      "Vertex color new",
+      "Color"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Vector in.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Vector in.001",
+      "Y"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Vector in.001",
+      "Z"
+    ]
+  ]
+}

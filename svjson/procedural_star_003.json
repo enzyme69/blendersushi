@@ -1,0 +1,446 @@
+{
+  "export_version": "0.064",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Circle": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -113.74609375,
+        -74.61642456054688
+      ],
+      "params": {
+        "rad_": 0.2800000309944153
+      },
+      "width": 140.0
+    },
+    "Float to Int": {
+      "bl_idname": "Float2IntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -298.2928771972656,
+        -20.878307342529297
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -651.928955078125,
+        -97.8586654663086
+      ],
+      "params": {
+        "int_": 5
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1402.011474609375,
+        116.03219604492188
+      ],
+      "params": {
+        "JoinLevel": 2
+      },
+      "width": 140.0
+    },
+    "List Length": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -150.88101196289062,
+        164.07553100585938
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Split": {
+      "bl_idname": "SvListSplitNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        113.90725708007812,
+        123.37629699707031
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Split.001": {
+      "bl_idname": "SvListSplitNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        942.7252197265625,
+        156.06460571289062
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -477.92059326171875,
+        -84.89958953857422
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 2.0
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        284.195068359375,
+        264.1748046875
+      ],
+      "params": {
+        "items_": "MODULO",
+        "y": 2.0
+      },
+      "width": 138.5301513671875
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        722.7252197265625,
+        284.61419677734375
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": 1.309999942779541
+      },
+      "width": 140.0
+    },
+    "Math.003": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        502.7252197265625,
+        281.67010498046875
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 1.5800000429153442
+      },
+      "width": 140.0
+    },
+    "Range Int": {
+      "bl_idname": "GenListRangeIntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        30.122207641601562,
+        323.111572265625
+      ],
+      "params": {
+        "mode": "COUNTRANGE",
+        "start_": 0
+      },
+      "width": 140.0
+    },
+    "Rotation": {
+      "bl_idname": "SvRotationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1888.950927734375,
+        -8.874542236328125
+      ],
+      "params": {
+        "mode": "EULER",
+        "x_": 0.0,
+        "y_": 0.0,
+        "z_": 180.0
+      },
+      "width": 140.0
+    },
+    "Scale": {
+      "bl_idname": "SvScaleNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1186.60107421875,
+        157.78773498535156
+      ],
+      "params": {
+        "Separate": 0,
+        "factor_": 1.4199999570846558
+      },
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1038.403076171875,
+        320.3263244628906
+      ],
+      "params": {
+        "activate": 1,
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector Rewire": {
+      "bl_idname": "SvVectorRewire",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1647.5445556640625,
+        60.3520393371582
+      ],
+      "params": {
+        "selected_mode_to": "Y"
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2161.15234375,
+        -74.32782745361328
+      ],
+      "params": {
+        "activate": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Int",
+      "Integer",
+      "Math",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "Float to Int",
+      "float"
+    ],
+    [
+      "Float to Int",
+      "int",
+      "Circle",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "List Split",
+      "Data"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "List Length",
+      "Data"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Range Int",
+      "Stop"
+    ],
+    [
+      "Range Int",
+      "Range",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math.003",
+      "X"
+    ],
+    [
+      "Math.003",
+      "float",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Math.002",
+      "float",
+      "List Split.001",
+      "Data"
+    ],
+    [
+      "List Split",
+      "Split",
+      "Scale",
+      "Vertices"
+    ],
+    [
+      "List Split.001",
+      "Split",
+      "Scale",
+      "Factor"
+    ],
+    [
+      "Scale",
+      "Vertices",
+      "List Join",
+      "data"
+    ],
+    [
+      "List Join",
+      "data",
+      "Vector Rewire",
+      "Vectors"
+    ],
+    [
+      "Vector Rewire",
+      "Vectors",
+      "Rotation",
+      "Vertices"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "Rotation",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Circle",
+      "Polygons",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}

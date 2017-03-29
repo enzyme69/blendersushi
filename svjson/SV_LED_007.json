@@ -1,0 +1,315 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Distance": {
+      "bl_idname": "DistancePPNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        656.677734375,
+        -45.10527420043945
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Dupli instancer": {
+      "bl_idname": "SvDupliInstancesMK3",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1650.308349609375,
+        199.83172607421875
+      ],
+      "params": {
+        "auto_release": 0,
+        "name_child": "Suzanne",
+        "name_node_generated_parent": "booom"
+      },
+      "width": 169.083984375
+    },
+    "Dupli instancer.001": {
+      "bl_idname": "SvDupliInstancesMK3",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1592.3197021484375,
+        -91.59593963623047
+      ],
+      "params": {
+        "auto_release": 0,
+        "name_child": "Cube.001",
+        "name_node_generated_parent": "booom2"
+      },
+      "width": 161.58251953125
+    },
+    "Formula": {
+      "bl_idname": "Formula2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1080.5435791015625,
+        -135.27304077148438
+      ],
+      "params": {
+        "formula": "x >0.2"
+      },
+      "width": 140.0
+    },
+    "List Mask (out)": {
+      "bl_idname": "MaskListNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1365.801025390625,
+        170.22377014160156
+      ],
+      "params": {
+        "Level": 2
+      },
+      "width": 140.0
+    },
+    "Objects in mk2": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        259.7835693359375,
+        147.45010375976562
+      ],
+      "params": {
+        "objects_local": "['Alpha_0']"
+      },
+      "width": 248.25518798828125
+    },
+    "Objects in mk2.001": {
+      "bl_idname": "ObjectsNodeMK2",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        256.57080078125,
+        -175.6971893310547
+      ],
+      "params": {
+        "modifiers": 1,
+        "objects_local": "['Alpha_0']"
+      },
+      "width": 248.25518798828125
+    },
+    "Plane": {
+      "bl_idname": "PlaneNode",
+      "color": [
+        0.9200000166893005,
+        0.9200000166893005,
+        0.9200000166893005
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -613.1327514648438,
+        87.0274658203125
+      ],
+      "params": {
+        "int_X": 60,
+        "int_Y": 30
+      },
+      "width": 142.3465576171875
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -283.43878173828125,
+        -9.330591201782227
+      ],
+      "params": {
+        "basemesh_name": "Alpha",
+        "lp": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "merge": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -159.32366943359375,
+        352.551025390625
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 140.0
+    },
+    "Viewer text mk2": {
+      "bl_idname": "ViewerNodeTextMK2",
+      "color": [
+        1.0,
+        0.8993440270423889,
+        0.9742509722709656
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        876.3291625976562,
+        -266.78057861328125
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Objects in mk2",
+      "Vertices",
+      "Distance",
+      "vertices1"
+    ],
+    [
+      "Objects in mk2",
+      "Matrixes",
+      "Distance",
+      "matrix1"
+    ],
+    [
+      "Objects in mk2.001",
+      "Vertices",
+      "Distance",
+      "vertices2"
+    ],
+    [
+      "Objects in mk2.001",
+      "Matrixes",
+      "Distance",
+      "matrix2"
+    ],
+    [
+      "Distance",
+      "distances",
+      "Formula",
+      "X"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "List Mask (out)",
+      "data"
+    ],
+    [
+      "Formula",
+      "Result",
+      "List Mask (out)",
+      "mask"
+    ],
+    [
+      "List Mask (out)",
+      "dataFalse",
+      "Dupli instancer.001",
+      "Locations"
+    ],
+    [
+      "Distance",
+      "distances",
+      "Viewer text mk2",
+      "edg_pol"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "List Mask (out)",
+      "dataTrue",
+      "Dupli instancer",
+      "Locations"
+    ]
+  ]
+}

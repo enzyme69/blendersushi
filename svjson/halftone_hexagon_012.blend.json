@@ -1,0 +1,441 @@
+{
+  "export_version": "0.064",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Centers polygons 3": {
+      "bl_idname": "CentersPolsNodeMK3",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -654.399658203125,
+        -197.35525512695312
+      ],
+      "params": {
+        "Separate": 0
+      },
+      "width": 140.0
+    },
+    "Circle": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        341.57257080078125,
+        138.73423767089844
+      ],
+      "params": {
+        "rad_": 0.5400000810623169,
+        "vert_": 12
+      },
+      "width": 140.0
+    },
+    "Image Decompose": {
+      "bl_idname": "SvImageComponentsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1229.1512451171875,
+        -34.56592559814453
+      ],
+      "params": {
+        "filter_mode": 0,
+        "filter_str": "",
+        "image_name": "black_dog_snapshot.png",
+        "loaded": 1,
+        "skip": 4,
+        "xy_spread": 0.19998998939990997
+      },
+      "width": 242.26480102539062
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -20.05126953125,
+        115.87059020996094
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 100.0
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -476.92962646484375,
+        -541.3864135742188
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 100.0
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -343.06451416015625,
+        -100.87702941894531
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 100.0
+      },
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -45.836612701416016,
+        -219.371826171875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Scripted Node": {
+      "bl_idname": "SvScriptNode",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "Text",
+      "location": [
+        -899.4746704101562,
+        -347.33221435546875
+      ],
+      "params": {
+        "button_names": "",
+        "has_buttons": 0,
+        "int_list": [
+          0,
+          1,
+          94,
+          63,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "script_name": "Text",
+        "script_str": "def sv_main(colors=[[]], rows=4, cols=5):\n\n    cols_out = []\n\n    in_sockets = [\n        ['s', 'colors', colors],\n        ['s', 'rows', rows],\n        ['s', 'cols', cols]]\n\n    out_sockets = [\n        ['v', 'cols', cols_out]\n    ]\n\n    if colors and colors[0]:\n        c = colors[0]\n        cout = []\n        for i, item in enumerate(c):\n            if i%cols== 0 or i>((rows-1)*(cols)):\n                continue\n            cout.append(item)\n        cols_out.append(cout)\n\n    return in_sockets, out_sockets\n"
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -251.74835205078125,
+        -414.72442626953125
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector out": {
+      "bl_idname": "VectorsOutNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -688.912353515625,
+        -558.91162109375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vertex color new": {
+      "bl_idname": "SvVertexColorNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        201.8406982421875,
+        317.15570068359375
+      ],
+      "params": {
+        "mode": "vertices",
+        "use_active": 0
+      },
+      "width": 140.0
+    },
+    "Vertex color new.001": {
+      "bl_idname": "SvVertexColorNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1001.2521362304688,
+        -10.440488815307617
+      ],
+      "params": {
+        "mode": "polygons",
+        "use_active": 0
+      },
+      "width": 151.8775634765625
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -200.09373474121094,
+        312.917236328125
+      ],
+      "params": {
+        "basemesh_name": "Beta",
+        "material": "Material.001"
+      },
+      "width": 140.0
+    },
+    "Viewer BMeshMK2.001": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        586.1282958984375,
+        165.86468505859375
+      ],
+      "params": {
+        "basemesh_name": "Halftone",
+        "material": "Material.001",
+        "merge": 1,
+        "select_state_mesh": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Image Decompose",
+      "rgb",
+      "Math",
+      "X"
+    ],
+    [
+      "Image Decompose",
+      "rgb",
+      "Scripted Node",
+      "colors"
+    ],
+    [
+      "Scripted Node",
+      "cols",
+      "Vector out",
+      "Vectors"
+    ],
+    [
+      "Vector out",
+      "X",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Image Decompose",
+      "xya",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "Image Decompose",
+      "polygons",
+      "Viewer BMeshMK2",
+      "faces"
+    ],
+    [
+      "Image Decompose",
+      "xya",
+      "Centers polygons 3",
+      "Vertices"
+    ],
+    [
+      "Image Decompose",
+      "polygons",
+      "Centers polygons 3",
+      "Polygons"
+    ],
+    [
+      "Scripted Node",
+      "cols",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Viewer BMeshMK2",
+      "Objects",
+      "Vertex color new",
+      "Object"
+    ],
+    [
+      "Math",
+      "float",
+      "Vertex color new",
+      "Color"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Vector in",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Vector in",
+      "Y"
+    ],
+    [
+      "Centers polygons 3",
+      "Origins",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Matrix in",
+      "Scale"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Viewer BMeshMK2.001",
+      "vertices"
+    ],
+    [
+      "Circle",
+      "Polygons",
+      "Viewer BMeshMK2.001",
+      "faces"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer BMeshMK2.001",
+      "matrix"
+    ],
+    [
+      "Viewer BMeshMK2.001",
+      "Objects",
+      "Vertex color new.001",
+      "Object"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Vertex color new.001",
+      "Color"
+    ]
+  ]
+}

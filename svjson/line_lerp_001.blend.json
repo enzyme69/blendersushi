@@ -1,0 +1,159 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Line": {
+      "bl_idname": "LineNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -524.375732421875,
+        -75.11068725585938
+      ],
+      "params": {
+        "int_": 8
+      },
+      "width": 138.74234008789062
+    },
+    "Move": {
+      "bl_idname": "VectorMoveNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -197.8708038330078,
+        119.67579650878906
+      ],
+      "params": {
+        "mult_": 1.0
+      },
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        59.09121322631836,
+        235.31495666503906
+      ],
+      "params": {
+        "mode": "FRANGE_COUNT",
+        "stop_": 1.0900001525878906
+      },
+      "width": 140.0
+    },
+    "Vector Lerp": {
+      "bl_idname": "SvVectorLerp",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        272.1354064941406,
+        125.41790771484375
+      ],
+      "params": {
+        "factor_": 0.7599999904632568,
+        "process_mode": "Evaluate"
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -500.8864440917969,
+        77.18636322021484
+      ],
+      "params": {
+        "y_": 22.229999542236328
+      },
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        515.3522338867188,
+        102.31910705566406
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Line",
+      "Vertices",
+      "Move",
+      "vertices"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Move",
+      "vectors"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Vector Lerp",
+      "Factor"
+    ],
+    [
+      "Move",
+      "vertices",
+      "Vector Lerp",
+      "Vertice A"
+    ],
+    [
+      "Line",
+      "Vertices",
+      "Vector Lerp",
+      "Vertice B"
+    ],
+    [
+      "Vector Lerp",
+      "EvPoint",
+      "Viewer Draw",
+      "vertices"
+    ]
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Object ID Set MK2.003": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 182.32342529296875,
+      "hide": false,
+      "label": "",
+      "location": [
+        -772.6260986328125,
+        81.39901733398438
+      ],
+      "params": {},
+      "width": 236.62124633789062
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -646.59716796875,
+        -232.50283813476562
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Length": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -360.86572265625,
+        -74.22770690917969
+      ],
+      "params": {},
+      "width": 151.83685302734375
+    },
+    "Object ID Filter": {
+      "bl_idname": "SvFilterObjsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1134.268310546875,
+        94.69401550292969
+      ],
+      "params": {
+        "formula": "Armature"
+      },
+      "width": 140.0
+    },
+    "Object ID Get": {
+      "bl_idname": "SvGetDataObjectNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1375.40478515625,
+        50.990325927734375
+      ],
+      "params": {
+        "Types": "ARMATURE"
+      },
+      "width": 165.55490112304688
+    },
+    "Object ID Set MK2": {
+      "bl_idname": "SvSetDataObjectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -914.9498291015625,
+        65.66419982910156
+      ],
+      "params": {
+        "formula": "pose.bones[:]"
+      },
+      "width": 176.62127685546875
+    },
+    "Object ID Set MK2.001": {
+      "bl_idname": "SvSetDataObjectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        739.23388671875,
+        -163.8273468017578
+      ],
+      "params": {
+        "formula": "scale"
+      },
+      "width": 176.62127685546875
+    },
+    "Object ID Set MK2.002": {
+      "bl_idname": "SvSetDataObjectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        727.845703125,
+        -22.728355407714844
+      ],
+      "params": {
+        "formula": "rotation_euler"
+      },
+      "width": 176.62127685546875
+    },
+    "Object ID Set MK2.003": {
+      "bl_idname": "SvSetDataObjectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        445.6529235839844,
+        301.9244079589844
+      ],
+      "params": {
+        "formula": "rotation_mode = 'XYZ'"
+      },
+      "width": 176.62127685546875
+    },
+    "Object ID Set MK2.004": {
+      "bl_idname": "SvSetDataObjectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        716.5348510742188,
+        110.4701919555664
+      ],
+      "params": {
+        "formula": "location"
+      },
+      "width": 176.62127685546875
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        256.0876159667969,
+        -322.3324279785156
+      ],
+      "params": {
+        "high_f": 1.0899999141693115,
+        "low_f": 1.4399999380111694,
+        "seed": 347,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Random Vector MK2": {
+      "bl_idname": "RandomVectorNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        67.51205444335938,
+        -9.884117126464844
+      ],
+      "params": {
+        "count_inner": 5,
+        "scale": -0.07999992370605469,
+        "seed": 519
+      },
+      "width": 173.35845947265625
+    },
+    "Random Vector MK2.001": {
+      "bl_idname": "RandomVectorNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        88.89216613769531,
+        -148.43020629882812
+      ],
+      "params": {
+        "count_inner": 5,
+        "scale": 7.509999752044678,
+        "seed": 405
+      },
+      "width": 173.35845947265625
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -639.8733520507812,
+        -102.6302490234375
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        532.0328979492188,
+        -267.9517822265625
+      ],
+      "params": {
+        "x_": 1.0,
+        "y_": 3.6399998664855957,
+        "z_": 1.0
+      },
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        452.2450866699219,
+        -96.29070281982422
+      ],
+      "params": {
+        "x_": 5.889999866485596,
+        "y_": 3.3999998569488525,
+        "z_": 3.4600000381469727
+      },
+      "width": 100.0
+    },
+    "Vector in.002": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        361.694091796875,
+        37.230812072753906
+      ],
+      "params": {
+        "x_": 1.2899999618530273,
+        "y_": 0.9599999785423279,
+        "z_": 1.2899999618530273
+      },
+      "width": 100.0
+    }
+  },
+  "update_lists": [
+    [
+      "Object ID Get",
+      "Objects",
+      "Object ID Filter",
+      "Objects"
+    ],
+    [
+      "Object ID Filter",
+      "Objects(have)",
+      "Object ID Set MK2",
+      "Objects"
+    ],
+    [
+      "Object ID Set MK2",
+      "outvalues",
+      "List Length",
+      "Data"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Random Num Gen",
+      "Size"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Random Num Gen",
+      "Seed"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Vector in",
+      "Y"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Random Vector MK2",
+      "Count"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Random Vector MK2",
+      "Seed"
+    ],
+    [
+      "Object ID Set MK2",
+      "outvalues",
+      "Object ID Set MK2.001",
+      "Objects"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Object ID Set MK2.001",
+      "values"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Random Vector MK2.001",
+      "Count"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Random Vector MK2.001",
+      "Seed"
+    ],
+    [
+      "Object ID Set MK2",
+      "outvalues",
+      "Object ID Set MK2.004",
+      "Objects"
+    ],
+    [
+      "Random Vector MK2",
+      "Random",
+      "Object ID Set MK2.004",
+      "values"
+    ],
+    [
+      "Object ID Set MK2",
+      "outvalues",
+      "Object ID Set MK2.002",
+      "Objects"
+    ],
+    [
+      "Random Vector MK2.001",
+      "Random",
+      "Object ID Set MK2.002",
+      "values"
+    ],
+    [
+      "Object ID Set MK2",
+      "outvalues",
+      "Object ID Set MK2.003",
+      "Objects"
+    ]
+  ]
+}

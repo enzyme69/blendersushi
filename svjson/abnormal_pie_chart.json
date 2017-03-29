@@ -1,0 +1,569 @@
+{
+  "export_version": "0.064",
+  "framed_nodes": {
+    "List Math.001": "Frame",
+    "List Math.002": "Frame.001",
+    "Stethoscope MK2.002": "Frame",
+    "Stethoscope MK2.003": "Frame.001"
+  },
+  "groups": {},
+  "nodes": {
+    "Circle.001": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2052.9208984375,
+        330.4346923828125
+      ],
+      "params": {
+        "degr_": 0.7230899333953857,
+        "mode_": 1,
+        "rad_": 2.0,
+        "vert_": 20
+      },
+      "width": 140.0
+    },
+    "Exec Node Mod": {
+      "bl_idname": "SvExecNodeMod",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -106.86115264892578,
+        482.6675720214844
+      ],
+      "params": {},
+      "string_storage": "{\"lines\": [\"append(np.array(V1[0]).cumsum().tolist())\"]}",
+      "width": 289.7840881347656
+    },
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 236.18653869628906,
+      "hide": false,
+      "label": "",
+      "location": [
+        139.17156982421875,
+        -66.80259704589844
+      ],
+      "params": {},
+      "width": 355.85638427734375
+    },
+    "Frame.001": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 235.01773071289062,
+      "hide": false,
+      "label": "",
+      "location": [
+        -29.27650260925293,
+        335.4324035644531
+      ],
+      "params": {},
+      "width": 460.2437744140625
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1993.584716796875,
+        -49.723716735839844
+      ],
+      "params": {
+        "int_": 36,
+        "minim": 3
+      },
+      "width": 140.0
+    },
+    "List Math": {
+      "bl_idname": "ListFuncNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1280.57373046875,
+        189.53411865234375
+      ],
+      "params": {
+        "func_": "SUM"
+      },
+      "width": 140.0
+    },
+    "List Math.001": {
+      "bl_idname": "ListFuncNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -804.4183349609375,
+        -206.01084899902344
+      ],
+      "params": {
+        "func_": "SUM"
+      },
+      "width": 140.0
+    },
+    "List Math.002": {
+      "bl_idname": "ListFuncNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        892.5111083984375,
+        620.61181640625
+      ],
+      "params": {
+        "func_": "SUM",
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Shift": {
+      "bl_idname": "ShiftNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1221.4747314453125,
+        260.66796875
+      ],
+      "params": {
+        "level": 1,
+        "shift_c": 1
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        616.5944213867188,
+        76.03840637207031
+      ],
+      "params": {
+        "clamp": 1,
+        "new_max": 360.0
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1055.296875,
+        326.6744384765625
+      ],
+      "params": {
+        "items_": "DIV"
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        445.43670654296875,
+        479.2272644042969
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 360.0
+      },
+      "width": 140.0
+    },
+    "Matrix Deform": {
+      "bl_idname": "MatrixDeformNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2030.1859130859375,
+        47.76329803466797
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1771.5841064453125,
+        11.520942687988281
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        1.0,
+        0.9137656688690186,
+        0.19795791804790497
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1573.8349609375,
+        308.6825256347656
+      ],
+      "params": {
+        "high_f": 60.0,
+        "low_f": 10.0,
+        "seed": 390,
+        "type_selected_mode": "Float"
+      },
+      "width": 171.8515625
+    },
+    "Random Num Gen.001": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        1.0,
+        0.8215742707252502,
+        0.35741177201271057
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1723.357666015625,
+        493.37310791015625
+      ],
+      "params": {
+        "high_f": 7.100000381469727,
+        "low_f": 2.9600000381469727,
+        "seed": 155,
+        "size": 18,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Stethoscope MK2.002": {
+      "bl_idname": "SvStethoscopeNodeMK2",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -648.5619506835938,
+        -208.06202697753906
+      ],
+      "params": {
+        "num_elements": 1,
+        "selected_mode": "text-based",
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Stethoscope MK2.003": {
+      "bl_idname": "SvStethoscopeNodeMK2",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1152.7548828125,
+        658.5853271484375
+      ],
+      "params": {
+        "num_elements": 1,
+        "selected_mode": "text-based",
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Stethoscope MK2.004": {
+      "bl_idname": "SvStethoscopeNodeMK2",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        270.924560546875,
+        664.0579223632812
+      ],
+      "params": {
+        "num_elements": 1,
+        "selected_mode": "text-based",
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector X | Y | Z": {
+      "bl_idname": "svAxisInputNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1592.1370849609375,
+        34.950233459472656
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2335.6181640625,
+        379.93719482421875
+      ],
+      "params": {
+        "display_edges": 1,
+        "display_faces": 1,
+        "display_verts": 0
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Int",
+      "Integer",
+      "Random Num Gen",
+      "Size"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "List Math",
+      "Data"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Math",
+      "X"
+    ],
+    [
+      "List Math",
+      "Function",
+      "Math",
+      "Y"
+    ],
+    [
+      "Math",
+      "float",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Math",
+      "float",
+      "List Math.001",
+      "Data"
+    ],
+    [
+      "List Math.001",
+      "Function",
+      "Stethoscope MK2.002",
+      "Data"
+    ],
+    [
+      "Math",
+      "float",
+      "Exec Node Mod",
+      "V1"
+    ],
+    [
+      "Exec Node Mod",
+      "out",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "List Math.002",
+      "Data"
+    ],
+    [
+      "List Math.002",
+      "Function",
+      "Stethoscope MK2.003",
+      "Data"
+    ],
+    [
+      "Math.001",
+      "float",
+      "List Shift",
+      "data"
+    ],
+    [
+      "Vector X | Y | Z",
+      "Vectors",
+      "Matrix in",
+      "Rotation"
+    ],
+    [
+      "List Shift",
+      "data",
+      "Matrix in",
+      "Angle"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Matrix Deform",
+      "Original"
+    ],
+    [
+      "Exec Node Mod",
+      "out",
+      "Stethoscope MK2.004",
+      "Data"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Random Num Gen.001",
+      "Size"
+    ],
+    [
+      "Random Num Gen.001",
+      "Value",
+      "Circle.001",
+      "Radius"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Circle.001",
+      "Degrees"
+    ],
+    [
+      "Circle.001",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Circle.001",
+      "Polygons",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "Matrix Deform",
+      "Matrix",
+      "Viewer Draw",
+      "matrix"
+    ]
+  ]
+}

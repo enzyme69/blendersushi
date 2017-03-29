@@ -1,0 +1,1361 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Centers polygons 3": {
+      "bl_idname": "CentersPolsNodeMK3",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        76.50448608398438,
+        465.8659973144531
+      ],
+      "params": {
+        "Separate": 1
+      },
+      "width": 144.07879638671875
+    },
+    "Circle": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        16.827590942382812,
+        1027.23291015625
+      ],
+      "params": {
+        "rad_": 0.550000011920929,
+        "vert_": 15
+      },
+      "width": 140.0
+    },
+    "Circle.001": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        235.72662353515625,
+        754.0299682617188
+      ],
+      "params": {
+        "rad_": 1.2400000095367432,
+        "vert_": 4
+      },
+      "width": 140.0
+    },
+    "Cylinder": {
+      "bl_idname": "CylinderNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -507.87017822265625,
+        17.944061279296875
+      ],
+      "params": {
+        "Separate": 1,
+        "cap_": 1,
+        "height_": 1.8799999952316284,
+        "radBot_": 0.7599999904632568,
+        "radTop_": 0.3399999737739563,
+        "subd_": 2
+      },
+      "width": 140.0
+    },
+    "Cylinder.001": {
+      "bl_idname": "CylinderNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -498.90643310546875,
+        316.58038330078125
+      ],
+      "params": {
+        "Separate": 1,
+        "cap_": 0,
+        "height_": 2.0899999141693115,
+        "radBot_": 0.7599999904632568,
+        "radTop_": 0.2799999713897705,
+        "subd_": 2
+      },
+      "width": 140.0
+    },
+    "Cylinder.003": {
+      "bl_idname": "CylinderNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        772.8861083984375,
+        -617.5126342773438
+      ],
+      "params": {
+        "height_": 1.9700000286102295,
+        "radBot_": 0.06999999284744263,
+        "radTop_": 0.06999999284744263,
+        "subd_": 3,
+        "vert_": 3
+      },
+      "width": 140.0
+    },
+    "Cylinder.004": {
+      "bl_idname": "CylinderNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -504.9496154785156,
+        -272.7384338378906
+      ],
+      "params": {
+        "Separate": 1,
+        "cap_": 0,
+        "radBot_": 0.7599999904632568,
+        "radTop_": 0.2799999713897705,
+        "subd_": 0
+      },
+      "width": 140.0
+    },
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1230.939208984375,
+        388.6235046386719
+      ],
+      "params": {
+        "float_": 0.30000001192092896
+      },
+      "width": 140.0
+    },
+    "Float.001": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1255.1077880859375,
+        238.086669921875
+      ],
+      "params": {
+        "float_": 1.0
+      },
+      "width": 140.0
+    },
+    "Float.002": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1228.598876953125,
+        -74.13442993164062
+      ],
+      "params": {
+        "float_": 1.9099998474121094
+      },
+      "width": 140.0
+    },
+    "Float.003": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1614.1385498046875,
+        371.849609375
+      ],
+      "params": {
+        "float_": 0.03999999910593033
+      },
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1258.888916015625,
+        74.63822937011719
+      ],
+      "params": {
+        "int_": 4
+      },
+      "width": 140.0
+    },
+    "Int.001": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        78.15473937988281,
+        -79.04498291015625
+      ],
+      "params": {
+        "int_": 1
+      },
+      "width": 140.0
+    },
+    "List Del Levels": {
+      "bl_idname": "ListLevelsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        226.1289520263672,
+        -729.589599609375
+      ],
+      "params": {
+        "Sverch_LisLev": "3"
+      },
+      "width": 140.0
+    },
+    "List Del Levels.001": {
+      "bl_idname": "ListLevelsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        363.82476806640625,
+        -996.2762451171875
+      ],
+      "params": {
+        "Sverch_LisLev": "3"
+      },
+      "width": 140.0
+    },
+    "List Item": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        293.1546630859375,
+        460.91680908203125
+      ],
+      "params": {
+        "item": 3
+      },
+      "width": 140.0
+    },
+    "List Item.001": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        319.4491271972656,
+        230.0215606689453
+      ],
+      "params": {
+        "item": 2,
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Item.002": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -47.92414855957031,
+        -767.6697387695312
+      ],
+      "params": {
+        "item": 0,
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "List Item.003": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -44.19435119628906,
+        -947.8308715820312
+      ],
+      "params": {
+        "item": 1
+      },
+      "width": 140.0
+    },
+    "List Item.004": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        306.1662292480469,
+        -16.3856201171875
+      ],
+      "params": {
+        "item": 2,
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        410.3028869628906,
+        -737.8331298828125
+      ],
+      "params": {
+        "wrap_check": 1
+      },
+      "width": 140.0
+    },
+    "List Join.001": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        571.55224609375,
+        -1056.94775390625
+      ],
+      "params": {
+        "wrap_check": 1
+      },
+      "width": 159.776611328125
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -346.9186096191406,
+        779.96728515625
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": 0.2200000137090683
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -326.78125,
+        616.65771484375
+      ],
+      "params": {
+        "items_": "ADD",
+        "y": 0.040000006556510925
+      },
+      "width": 140.0
+    },
+    "Matrix Apply": {
+      "bl_idname": "MatrixApplyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1645.640625,
+        699.8812866210938
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix Deform": {
+      "bl_idname": "MatrixDeformNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1294.90576171875,
+        573.02001953125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        741.4012451171875,
+        -865.9422607421875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in.001": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        812.602294921875,
+        603.2919921875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Skin Mesher mk1b": {
+      "bl_idname": "SvSkinViewerNodeMK1b",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2106.326416015625,
+        390.98980712890625
+      ],
+      "params": {
+        "basemesh_name": "Beta",
+        "general_radius_x": 0.0364999920129776,
+        "general_radius_y": 0.0364999920129776,
+        "levels": 0,
+        "live_updates": 1,
+        "material": "Material.001"
+      },
+      "width": 140.0
+    },
+    "Skin Mesher mk1b.001": {
+      "bl_idname": "SvSkinViewerNodeMK1b",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2107.41552734375,
+        114.31471252441406
+      ],
+      "params": {
+        "basemesh_name": "LEGS",
+        "general_radius_x": 0.0364999920129776,
+        "general_radius_y": 0.0364999920129776,
+        "levels": 0,
+        "live_updates": 1,
+        "material": "Material.001"
+      },
+      "width": 140.0
+    },
+    "Skin Mesher mk1b.002": {
+      "bl_idname": "SvSkinViewerNodeMK1b",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2100.81201171875,
+        686.3856811523438
+      ],
+      "params": {
+        "basemesh_name": "CircleBit",
+        "general_radius_x": 0.0364999920129776,
+        "general_radius_y": 0.0364999920129776,
+        "levels": 0,
+        "live_updates": 1,
+        "material": "Material.001"
+      },
+      "width": 140.0
+    },
+    "Solidify": {
+      "bl_idname": "SvSolidifyNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        848.005126953125,
+        1188.201416015625
+      ],
+      "params": {
+        "thickness": -0.17000001668930054
+      },
+      "width": 140.0
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -186.27212524414062,
+        448.470947265625
+      ],
+      "params": {
+        "dir_check": "U_dir",
+        "polygons": "Pols",
+        "slice_check": 1
+      },
+      "width": 140.0
+    },
+    "UV Connection.001": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -46.324501037597656,
+        193.17872619628906
+      ],
+      "params": {
+        "cicl_check_U": 1,
+        "cicl_check_V": 0,
+        "cup_V": 0,
+        "dir_check": "U_dir",
+        "polygons": "Edges",
+        "slice_check": 1
+      },
+      "width": 140.0
+    },
+    "UV Connection.002": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -146.98460388183594,
+        -268.9024658203125
+      ],
+      "params": {
+        "dir_check": "V_dir",
+        "polygons": "Edges"
+      },
+      "width": 140.0
+    },
+    "Vector Math MK2": {
+      "bl_idname": "SvVectorMathNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        189.17059326171875,
+        -974.826416015625
+      ],
+      "params": {
+        "current_op": "SUB"
+      },
+      "width": 140.0
+    },
+    "Vector Math MK2.001": {
+      "bl_idname": "SvVectorMathNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        666.6220703125,
+        573.87060546875
+      ],
+      "params": {
+        "current_op": "ADD"
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        553.4185791015625,
+        418.605224609375
+      ],
+      "params": {
+        "z_": 0.0
+      },
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1031.506591796875,
+        516.3685302734375
+      ],
+      "params": {
+        "z_": -0.0599999874830246
+      },
+      "width": 100.0
+    },
+    "Vector in.002": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1171.7398681640625,
+        420.62689208984375
+      ],
+      "params": {
+        "x_": 0.8600000143051147,
+        "y_": 0.8600000143051147,
+        "z_": 0.8600000143051147
+      },
+      "width": 100.0
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        0.6284880042076111,
+        0.931007981300354,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        2086.528564453125,
+        1099.843017578125
+      ],
+      "params": {
+        "basemesh_name": "Delta",
+        "material": "sv_material.001"
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1110.691650390625,
+        -665.9960327148438
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        843.0799560546875,
+        -10.755264282226562
+      ],
+      "params": {
+        "activate": 1
+      },
+      "width": 224.2967529296875
+    },
+    "Viewer Draw.002": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1532.3721923828125,
+        1256.257080078125
+      ],
+      "params": {
+        "activate": 0,
+        "display_verts": 0,
+        "edge_colors": [
+          0.8989997506141663,
+          0.22815634310245514,
+          0.297396183013916
+        ],
+        "face_colors": [
+          0.8989997506141663,
+          0.0,
+          0.0
+        ],
+        "shading": 1
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.003": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        356.25042724609375,
+        -398.035400390625
+      ],
+      "params": {
+        "activate": 1,
+        "edge_colors": [
+          0.27201953530311584,
+          0.8989997506141663,
+          0.19507156312465668
+        ],
+        "face_colors": [
+          0.008503573015332222,
+          0.2675676643848419,
+          0.0
+        ]
+      },
+      "width": 224.2967529296875
+    }
+  },
+  "update_lists": [
+    [
+      "Float",
+      "Float",
+      "Cylinder.001",
+      "RadTop"
+    ],
+    [
+      "Float.001",
+      "Float",
+      "Cylinder.001",
+      "RadBot"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Cylinder.001",
+      "Vertices"
+    ],
+    [
+      "Float.002",
+      "Float",
+      "Cylinder.001",
+      "Height"
+    ],
+    [
+      "Cylinder.001",
+      "Vertices",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Centers polygons 3",
+      "Vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Centers polygons 3",
+      "Polygons"
+    ],
+    [
+      "Float",
+      "Float",
+      "Cylinder.004",
+      "RadTop"
+    ],
+    [
+      "Float.001",
+      "Float",
+      "Cylinder.004",
+      "RadBot"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Cylinder.004",
+      "Vertices"
+    ],
+    [
+      "Float.002",
+      "Float",
+      "Cylinder.004",
+      "Height"
+    ],
+    [
+      "Cylinder.004",
+      "Vertices",
+      "List Item.002",
+      "Data"
+    ],
+    [
+      "List Item.002",
+      "Item",
+      "List Del Levels",
+      "data"
+    ],
+    [
+      "List Del Levels",
+      "data",
+      "List Join",
+      "data"
+    ],
+    [
+      "Cylinder.004",
+      "Vertices",
+      "List Item.003",
+      "Data"
+    ],
+    [
+      "List Item.003",
+      "Item",
+      "Vector Math MK2",
+      "A"
+    ],
+    [
+      "List Item.002",
+      "Item",
+      "Vector Math MK2",
+      "B"
+    ],
+    [
+      "Vector Math MK2",
+      "Out",
+      "List Del Levels.001",
+      "data"
+    ],
+    [
+      "List Del Levels.001",
+      "data",
+      "List Join.001",
+      "data"
+    ],
+    [
+      "List Join",
+      "data",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "List Join.001",
+      "data",
+      "Matrix in",
+      "Angle"
+    ],
+    [
+      "Cylinder.003",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Cylinder.003",
+      "Polygons",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw",
+      "matrix"
+    ],
+    [
+      "Float",
+      "Float",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Circle.001",
+      "Radius"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Circle.001",
+      "N\u00ba Vertices"
+    ],
+    [
+      "Centers polygons 3",
+      "Origins",
+      "List Item",
+      "Data"
+    ],
+    [
+      "List Item",
+      "Item",
+      "Vector Math MK2.001",
+      "A"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Vector Math MK2.001",
+      "B"
+    ],
+    [
+      "Vector Math MK2.001",
+      "Out",
+      "Matrix in.001",
+      "Location"
+    ],
+    [
+      "Cylinder.004",
+      "Vertices",
+      "UV Connection.002",
+      "vertices"
+    ],
+    [
+      "Float",
+      "Float",
+      "Cylinder",
+      "RadTop"
+    ],
+    [
+      "Float.001",
+      "Float",
+      "Cylinder",
+      "RadBot"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Cylinder",
+      "Vertices"
+    ],
+    [
+      "Float.002",
+      "Float",
+      "Cylinder",
+      "Height"
+    ],
+    [
+      "Cylinder",
+      "Vertices",
+      "UV Connection.001",
+      "vertices"
+    ],
+    [
+      "UV Connection.001",
+      "vertices",
+      "List Item.001",
+      "Data"
+    ],
+    [
+      "Int.001",
+      "Integer",
+      "List Item.001",
+      "Item"
+    ],
+    [
+      "UV Connection.001",
+      "data",
+      "List Item.004",
+      "Data"
+    ],
+    [
+      "Int.001",
+      "Integer",
+      "List Item.004",
+      "Item"
+    ],
+    [
+      "List Item.001",
+      "Item",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "List Item.004",
+      "Item",
+      "Viewer Draw.001",
+      "edg_pol"
+    ],
+    [
+      "Float",
+      "Float",
+      "Math",
+      "X"
+    ],
+    [
+      "Matrix in.001",
+      "Matrix",
+      "Matrix Deform",
+      "Original"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Matrix Deform",
+      "Location"
+    ],
+    [
+      "Vector in.002",
+      "Vectors",
+      "Matrix Deform",
+      "Scale"
+    ],
+    [
+      "Math",
+      "float",
+      "Circle",
+      "Radius"
+    ],
+    [
+      "List Item.001",
+      "Item",
+      "Skin Mesher mk1b",
+      "vertices"
+    ],
+    [
+      "List Item.004",
+      "Item",
+      "Skin Mesher mk1b",
+      "edges"
+    ],
+    [
+      "Float.003",
+      "Float",
+      "Skin Mesher mk1b",
+      "radii_x"
+    ],
+    [
+      "Float.003",
+      "Float",
+      "Skin Mesher mk1b",
+      "radii_y"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Solidify",
+      "vertices"
+    ],
+    [
+      "Circle",
+      "Polygons",
+      "Solidify",
+      "polygons"
+    ],
+    [
+      "Solidify",
+      "vertices",
+      "Viewer Draw.002",
+      "vertices"
+    ],
+    [
+      "Solidify",
+      "polygons",
+      "Viewer Draw.002",
+      "edg_pol"
+    ],
+    [
+      "Matrix in.001",
+      "Matrix",
+      "Viewer Draw.002",
+      "matrix"
+    ],
+    [
+      "Solidify",
+      "vertices",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "Solidify",
+      "polygons",
+      "Viewer BMeshMK2",
+      "faces"
+    ],
+    [
+      "Matrix in.001",
+      "Matrix",
+      "Viewer BMeshMK2",
+      "matrix"
+    ],
+    [
+      "UV Connection.002",
+      "vertices",
+      "Skin Mesher mk1b.001",
+      "vertices"
+    ],
+    [
+      "UV Connection.002",
+      "data",
+      "Skin Mesher mk1b.001",
+      "edges"
+    ],
+    [
+      "Float.003",
+      "Float",
+      "Skin Mesher mk1b.001",
+      "radii_x"
+    ],
+    [
+      "Float.003",
+      "Float",
+      "Skin Mesher mk1b.001",
+      "radii_y"
+    ],
+    [
+      "Circle.001",
+      "Vertices",
+      "Matrix Apply",
+      "Vectors"
+    ],
+    [
+      "Matrix Deform",
+      "Matrix",
+      "Matrix Apply",
+      "Matrixes"
+    ],
+    [
+      "UV Connection.002",
+      "vertices",
+      "Viewer Draw.003",
+      "vertices"
+    ],
+    [
+      "UV Connection.002",
+      "data",
+      "Viewer Draw.003",
+      "edg_pol"
+    ],
+    [
+      "Matrix Apply",
+      "Vectors",
+      "Skin Mesher mk1b.002",
+      "vertices"
+    ],
+    [
+      "Circle.001",
+      "Edges",
+      "Skin Mesher mk1b.002",
+      "edges"
+    ],
+    [
+      "Float.003",
+      "Float",
+      "Skin Mesher mk1b.002",
+      "radii_x"
+    ],
+    [
+      "Float.003",
+      "Float",
+      "Skin Mesher mk1b.002",
+      "radii_y"
+    ]
+  ]
+}

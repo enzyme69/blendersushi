@@ -1,0 +1,495 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "Easing 0..1": "Frame",
+    "Map Range.001": "Frame",
+    "Map Range.002": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Easing 0..1": {
+      "bl_idname": "SvEasingNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        261.3904113769531,
+        -33.52119064331055
+      ],
+      "params": {
+        "selected_mode": "27"
+      },
+      "width": 140.0
+    },
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 244.7433319091797,
+      "hide": false,
+      "label": "",
+      "location": [
+        5.438849449157715,
+        17.006072998046875
+      ],
+      "params": {},
+      "width": 542.3116455078125
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -711.8438720703125,
+        6.638525009155273
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Int": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -836.8850708007812,
+        -246.81118774414062
+      ],
+      "params": {
+        "int_": 35
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        863.7647705078125,
+        82.6187744140625
+      ],
+      "params": {
+        "JoinLevel": 2
+      },
+      "width": 140.0
+    },
+    "List Repeater": {
+      "bl_idname": "ListRepeaterNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -505.44171142578125,
+        33.791015625
+      ],
+      "params": {
+        "level": 1,
+        "number": 35,
+        "unwrap": 1
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -146.3641815185547,
+        -42.46412658691406
+      ],
+      "params": {
+        "clamp": 1,
+        "new_min": 0.0,
+        "old_max": 50.0,
+        "old_min": 20.0
+      },
+      "width": 140.0
+    },
+    "Map Range.001": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        79.10672760009766,
+        -34.34892654418945
+      ],
+      "params": {
+        "clamp": 0,
+        "new_max": 1.0,
+        "new_min": 0.0,
+        "old_max": 10.0,
+        "old_min": 0.0,
+        "value": 0.5
+      },
+      "width": 140.0
+    },
+    "Map Range.002": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        421.41839599609375,
+        -33.26274108886719
+      ],
+      "params": {
+        "clamp": 0,
+        "new_max": 10.0,
+        "new_min": 0.0,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": 0.5
+      },
+      "width": 140.0
+    },
+    "Map Range.003": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1202.162841796875,
+        -24.719131469726562
+      ],
+      "params": {
+        "new_max": 1.2300000190734863,
+        "new_min": 0.10000000149011612
+      },
+      "width": 140.0
+    },
+    "Object ID Filter": {
+      "bl_idname": "SvFilterObjsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        910.5814819335938,
+        288.0628967285156
+      ],
+      "params": {
+        "formula": "Cu"
+      },
+      "width": 140.0
+    },
+    "Object ID Get": {
+      "bl_idname": "SvGetDataObjectNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        688.0321044921875,
+        285.9283447265625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Object ID Set MK2": {
+      "bl_idname": "SvSetDataObjectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1136.7735595703125,
+        257.2996520996094
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Object ID Set MK2.001": {
+      "bl_idname": "SvSetDataObjectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1478.0684814453125,
+        193.6597900390625
+      ],
+      "params": {
+        "formula": "scale"
+      },
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -427.63592529296875,
+        -159.74484252929688
+      ],
+      "params": {
+        "high_f": 30.0,
+        "low_f": 10.0,
+        "seed": 114,
+        "size": 35,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Random Num Gen.001": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -430.7217712402344,
+        -359.251953125
+      ],
+      "params": {
+        "high_f": 112.73999786376953,
+        "low_f": 73.7699966430664,
+        "seed": 62,
+        "size": 35,
+        "type_selected_mode": "Float"
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        660.0848388671875,
+        -40.09266662597656
+      ],
+      "params": {
+        "z_": 0.0
+      },
+      "width": 129.05804443359375
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1391.267822265625,
+        50.32780075073242
+      ],
+      "params": {},
+      "width": 100.0
+    }
+  },
+  "update_lists": [
+    [
+      "Frame info",
+      "Current Frame",
+      "List Repeater",
+      "Data"
+    ],
+    [
+      "Int",
+      "Integer",
+      "List Repeater",
+      "Number"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Random Num Gen",
+      "Size"
+    ],
+    [
+      "Int",
+      "Integer",
+      "Random Num Gen.001",
+      "Size"
+    ],
+    [
+      "List Repeater",
+      "Data",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Map Range",
+      "Old Min"
+    ],
+    [
+      "Random Num Gen.001",
+      "Value",
+      "Map Range",
+      "Old Max"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Map Range.001",
+      "Value"
+    ],
+    [
+      "Object ID Get",
+      "Objects",
+      "Object ID Filter",
+      "Objects"
+    ],
+    [
+      "Map Range.001",
+      "Value",
+      "Easing 0..1",
+      "Float"
+    ],
+    [
+      "Easing 0..1",
+      "Float",
+      "Map Range.002",
+      "Value"
+    ],
+    [
+      "Map Range.002",
+      "Value",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "List Join",
+      "data"
+    ],
+    [
+      "Object ID Filter",
+      "Objects(have)",
+      "Object ID Set MK2",
+      "Objects"
+    ],
+    [
+      "List Join",
+      "data",
+      "Object ID Set MK2",
+      "values"
+    ],
+    [
+      "Easing 0..1",
+      "Float",
+      "Map Range.003",
+      "Value"
+    ],
+    [
+      "Map Range.003",
+      "Value",
+      "Vector in.001",
+      "X"
+    ],
+    [
+      "Map Range.003",
+      "Value",
+      "Vector in.001",
+      "Y"
+    ],
+    [
+      "Map Range.003",
+      "Value",
+      "Vector in.001",
+      "Z"
+    ],
+    [
+      "Object ID Filter",
+      "Objects(have)",
+      "Object ID Set MK2.001",
+      "Objects"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Object ID Set MK2.001",
+      "values"
+    ]
+  ]
+}

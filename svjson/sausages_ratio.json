@@ -1,0 +1,644 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {
+    "List Del Levels": "Frame.003",
+    "List Flip": "Frame.003",
+    "List Sum": "Frame.003",
+    "Math.001": "Frame.003",
+    "Math.002": "Frame.003",
+    "Range Float": "Frame.001",
+    "Scripted Node.001": "Frame.003",
+    "UV Connection.001": "Frame.003",
+    "Vector Interpolation": "Frame.001"
+  },
+  "groups": {},
+  "nodes": {
+    "Frame.001": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 341.4239501953125,
+      "hide": false,
+      "label": "Resample Stroke",
+      "location": [
+        2021.526123046875,
+        1191.472900390625
+      ],
+      "params": {},
+      "width": 414.5042724609375
+    },
+    "Frame.003": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 365.03271484375,
+      "hide": false,
+      "label": "",
+      "location": [
+        -402.2693786621094,
+        374.5357666015625
+      ],
+      "params": {},
+      "width": 1915.936279296875
+    },
+    "List Del Levels": {
+      "bl_idname": "ListLevelsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -627.0263061523438,
+        -124.73768615722656
+      ],
+      "params": {
+        "Sverch_LisLev": "3,4"
+      },
+      "width": 140.0
+    },
+    "List Flip": {
+      "bl_idname": "ListFlipNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1088.9100341796875,
+        58.8917236328125
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Length": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1392.1893310546875,
+        156.91928100585938
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Sum": {
+      "bl_idname": "ListSumNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        478.371826171875,
+        41.6763916015625
+      ],
+      "params": {
+        "level": 2
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1993.9560546875,
+        201.63742065429688
+      ],
+      "params": {
+        "clamp": 1,
+        "new_max": 0.4899999499320984,
+        "new_min": 0.17000001668930054,
+        "old_max": -0.3500000834465027,
+        "old_min": -0.46000027656555176
+      },
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1787.3880615234375,
+        73.4450454711914
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        648.9100341796875,
+        79.4969482421875
+      ],
+      "params": {
+        "items_": "DIV",
+        "x": 1.059999942779541
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        868.9100341796875,
+        54.97576904296875
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.429999977350235
+      },
+      "width": 140.0
+    },
+    "Objects in mk3": {
+      "bl_idname": "SvObjectsNodeMK3",
+      "color": [
+        0.904932975769043,
+        1.0,
+        0.883421003818512
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -970.488525390625,
+        38.73160934448242
+      ],
+      "object_names": [
+        "GP_Layer"
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Range Float": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1037.7874755859375,
+        -855.695556640625
+      ],
+      "params": {
+        "count_": 51,
+        "mode": "FRANGE",
+        "stop_": 1.0
+      },
+      "width": 140.0
+    },
+    "Range Float.002": {
+      "bl_idname": "SvGenFloatRange",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1596.3309326171875,
+        44.75822448730469
+      ],
+      "params": {
+        "count_": 49,
+        "mode": "FRANGE_STEP",
+        "step_": 1.0
+      },
+      "width": 140.0
+    },
+    "Scripted Node": {
+      "bl_idname": "SvScriptNode",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "GP_Import",
+      "location": [
+        -1301.8944091796875,
+        176.34939575195312
+      ],
+      "params": {
+        "button_names": "",
+        "files_popup": "sv_lang_template.sn",
+        "has_buttons": 0,
+        "int_list": [
+          0,
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "script_name": "GP_Import",
+        "script_str": "def sv_main(a=0):\n\n    in_sockets = [\n        ['s', 'nothing',  a],\n        ]\n\n    if bpy.data.grease_pencil:\n        verts_out = [[[[p.co[:] for p in str.points] for str in gl.active_frame.strokes] for gl in gp.layers] for gp in bpy.data.grease_pencil]\n    else:\n        verts_out = [[]]\n\n    out_sockets = [\n        ['v', 'verts', verts_out]\n    ]\n\n    return in_sockets, out_sockets",
+        "user_name": "templates"
+      },
+      "width": 140.0
+    },
+    "Scripted Node.001": {
+      "bl_idname": "SvScriptNode",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "edge-length.py",
+      "location": [
+        189.46568298339844,
+        13.305145263671875
+      ],
+      "params": {
+        "button_names": "",
+        "files_popup": "edge-length.py",
+        "has_buttons": 0,
+        "script_name": "edge-length.py",
+        "script_str": "import mathutils \nfrom mathutils import Vector\n\n#get length of all edges\n \ndef sv_main(verts=[[]],edges=[[]]):\n \n    # in boilerplate - make your own sockets\n    in_sockets = [\n        ['v', 'Vertices',  verts],\n        ['s', 'Edges',  edges],\n    ]\n    lengths = []\n    for v,es in zip(verts,edges):\n        lens=[]\n        for e0,e1 in es:\n            lens.append((Vector(v[e0])-Vector(v[e1])).length) \n        lengths.append(lens)    \n    \n    out_sockets = [\n        ['s', 'Lengths', lengths],\n    ]\n \n    return in_sockets, out_sockets\n",
+        "user_name": "templates"
+      },
+      "width": 140.0
+    },
+    "Separate Loose Parts": {
+      "bl_idname": "SvSeparateMeshNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -699.3052368164062,
+        76.18434143066406
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Skin Mesher mk1b": {
+      "bl_idname": "SvSkinViewerNodeMK1b",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2305.764892578125,
+        446.3387451171875
+      ],
+      "params": {
+        "basemesh_name": "Beta",
+        "live_updates": 1
+      },
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        1.0,
+        0.8993440270423889,
+        0.9742509722709656
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1664.7520751953125,
+        191.5800018310547
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1533.9171142578125,
+        496.1690673828125
+      ],
+      "params": {
+        "dir_check": "U_dir",
+        "polygons": "Edges",
+        "slice_check": 1
+      },
+      "width": 140.0
+    },
+    "UV Connection.001": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -20.326141357421875,
+        17.150665283203125
+      ],
+      "params": {
+        "dir_check": "U_dir",
+        "polygons": "Edges",
+        "slice_check": 1
+      },
+      "width": 140.0
+    },
+    "Vector Interpolation": {
+      "bl_idname": "SvInterpolationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -823.283203125,
+        -719.0489501953125
+      ],
+      "params": {
+        "t_in": 0.050000011920928955
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1865.1683349609375,
+        737.6928100585938
+      ],
+      "params": {
+        "activate": 1,
+        "display_verts": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Objects in mk3",
+      "Vertices",
+      "Separate Loose Parts",
+      "Vertices"
+    ],
+    [
+      "Objects in mk3",
+      "Edges",
+      "Separate Loose Parts",
+      "Poly Egde"
+    ],
+    [
+      "Separate Loose Parts",
+      "Vertices",
+      "UV Connection.001",
+      "vertices"
+    ],
+    [
+      "UV Connection.001",
+      "vertices",
+      "Scripted Node.001",
+      "Vertices"
+    ],
+    [
+      "UV Connection.001",
+      "data",
+      "Scripted Node.001",
+      "Edges"
+    ],
+    [
+      "Scripted Node.001",
+      "Lengths",
+      "List Sum",
+      "Data"
+    ],
+    [
+      "List Sum",
+      "Sum",
+      "Math.001",
+      "Y"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Math.002",
+      "float",
+      "List Flip",
+      "data"
+    ],
+    [
+      "List Flip",
+      "data",
+      "Range Float",
+      "Stop"
+    ],
+    [
+      "Separate Loose Parts",
+      "Vertices",
+      "Vector Interpolation",
+      "Vertices"
+    ],
+    [
+      "Range Float",
+      "Range",
+      "Vector Interpolation",
+      "Interval"
+    ],
+    [
+      "Vector Interpolation",
+      "Vertices",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "Vector Interpolation",
+      "Vertices",
+      "List Length",
+      "Data"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Range Float.002",
+      "Stop"
+    ],
+    [
+      "Range Float.002",
+      "Range",
+      "Math",
+      "X"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "Math",
+      "float",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Skin Mesher mk1b",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Skin Mesher mk1b",
+      "edges"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Skin Mesher mk1b",
+      "radii_x"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "Skin Mesher mk1b",
+      "radii_y"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "Viewer Draw",
+      "edg_pol"
+    ],
+    [
+      "Scripted Node",
+      "verts",
+      "List Del Levels",
+      "data"
+    ]
+  ]
+}

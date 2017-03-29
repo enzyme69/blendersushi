@@ -1,0 +1,163 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1817.7327880859375,
+        -115.64083862304688
+      ],
+      "params": {},
+      "width": 141.2576904296875
+    },
+    "List Item": {
+      "bl_idname": "ListItem2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1538.616455078125,
+        148.8839569091797
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Slice": {
+      "bl_idname": "ListSliceNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2028.816650390625,
+        25.28730010986328
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "Scripted Node": {
+      "bl_idname": "SvScriptNode",
+      "color": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "sv_SNGetAllParticles.py",
+      "location": [
+        1226.806396484375,
+        127.09452056884766
+      ],
+      "params": {
+        "button_names": "",
+        "files_popup": "sv_lang_template.sn",
+        "has_buttons": 0,
+        "script_name": "sv_SNGetAllParticles.py",
+        "script_str": "def sv_main(c=[]):\n    in_sockets = [\n       ['v', 'Not working socket', c],\n    ]\n\n    out = []\n    for i in bpy.data.objects:\n        if i.particle_systems:\n            ps = i.particle_systems.active.particles\n            out.append([i2.location[:] for i2 in ps])\n\n    out_sockets = [\n        ['v', 'particles', out]\n    ]\n\n    return in_sockets, out_sockets\n",
+        "user_name": "templates"
+      },
+      "width": 188.95263671875
+    },
+    "UV Connection": {
+      "bl_idname": "LineConnectNodeMK2",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1771.0865478515625,
+        175.27427673339844
+      ],
+      "params": {
+        "polygons": "Edges",
+        "slice_check": 0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2523.5224609375,
+        167.85646057128906
+      ],
+      "params": {
+        "activate": 1
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Scripted Node",
+      "particles",
+      "List Item",
+      "Data"
+    ],
+    [
+      "List Item",
+      "Other",
+      "UV Connection",
+      "vertices"
+    ],
+    [
+      "UV Connection",
+      "data",
+      "List Slice",
+      "Data"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "List Slice",
+      "Stop"
+    ],
+    [
+      "UV Connection",
+      "vertices",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "List Slice",
+      "Slice",
+      "Viewer Draw.001",
+      "edg_pol"
+    ]
+  ]
+}

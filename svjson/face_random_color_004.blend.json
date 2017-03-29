@@ -1,0 +1,704 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {
+    "Random Num Gen": "Frame",
+    "Random Num Gen.001": "Frame",
+    "Random Num Gen.002": "Frame",
+    "Vector in": "Frame"
+  },
+  "groups": {},
+  "nodes": {
+    "Centers polygons 3": {
+      "bl_idname": "CentersPolsNodeMK3",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1156.29296875,
+        319.5047302246094
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Extrude Separate Faces": {
+      "bl_idname": "SvExtrudeSeparateNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1961.90625,
+        544.4850463867188
+      ],
+      "params": {
+        "height_": 0.5399999618530273,
+        "scale_": 1.0
+      },
+      "width": 182.761474609375
+    },
+    "Formula": {
+      "bl_idname": "Formula2Node",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        348.8374328613281,
+        412.01141357421875
+      ],
+      "params": {
+        "formula": "x > 0.3"
+      },
+      "width": 140.0
+    },
+    "Frame": {
+      "bl_idname": "NodeFrame",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 1219.5548095703125,
+      "hide": false,
+      "label": "",
+      "location": [
+        -203.64813232421875,
+        -414.3334045410156
+      ],
+      "params": {},
+      "width": 776.70947265625
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -763.2698364257812,
+        505.1692810058594
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Length": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1090.7408447265625,
+        502.4384765625
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Length.001": {
+      "bl_idname": "ListLengthNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1357.4976806640625,
+        160.9590301513672
+      ],
+      "params": {
+        "level": 1
+      },
+      "width": 140.0
+    },
+    "List Mask (out)": {
+      "bl_idname": "MaskListNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        902.7353515625,
+        296.7558898925781
+      ],
+      "params": {
+        "Level": 2
+      },
+      "width": 140.0
+    },
+    "Plane": {
+      "bl_idname": "PlaneNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1566.483154296875,
+        718.2821655273438
+      ],
+      "params": {
+        "int_X": 20,
+        "int_Y": 10,
+        "step_X": 1.630000114440918,
+        "step_Y": 4.899999618530273
+      },
+      "width": 140.0
+    },
+    "Random Num Gen": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -393.1768493652344,
+        393.526123046875
+      ],
+      "params": {
+        "seed": 388,
+        "size": 6,
+        "type_selected_mode": "Float"
+      },
+      "width": 174.9000244140625
+    },
+    "Random Num Gen.001": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -373.2513427734375,
+        -17.568939208984375
+      ],
+      "params": {
+        "high_f": 0.0,
+        "seed": 325,
+        "size": 6,
+        "type_selected_mode": "Float"
+      },
+      "width": 174.9000244140625
+    },
+    "Random Num Gen.002": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        45.96514892578125,
+        -107.91867065429688
+      ],
+      "params": {
+        "high_f": 0.0,
+        "seed": 252,
+        "size": 6,
+        "type_selected_mode": "Float"
+      },
+      "width": 174.9000244140625
+    },
+    "Random Num Gen.003": {
+      "bl_idname": "SvRndNumGen",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1677.171630859375,
+        252.6839141845703
+      ],
+      "params": {
+        "high_f": 9.699999809265137,
+        "low_f": 1.2899998426437378,
+        "seed": 100,
+        "type_selected_mode": "Float"
+      },
+      "width": 197.8538818359375
+    },
+    "Range Int": {
+      "bl_idname": "GenListRangeIntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -357.277099609375,
+        966.8359985351562
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        759.599365234375,
+        403.10162353515625
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    },
+    "Vector Math": {
+      "bl_idname": "VectorMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "ADD",
+      "location": [
+        -506.9355773925781,
+        338.0306396484375
+      ],
+      "params": {
+        "items_": "ADD",
+        "scalar_output_socket": 0
+      },
+      "width": 140.0
+    },
+    "Vector Noise": {
+      "bl_idname": "SvNoiseNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -309.8420715332031,
+        252.25479125976562
+      ],
+      "params": {
+        "out_mode": "SCALAR"
+      },
+      "width": 194.67266845703125
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        223.53262329101562,
+        863.88818359375
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -641.4954223632812,
+        426.1950988769531
+      ],
+      "params": {
+        "x_": 0.14999999105930328
+      },
+      "width": 100.0
+    },
+    "Vertex color new": {
+      "bl_idname": "SvVertexColorNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        579.3853149414062,
+        849.6463012695312
+      ],
+      "params": {
+        "mode": "polygons"
+      },
+      "width": 240.2813720703125
+    },
+    "Viewer BMeshMK2": {
+      "bl_idname": "SvBmeshViewerNodeMK2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        260.41424560546875,
+        933.336181640625
+      ],
+      "params": {
+        "basemesh_name": "Alpha",
+        "material": "Material"
+      },
+      "width": 140.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -963.198486328125,
+        835.1161499023438
+      ],
+      "params": {
+        "activate": 0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2224.453369140625,
+        481.0928649902344
+      ],
+      "params": {
+        "activate": 1,
+        "display_verts": 0,
+        "edge_colors": [
+          0.8989999890327454,
+          0.6072137355804443,
+          0.7288734912872314
+        ],
+        "face_colors": [
+          0.9933493733406067,
+          0.20025634765625,
+          0.5264409184455872
+        ]
+      },
+      "width": 140.0
+    },
+    "Viewer Draw.002": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1247.28857421875,
+        731.45556640625
+      ],
+      "params": {
+        "activate": 0,
+        "display_edges": 1,
+        "display_faces": 1,
+        "display_verts": 1,
+        "face_colors": [
+          0.17147192358970642,
+          0.17064045369625092,
+          0.8989999890327454
+        ]
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Plane",
+      "Polygons",
+      "List Length",
+      "Data"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Random Num Gen.002",
+      "Size"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Centers polygons 3",
+      "Vertices"
+    ],
+    [
+      "Plane",
+      "Polygons",
+      "Centers polygons 3",
+      "Polygons"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Vector in.001",
+      "X"
+    ],
+    [
+      "Vector in.001",
+      "Vectors",
+      "Vector Math",
+      "U"
+    ],
+    [
+      "Centers polygons 3",
+      "Origins",
+      "Vector Math",
+      "V"
+    ],
+    [
+      "Vector Math",
+      "W",
+      "Vector Noise",
+      "Vertices"
+    ],
+    [
+      "Vector Noise",
+      "Noise S",
+      "Formula",
+      "X"
+    ],
+    [
+      "Plane",
+      "Polygons",
+      "List Mask (out)",
+      "data"
+    ],
+    [
+      "Formula",
+      "Result",
+      "List Mask (out)",
+      "mask"
+    ],
+    [
+      "List Mask (out)",
+      "dataTrue",
+      "List Length.001",
+      "Data"
+    ],
+    [
+      "List Length.001",
+      "Length",
+      "Random Num Gen.003",
+      "Size"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Extrude Separate Faces",
+      "Vertices"
+    ],
+    [
+      "List Mask (out)",
+      "dataTrue",
+      "Extrude Separate Faces",
+      "Polygons"
+    ],
+    [
+      "Random Num Gen.003",
+      "Value",
+      "Extrude Separate Faces",
+      "Height"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Random Num Gen.001",
+      "Size"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Random Num Gen",
+      "Size"
+    ],
+    [
+      "Random Num Gen",
+      "Value",
+      "Vector in",
+      "X"
+    ],
+    [
+      "Random Num Gen.001",
+      "Value",
+      "Vector in",
+      "Y"
+    ],
+    [
+      "Random Num Gen.002",
+      "Value",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Viewer Draw.002",
+      "vertices"
+    ],
+    [
+      "List Mask (out)",
+      "dataTrue",
+      "Viewer Draw.002",
+      "edg_pol"
+    ],
+    [
+      "List Length",
+      "Length",
+      "Range Int",
+      "Stop"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Viewer BMeshMK2",
+      "vertices"
+    ],
+    [
+      "Plane",
+      "Polygons",
+      "Viewer BMeshMK2",
+      "faces"
+    ],
+    [
+      "Viewer BMeshMK2",
+      "Objects",
+      "Vertex color new",
+      "Object"
+    ],
+    [
+      "Range Int",
+      "Range",
+      "Vertex color new",
+      "Index"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Vertex color new",
+      "Color"
+    ],
+    [
+      "Formula",
+      "Result",
+      "Stethoscope",
+      "Data"
+    ],
+    [
+      "Extrude Separate Faces",
+      "Vertices",
+      "Viewer Draw.001",
+      "vertices"
+    ],
+    [
+      "Extrude Separate Faces",
+      "Polygons",
+      "Viewer Draw.001",
+      "edg_pol"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "Plane",
+      "Polygons",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}
