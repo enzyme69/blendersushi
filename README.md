@@ -1,4 +1,4 @@
 blendersushi
 ============
 
-Blender Sushi related script
+Here is a collection of Blender Sushi related scripts.
