@@ -7,8 +7,9 @@ TOOLS USED:
 - Blender 3D
 - Sverchok Add-On
 - Animation Nodes Add-On
-- ProcGenMod Add-On
-- Any Node Based Add-On
+- Audio Nodes Add-On
+- ProcGenMod AKA Sorcar Add-On
+- ANY Node Based Add-On
 
 This is an ongoing "ebook project" to share my brain and knowledge with everybody.
 
