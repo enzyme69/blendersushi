@@ -1,5 +1,7 @@
 blendersushi project
 ====================
+"I know how to Blend, a little."
+
 
 Welcome to the SECRET VAULT of Blender Sushi related scripts and node trees setup created for Blender 3D!
 
