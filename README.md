@@ -19,7 +19,7 @@ I am using open source Blender 3D as a tool to express my ideas and to share my 
 
 In the past I have a bit of play using node based commercial tools like Maya and Houdini. By far, investing my money and time on Blender has been a lot more useful than wasting money on unnecessary upgrades. I have used Blender ever since.
 
-This freedom of expressions using freely available tools helps me a lot to really play with code and node. I gain more confident in programming, especially using Python. Even at a basic-intermediate level this knowledge helps me in creating a lot of things that is not possible.
+This freedom of expressions using freely available tools helps me a lot to really learn and play with ideas using nodes and a bit of codes. I gain more confident in programming, especially using Python. Even at a basic-intermediate level this knowledge helps me in creating a lot of things that is not possible have one is afraid and avoiding numbers.
 
 I tried to keep all my tools open source and updated so that no matter what computer you are on, you can just install all the tools without worrying about licenses and dependencies with paid apps.
 
